@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+        
+        
+        <script type="text/javascript">
+            
+            // listener function changes src
+            
+            function myNewSrc() {
+                
+                var myVideo = document.getElementsByTagName('video')[0];
+                
+                myVideo.src = "https://sites.google.com/site/48daystheapp/examples/files/ad2.mp4";
+                
+                myVideo.load();
+                
+                myVideo.play();
+                
+            }
+            
+            // add a listener function to the ended event
+            
+            function myAddListener(){
+                
+                var myVideo = document.getElementsByTagName('video')[0];
+                
+                myVideo.addEventListener('ended', myNewSrc, false);
+                
+            }
+            
+            </script>
+        
+    </head>
+    
+    <body onload="myAddListener()">
+        
+        <a href="http://www.1automationwiz.com/app/?Clk=4892666">
+            
+            <video src="https://sites.google.com/site/48daystheapp/examples/files/ad1.mp4">
+            
+            </video>
+        </a>
+    </body>
+    
+</html>
+
+

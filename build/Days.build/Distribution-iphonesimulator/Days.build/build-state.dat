@@ -1,0 +1,1393 @@
+TDays
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC1219F0000000000000AB3
+t1287725471
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004CC121E80000000000001A58
+t1287725544
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004CC121F60000000000068970
+t1287725558
+s428400
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/arpa/inet.h
+c000000004CB3E46D0000000000001533
+t1286857837
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/ifaddrs.h
+c000000004CB3E4770000000000000782
+t1286857847
+s1922
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netdb.h
+c000000004A4181220000000000003057
+t1245806882
+s12375
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netinet/in.h
+c000000004CBFACA90000000000005462
+t1287629993
+s21602
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/netinet6/in6.h
+c000000004CBFACA80000000000004F61
+t1287629992
+s20321
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/socket.h
+c000000004CBFACAC0000000000005A69
+t1287629996
+s23145
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CEB40000000000000AB3
+t1297403572
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54CEF80000000000001A58
+t1297403640
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54CF0700000000000689C0
+t1297403655
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5040000000000001533
+t1297401092
+s5427
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C50400000000000008F5
+t1297401092
+s2293
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netdb.h
+c000000004D54C504000000000000307F
+t1297401092
+s12415
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet/in.h
+c000000004D54D0E60000000000006BAC
+t1297404134
+s27564
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54D0E6000000000000638F
+t1297404134
+s25487
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sys/socket.h
+c000000004D54D0EB0000000000005ACF
+t1297404139
+s23247
+
+N/Users/dawaller/Dropbox/48 Days/../days_schedule.xml
+c000000004E46B5A70000000000005AA9
+t1313256871
+s23209
+
+N/Users/dawaller/Dropbox/48 Days/Classes/DayParse.h
+c000000004E374ADA00000000000003ED
+t1312246490
+s1005
+i<Foundation/Foundation.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/DayParse.m
+c000000004E374C8E0000000000000B74
+t1312246926
+s2932
+i"DayParse.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/DaysAppDelegate.h
+c000000004E46B7E7000000000000053E
+t1313257447
+s1342
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/DaysAppDelegate.m
+c000000004E46B7EB0000000000001E39
+t1313257451
+s7737
+i"DaysAppDelegate.h"
+i"RootViewController.h"
+i"PodcastViewController.h"
+i"NetWebViewController.h"
+i"PlanViewController.h"
+i"infoView.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Detail.h
+c000000004DD71CE1000000000000028A
+t1305943265
+s650
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Detail.m
+c000000004E13ED7700000000000009AD
+t1309928823
+s2477
+i"Detail.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Detail.xib
+c000000004E46B6EA0000000000005AD1
+t1313257194
+s23249
+
+N/Users/dawaller/Dropbox/48 Days/Classes/NetWebView.xib
+c000000004DDEBD1200000000000043CD
+t1306443026
+s17357
+
+N/Users/dawaller/Dropbox/48 Days/Classes/NetWebViewController.h
+c000000004E375051000000000000025E
+t1312247889
+s606
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/NetWebViewController.m
+c000000004E381C250000000000000C2F
+t1312300069
+s3119
+i"NetWebViewController.h"
+i"Reachability.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Parser.h
+c000000004E3702BE00000000000004A3
+t1312228030
+s1187
+i<Foundation/Foundation.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Parser.m
+c000000004E43EA260000000000001440
+t1313073702
+s5184
+i"Parser.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanDetail.h
+c000000004E08DEB1000000000000038F
+t1309204145
+s911
+i<UIKit/UIKit.h>
+i"flipsideViewController.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanDetail.m
+c000000004E468B4D0000000000000F29
+t1313246029
+s3881
+i"PlanDetail.h"
+i"PlanViewController.h"
+i"flipsideViewController.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanDetail.xib
+c000000004E13CDC10000000000006304
+t1309920705
+s25348
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanViewController.h
+c000000004E1CAF400000000000000295
+t1310502720
+s661
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanViewController.m
+c000000004E1B9A0A00000000000015A9
+t1310431754
+s5545
+i"PlanViewController.h"
+i"DayParse.h"
+i"PlanDetail.h"
+i"DaysAppDelegate.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PlanViewController.xib
+c000000004DF115A60000000000001C81
+t1307645350
+s7297
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewController.h
+c000000004E1B662300000000000001E5
+t1310418467
+s485
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewController.m
+c000000004E44C0330000000000001EC0
+t1313128499
+s7872
+i"PodcastViewController.h"
+i"Parser.h"
+i"PodcastViewDetail.h"
+i"Reachability.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewController.xib
+c000000004DE6D4B0000000000000438B
+t1306973360
+s17291
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewDetail.h
+c000000004DDD504C00000000000002A0
+t1306349644
+s672
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewDetail.m
+c000000004E166E0700000000000007BA
+t1310092807
+s1978
+i"PodcastViewDetail.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib
+c000000004E46B7010000000000006738
+t1313257217
+s26424
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Reachability.h
+c000000004C34EF790000000000000F1B
+t1278537593
+s3867
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/Reachability.m
+c000000004C34EF79000000000000239B
+t1278537593
+s9115
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/RootViewController.h
+c000000004E46AC0000000000000001F8
+t1313254400
+s504
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/RootViewController.m
+c000000004E46AC030000000000001A40
+t1313254403
+s6720
+i"RootViewController.h"
+i"Parser.h"
+i"Detail.h"
+i"DaysAppDelegate.h"
+i"Reachability.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/flipsideView.xib
+c000000004E4590E2000000000000669D
+t1313181922
+s26269
+
+N/Users/dawaller/Dropbox/48 Days/Classes/flipsideViewController.h
+c000000004E04D8D9000000000000030B
+t1308940505
+s779
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/flipsideViewController.m
+c000000004E45AEEC0000000000001296
+t1313189612
+s4758
+i"flipsideViewController.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/infoView.h
+c000000004E11357B00000000000001EB
+t1309750651
+s491
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Classes/infoView.m
+c000000004E3F3AAB00000000000010B2
+t1312766635
+s4274
+i"infoView.h"
+
+N/Users/dawaller/Dropbox/48 Days/Classes/infoView.xib
+c000000004E449FB20000000000005A45
+t1313120178
+s23109
+
+N/Users/dawaller/Dropbox/48 Days/Days_Prefix.pch
+c000000004DD6C74C000000000000013A
+t1305921356
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/Default.png
+c000000004E070D34000000000001F66B
+t1309084980
+s128619
+
+N/Users/dawaller/Dropbox/48 Days/MainWindow.xib
+c000000004DD6C74C0000000000005FE8
+t1305921356
+s24552
+
+N/Users/dawaller/Dropbox/48 Days/RootViewController.xib
+c000000004E46B6420000000000004463
+t1313257026
+s17507
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DayParse.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Days.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Detail.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/NetWebViewController.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Parser.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanDetail.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanViewController.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewController.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewDetail.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Reachability.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/flipsideViewController.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/infoView.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app.dSYM
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Default.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Detail.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Info.plist
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/MainWindow.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/NetWebView.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PkgInfo
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PlanDetail.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PlanViewController.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PodcastViewController.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PodcastViewDetail.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/RootViewController.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/calendar.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/days_schedule.xml
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/flipsideView.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/group.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/infoView.nib
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/infoWeb.html
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_hires.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_hires_search.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_small.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_small_search.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/microphone.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/newspaper.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/notepad.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/star.png
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/status.txt
+t2
+s0
+
+N/Users/dawaller/Dropbox/48 Days/calendar.png
+c000000004CB88ABE0000000000000B49
+t1287162558
+s2889
+
+N/Users/dawaller/Dropbox/48 Days/group.png
+c000000004CB88AA00000000000000C4A
+t1287162528
+s3146
+
+N/Users/dawaller/Dropbox/48 Days/infoWeb.html
+c000000004E441B8B00000000000001DD
+t1313086347
+s477
+
+N/Users/dawaller/Dropbox/48 Days/logo_hires.png
+c000000004E4424EA0000000000002652
+t1313088746
+s9810
+
+N/Users/dawaller/Dropbox/48 Days/logo_hires_search.png
+c000000004E4425E00000000000001582
+t1313088992
+s5506
+
+N/Users/dawaller/Dropbox/48 Days/logo_small.png
+c000000004E44251F000000000000153F
+t1313088799
+s5439
+
+N/Users/dawaller/Dropbox/48 Days/logo_small_search.png
+c000000004E4425830000000000000EE1
+t1313088899
+s3809
+
+N/Users/dawaller/Dropbox/48 Days/main.m
+c000000004DD6C74C0000000000000162
+t1305921356
+s354
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Dropbox/48 Days/microphone.png
+c000000004CB88AB80000000000000BA3
+t1287162552
+s2979
+
+N/Users/dawaller/Dropbox/48 Days/newspaper.png
+c000000004CBBD09E0000000000000133
+t1287377054
+s307
+
+N/Users/dawaller/Dropbox/48 Days/notepad.png
+c000000004CBBD06200000000000000B0
+t1287376994
+s176
+
+N/Users/dawaller/Dropbox/48 Days/star.png
+c000000004CB88AAC0000000000000C36
+t1287162540
+s3126
+
+N/Users/dawaller/Dropbox/48 Days/status.txt
+c000000004E00F8990000000000000066
+t1308686489
+s102
+
+N/Users/dnjwaller/Dropbox/48 Days/../days_schedule.xml
+c000000004E13D0200000000000005AA8
+t1309921312
+s23208
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/DayParse.h
+c000000004E374ADA00000000000003ED
+t1312246490
+s1005
+i<Foundation/Foundation.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/DayParse.m
+c000000004E374C8E0000000000000B74
+t1312246926
+s2932
+i"DayParse.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/DaysAppDelegate.h
+c000000004E169A3F00000000000004D6
+t1310104127
+s1238
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/DaysAppDelegate.m
+c000000004E449CCC0000000000001DCA
+t1313119436
+s7626
+i"DaysAppDelegate.h"
+i"RootViewController.h"
+i"PodcastViewController.h"
+i"NetWebViewController.h"
+i"PlanViewController.h"
+i"infoView.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Detail.h
+c000000004DD71CE1000000000000028A
+t1305943265
+s650
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Detail.m
+c000000004E13ED7700000000000009AD
+t1309928823
+s2477
+i"Detail.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Detail.xib
+c000000004E3F2D550000000000005A21
+t1312763221
+s23073
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/NetWebView.xib
+c000000004DDEBD1200000000000043CD
+t1306443026
+s17357
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/NetWebViewController.h
+c000000004E375051000000000000025E
+t1312247889
+s606
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/NetWebViewController.m
+c000000004E381C250000000000000C2F
+t1312300069
+s3119
+i"NetWebViewController.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Parser.h
+c000000004E3702BE00000000000004A3
+t1312228030
+s1187
+i<Foundation/Foundation.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Parser.m
+c000000004E43EA260000000000001440
+t1313073702
+s5184
+i"Parser.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanDetail.h
+c000000004E08DEB1000000000000038F
+t1309204145
+s911
+i<UIKit/UIKit.h>
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanDetail.m
+c000000004E3F36350000000000000F19
+t1312765493
+s3865
+i"PlanDetail.h"
+i"PlanViewController.h"
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanDetail.xib
+c000000004E13CDC10000000000006304
+t1309920705
+s25348
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanViewController.h
+c000000004E1CAF400000000000000295
+t1310502720
+s661
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanViewController.m
+c000000004E1B9A0A00000000000015A9
+t1310431754
+s5545
+i"PlanViewController.h"
+i"DayParse.h"
+i"PlanDetail.h"
+i"DaysAppDelegate.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PlanViewController.xib
+c000000004DF115A60000000000001C81
+t1307645350
+s7297
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewController.h
+c000000004E1B662300000000000001E5
+t1310418467
+s485
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewController.m
+c000000004E1B65C70000000000001DC4
+t1310418375
+s7620
+i"PodcastViewController.h"
+i"Parser.h"
+i"PodcastViewDetail.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewController.xib
+c000000004DE6D4B0000000000000438B
+t1306973360
+s17291
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewDetail.h
+c000000004DDD504C00000000000002A0
+t1306349644
+s672
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewDetail.m
+c000000004E166E0700000000000007BA
+t1310092807
+s1978
+i"PodcastViewDetail.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib
+c000000004E1CB3150000000000006689
+t1310503701
+s26249
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Reachability.h
+c000000004C34EF790000000000000F1B
+t1278537593
+s3867
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/Reachability.m
+c000000004C34EF79000000000000239B
+t1278537593
+s9115
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/RootViewController.h
+c000000004E1B64CD00000000000001F7
+t1310418125
+s503
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/RootViewController.m
+c000000004E3F32DF0000000000001A03
+t1312764639
+s6659
+i"RootViewController.h"
+i"Parser.h"
+i"Detail.h"
+i"DaysAppDelegate.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/flipsideView.xib
+c000000004E3F367600000000000065EC
+t1312765558
+s26092
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/flipsideViewController.h
+c000000004E04D8D9000000000000030B
+t1308940505
+s779
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/flipsideViewController.m
+c000000004E13ED110000000000000F99
+t1309928721
+s3993
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/infoView.h
+c000000004E11357B00000000000001EB
+t1309750651
+s491
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/infoView.m
+c000000004E3F3AAB00000000000010B2
+t1312766635
+s4274
+i"infoView.h"
+
+N/Users/dnjwaller/Dropbox/48 Days/Classes/infoView.xib
+c000000004E38377F0000000000005994
+t1312307071
+s22932
+
+N/Users/dnjwaller/Dropbox/48 Days/Days_Prefix.pch
+c000000004DD6C74C000000000000013A
+t1305921356
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/Default.png
+c000000004E070D34000000000001F66B
+t1309084980
+s128619
+
+N/Users/dnjwaller/Dropbox/48 Days/MainWindow.xib
+c000000004DD6C74C0000000000005FE8
+t1305921356
+s24552
+
+N/Users/dnjwaller/Dropbox/48 Days/RootViewController.xib
+c000000004DE6C43E00000000000043BB
+t1306969150
+s17339
+
+N/Users/dnjwaller/Dropbox/48 Days/banner.png
+c000000004E44409D0000000000001689
+t1313095837
+s5769
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DayParse.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Days.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Detail.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/NetWebViewController.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Parser.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanDetail.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanViewController.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewController.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewDetail.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Reachability.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/flipsideViewController.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/infoView.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app.dSYM
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Default.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Detail.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Info.plist
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/MainWindow.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/NetWebView.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PkgInfo
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PlanDetail.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PlanViewController.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PodcastViewController.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/PodcastViewDetail.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/RootViewController.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/banner.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/calendar.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/days_schedule.xml
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/flipsideView.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/group.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/infoView.nib
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/infoWeb.html
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_hires.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_hires_search.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_small.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/logo_small_search.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/microphone.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/newspaper.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/notepad.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/star.png
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/status.txt
+t2
+s0
+
+N/Users/dnjwaller/Dropbox/48 Days/calendar.png
+c000000004CB88ABE0000000000000B49
+t1287162558
+s2889
+
+N/Users/dnjwaller/Dropbox/48 Days/group.png
+c000000004CB88AA00000000000000C4A
+t1287162528
+s3146
+
+N/Users/dnjwaller/Dropbox/48 Days/infoWeb.html
+c000000004E441B8B00000000000001DD
+t1313086347
+s477
+
+N/Users/dnjwaller/Dropbox/48 Days/logo_hires.png
+c000000004E4424EA0000000000002652
+t1313088746
+s9810
+
+N/Users/dnjwaller/Dropbox/48 Days/logo_hires_search.png
+c000000004E4425E00000000000001582
+t1313088992
+s5506
+
+N/Users/dnjwaller/Dropbox/48 Days/logo_small.png
+c000000004E44251F000000000000153F
+t1313088799
+s5439
+
+N/Users/dnjwaller/Dropbox/48 Days/logo_small_search.png
+c000000004E4425830000000000000EE1
+t1313088899
+s3809
+
+N/Users/dnjwaller/Dropbox/48 Days/main.m
+c000000004DD6C74C0000000000000162
+t1305921356
+s354
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Dropbox/48 Days/microphone.png
+c000000004CB88AB80000000000000BA3
+t1287162552
+s2979
+
+N/Users/dnjwaller/Dropbox/48 Days/newspaper.png
+c000000004CBBD09E0000000000000133
+t1287377054
+s307
+
+N/Users/dnjwaller/Dropbox/48 Days/notepad.png
+c000000004CBBD06200000000000000B0
+t1287376994
+s176
+
+N/Users/dnjwaller/Dropbox/48 Days/star.png
+c000000004CB88AAC0000000000000C36
+t1287162540
+s3126
+
+N/Users/dnjwaller/Dropbox/48 Days/status.txt
+c000000004E00F8990000000000000066
+t1308686489
+s102
+
+N/var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-efjktsecieqjvkedtaiaonswuoex/Days_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-fpdzkkrzvzudhsbtbelebhjqxuue/Days_Prefix.pch.gch
+t2
+s0
+
+NDays-Info.plist
+c000000004E46EFFE000000000000044F
+t1313271806
+s1103
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DayParse.o "/Users/dawaller/Dropbox/48 Days/Classes/DayParse.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DayParse.o "/Users/dnjwaller/Dropbox/48 Days/Classes/DayParse.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o "/Users/dawaller/Dropbox/48 Days/Classes/DaysAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o "/Users/dnjwaller/Dropbox/48 Days/Classes/DaysAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Detail.o "/Users/dawaller/Dropbox/48 Days/Classes/Detail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Detail.o "/Users/dnjwaller/Dropbox/48 Days/Classes/Detail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/NetWebViewController.o "/Users/dawaller/Dropbox/48 Days/Classes/NetWebViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/NetWebViewController.o "/Users/dnjwaller/Dropbox/48 Days/Classes/NetWebViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Parser.o "/Users/dawaller/Dropbox/48 Days/Classes/Parser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Parser.o "/Users/dnjwaller/Dropbox/48 Days/Classes/Parser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanDetail.o "/Users/dawaller/Dropbox/48 Days/Classes/PlanDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanDetail.o "/Users/dnjwaller/Dropbox/48 Days/Classes/PlanDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanViewController.o "/Users/dawaller/Dropbox/48 Days/Classes/PlanViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PlanViewController.o "/Users/dnjwaller/Dropbox/48 Days/Classes/PlanViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewController.o "/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewController.o "/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewDetail.o "/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/PodcastViewDetail.o "/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Reachability.o "/Users/dawaller/Dropbox/48 Days/Classes/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/Reachability.o "/Users/dnjwaller/Dropbox/48 Days/Classes/Reachability.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o "/Users/dawaller/Dropbox/48 Days/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o "/Users/dnjwaller/Dropbox/48 Days/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/flipsideViewController.o "/Users/dawaller/Dropbox/48 Days/Classes/flipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/flipsideViewController.o "/Users/dnjwaller/Dropbox/48 Days/Classes/flipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/infoView.o "/Users/dawaller/Dropbox/48 Days/Classes/infoView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/infoView.o "/Users/dnjwaller/Dropbox/48 Days/Classes/infoView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/main.o "/Users/dawaller/Dropbox/48 Days/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Days.build/Distribution-iphonesimulator/Days.build/Objects-normal/i386/main.o "/Users/dnjwaller/Dropbox/48 Days/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/Detail.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/NetWebView.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/PlanDetail.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/PlanViewController.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewController.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/flipsideView.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/Classes/infoView.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/dawaller/Dropbox/48 Days/RootViewController.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/Detail.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/NetWebView.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/PlanDetail.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/PlanViewController.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewController.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/flipsideView.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/Classes/infoView.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/dnjwaller/Dropbox/48 Days/RootViewController.xib"
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/Default.png Default.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/banner.png banner.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/calendar.png calendar.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/days_schedule.xml ../days_schedule.xml
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/group.png group.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/infoWeb.html infoWeb.html
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/logo_hires.png logo_hires.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/logo_hires_search.png logo_hires_search.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/logo_small.png logo_small.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/logo_small_search.png logo_small_search.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/microphone.png microphone.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/newspaper.png newspaper.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/notepad.png notepad.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/star.png star.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/Days.app/status.txt status.txt
+r0
+
+CGenerateDSYMFile "/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app.dSYM" "/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days"
+r0
+
+CGenerateDSYMFile "/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app.dSYM" "/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days"
+r0
+
+CLd "/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days" normal i386
+r0
+
+CLd "/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Days" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Info.plist" Days-Info.plist
+r0
+
+CProcessInfoPlistFile "/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app/Info.plist" Days-Info.plist
+r0
+
+CProcessPCH /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-efjktsecieqjvkedtaiaonswuoex/Days_Prefix.pch.gch Days_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-fpdzkkrzvzudhsbtbelebhjqxuue/Days_Prefix.pch.gch Days_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/dawaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app"
+r0
+
+CTouch "/Users/dnjwaller/Dropbox/48 Days/build/Distribution-iphonesimulator/Days.app"
+r0
+

@@ -1,0 +1,392 @@
+TDays
+v7
+r1
+cCheck dependencies
+
+N/Users/danwaller/Dropbox/48 Days/../days_schedule.xml
+c000000004E46B5A70000000000005AA9
+t1313256871
+s23209
+
+N/Users/danwaller/Dropbox/48 Days/8hours.jpg
+c000000004FC53CD300000000000017E6
+t1338326227
+s6118
+
+N/Users/danwaller/Dropbox/48 Days/Classes/Detail.xib
+c000000004E46B6EA0000000000005AD1
+t1313257194
+s23249
+
+N/Users/danwaller/Dropbox/48 Days/Classes/NetWebView.xib
+c000000004DDEBD1200000000000043CD
+t1306443026
+s17357
+
+N/Users/danwaller/Dropbox/48 Days/Classes/PlanDetail.xib
+c000000004E13CDC10000000000006304
+t1309920705
+s25348
+
+N/Users/danwaller/Dropbox/48 Days/Classes/PlanViewController.xib
+c000000004DF115A60000000000001C81
+t1307645350
+s7297
+
+N/Users/danwaller/Dropbox/48 Days/Classes/PodcastViewController.xib
+c000000004DE6D4B0000000000000438B
+t1306973360
+s17291
+
+N/Users/danwaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib
+c000000004E46B7010000000000006738
+t1313257217
+s26424
+
+N/Users/danwaller/Dropbox/48 Days/Classes/flipsideView.xib
+c000000004E4590E2000000000000669D
+t1313181922
+s26269
+
+N/Users/danwaller/Dropbox/48 Days/Classes/infoView.xib
+c000000004FDA7039000000000000337A
+t1339715641
+s13178
+
+N/Users/danwaller/Dropbox/48 Days/Default.png
+c000000004FE397AA000000000000507B
+t1340315562
+s20603
+
+N/Users/danwaller/Dropbox/48 Days/LiveEventsView.xib
+c000000004FE229B00000000000006751
+t1340221872
+s26449
+
+N/Users/danwaller/Dropbox/48 Days/LiveEventsView2.xib
+c000000004FE3CC08000000000000700B
+t1340328968
+s28683
+
+N/Users/danwaller/Dropbox/48 Days/MainWindow.xib
+c000000004DD6C74C0000000000005FE8
+t1305921356
+s24552
+
+N/Users/danwaller/Dropbox/48 Days/RootViewController.xib
+c000000004E46B6420000000000004463
+t1313257026
+s17507
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Info.plist
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/8hours.jpg
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/Detail.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/LiveEventsView.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/LiveEventsView2.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/NetWebView.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/PlanDetail.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/PlanViewController.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/PodcastViewController.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/PodcastViewDetail.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/calendar.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/cwe.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/days_schedule.xml
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/flipsideView.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/group.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/infoView.nib
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/infoWeb.html
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/live.plist
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/logo_hires.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/logo_hires_search.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/logo_small.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/logo_small_search.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/microphone.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/newspaper.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/notepad.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/star.png
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/status.txt
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/wtb.jpg
+t2
+s0
+
+N/Users/danwaller/Dropbox/48 Days/calendar.png
+c000000004CB88ABE0000000000000B49
+t1287162558
+s2889
+
+N/Users/danwaller/Dropbox/48 Days/cwe.png
+c000000004FC53CB900000000000037ED
+t1338326201
+s14317
+
+N/Users/danwaller/Dropbox/48 Days/group.png
+c000000004CB88AA00000000000000C4A
+t1287162528
+s3146
+
+N/Users/danwaller/Dropbox/48 Days/infoWeb.html
+c000000004E449F3F00000000000001DD
+t1313120063
+s477
+
+N/Users/danwaller/Dropbox/48 Days/live.plist
+c000000004FFDAFDF000000000000036A
+t1342025695
+s874
+
+N/Users/danwaller/Dropbox/48 Days/logo_hires.png
+c000000004E4424EA0000000000002652
+t1313088746
+s9810
+
+N/Users/danwaller/Dropbox/48 Days/logo_hires_search.png
+c000000004E4425E00000000000001582
+t1313088992
+s5506
+
+N/Users/danwaller/Dropbox/48 Days/logo_small.png
+c000000004E44251F000000000000153F
+t1313088799
+s5439
+
+N/Users/danwaller/Dropbox/48 Days/logo_small_search.png
+c000000004E4425830000000000000EE1
+t1313088899
+s3809
+
+N/Users/danwaller/Dropbox/48 Days/microphone.png
+c000000004CB88AB80000000000000BA3
+t1287162552
+s2979
+
+N/Users/danwaller/Dropbox/48 Days/newspaper.png
+c000000004CBBD09E0000000000000133
+t1287377054
+s307
+
+N/Users/danwaller/Dropbox/48 Days/notepad.png
+c000000004CBBD06200000000000000B0
+t1287376994
+s176
+
+N/Users/danwaller/Dropbox/48 Days/star.png
+c000000004CB88AAC0000000000000C36
+t1287162540
+s3126
+
+N/Users/danwaller/Dropbox/48 Days/status.txt
+c000000004E00F8990000000000000066
+t1308686489
+s102
+
+N/Users/danwaller/Dropbox/48 Days/wtb.jpg
+c000000004FC53CC3000000000000CCA1
+t1338326211
+s52385
+
+NDays-Info.plist
+c000000004FFF3BDB000000000000056C
+t1342127067
+s1388
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies363820316#363820316#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'363820316#18446744073709551615#0#0(1@0"0(0#1#0"17201809664#0"0#
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/Detail.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/NetWebView.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/PlanDetail.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/PlanViewController.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/PodcastViewController.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/PodcastViewDetail.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/flipsideView.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/Classes/infoView.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/LiveEventsView.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/LiveEventsView2.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/danwaller/Dropbox/48 Days/RootViewController.xib"
+r0
+
+CCopyPlistFile "/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Resources/live.plist" live.plist
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/8hours.jpg 8hours.jpg
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/calendar.png calendar.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/cwe.png cwe.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/days_schedule.xml ../days_schedule.xml
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/group.png group.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/infoWeb.html infoWeb.html
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/logo_hires.png logo_hires.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/logo_hires_search.png logo_hires_search.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/logo_small.png logo_small.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/logo_small_search.png logo_small_search.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/microphone.png microphone.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/newspaper.png newspaper.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/notepad.png notepad.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/star.png star.png
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/status.txt status.txt
+r0
+
+CCpResource build/Debug/Days.app/Contents/Resources/wtb.jpg wtb.jpg
+r0
+
+CProcessInfoPlistFile "/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app/Contents/Info.plist" Days-Info.plist
+r0
+
+CTouch "/Users/danwaller/Dropbox/48 Days/build/Debug/Days.app"
+r0
+

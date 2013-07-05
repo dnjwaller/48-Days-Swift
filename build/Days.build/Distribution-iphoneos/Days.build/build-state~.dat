@@ -1,0 +1,1477 @@
+TDays
+v7
+r0
+t334460346.130503
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/Days.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Info.plist" Days-Info.plist
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/MainWindow.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/RootViewController.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib"
+cCpResource build/Distribution-iphoneos/Days.app/days_schedule.xml ../days_schedule.xml
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib"
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib"
+cCpResource build/Distribution-iphoneos/Days.app/status.txt status.txt
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/group.png" group.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/newspaper.png" newspaper.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/microphone.png" microphone.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/calendar.png" calendar.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/notepad.png" notepad.png
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib"
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Default.png" Default.png
+cCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib"
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/star.png" star.png
+cCpResource build/Distribution-iphoneos/Days.app/infoWeb.html infoWeb.html
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_hires.png" new_icon_search_hires.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png" new_icon_search_ipod.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_hires.png" new_icon_hires.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png" new_icon_small_ipod.png
+cCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png" new_icon2_small_ipod.png
+cProcessPCH /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch.gch Days_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch.gch Days_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/main.o "/Users/dnjwaller/Documents/48 Days/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DaysAppDelegate.o "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/RootViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Parser.o "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Detail.o "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/NetWebViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DayParse.o "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/flipsideViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/infoView.o "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Reachability.o "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/main.o "/Users/dnjwaller/Documents/48 Days/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DaysAppDelegate.o "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/RootViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Parser.o "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days" normal armv6
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Detail.o "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/NetWebViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DayParse.o "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/flipsideViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/infoView.o "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Reachability.o "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days" normal armv7
+cCreateUniversalBinary "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app.dSYM" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days"
+cProcessProductPackaging "/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision"
+cTouch "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent"
+cCodeSign "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+cValidate "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D54CFAF0000000000000AB3
+t1297403823
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54D0D40000000000001A58
+t1297404116
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54D0E700000000000B0CA0
+t1297404135
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5330000000000001533
+t1297401139
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/ifaddrs.h
+c000000004D54C53300000000000008F5
+t1297401139
+s2293
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netdb.h
+c000000004D54C533000000000000307F
+t1297401139
+s12415
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet/in.h
+c000000004D54CB250000000000006BAC
+t1297402661
+s27564
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netinet6/in6.h
+c000000004D54CB24000000000000638F
+t1297402660
+s25487
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/sys/socket.h
+c000000004D54CB290000000000005ACF
+t1297402665
+s23247
+
+N/Users/dnjwaller/Documents/48 Days/../days_schedule.xml
+c000000004E13D0200000000000005AA8
+t1309921312
+s23208
+
+N/Users/dnjwaller/Documents/48 Days/Classes/DayParse.h
+c000000004E374ADA00000000000003ED
+t1312246490
+s1005
+i<Foundation/Foundation.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m
+c000000004E374C8E0000000000000B74
+t1312246926
+s2932
+i"DayParse.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.h
+c000000004E169A3F00000000000004D6
+t1310104127
+s1238
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m
+c000000004E3F35740000000000001AA0
+t1312765300
+s6816
+i"DaysAppDelegate.h"
+i"RootViewController.h"
+i"PodcastViewController.h"
+i"NetWebViewController.h"
+i"PlanViewController.h"
+i"infoView.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Detail.h
+c000000004DD71CE1000000000000028A
+t1305943265
+s650
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Detail.m
+c000000004E13ED7700000000000009AD
+t1309928823
+s2477
+i"Detail.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib
+c000000004E3F2D550000000000005A21
+t1312763221
+s23073
+
+N/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib
+c000000004DDEBD1200000000000043CD
+t1306443026
+s17357
+
+N/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.h
+c000000004E375051000000000000025E
+t1312247889
+s606
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m
+c000000004E381C250000000000000C2F
+t1312300069
+s3119
+i"NetWebViewController.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Parser.h
+c000000004E3702BE00000000000004A3
+t1312228030
+s1187
+i<Foundation/Foundation.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Parser.m
+c000000004E374DDE000000000000143C
+t1312247262
+s5180
+i"Parser.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.h
+c000000004E08DEB1000000000000038F
+t1309204145
+s911
+i<UIKit/UIKit.h>
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m
+c000000004E3F36350000000000000F19
+t1312765493
+s3865
+i"PlanDetail.h"
+i"PlanViewController.h"
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib
+c000000004E13CDC10000000000006304
+t1309920705
+s25348
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.h
+c000000004E1CAF400000000000000295
+t1310502720
+s661
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m
+c000000004E1B9A0A00000000000015A9
+t1310431754
+s5545
+i"PlanViewController.h"
+i"DayParse.h"
+i"PlanDetail.h"
+i"DaysAppDelegate.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib
+c000000004DF115A60000000000001C81
+t1307645350
+s7297
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.h
+c000000004E1B662300000000000001E5
+t1310418467
+s485
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m
+c000000004E1B65C70000000000001DC4
+t1310418375
+s7620
+i"PodcastViewController.h"
+i"Parser.h"
+i"PodcastViewDetail.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib
+c000000004DE6D4B0000000000000438B
+t1306973360
+s17291
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.h
+c000000004DDD504C00000000000002A0
+t1306349644
+s672
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m
+c000000004E166E0700000000000007BA
+t1310092807
+s1978
+i"PodcastViewDetail.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib
+c000000004E1CB3150000000000006689
+t1310503701
+s26249
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Reachability.h
+c000000004C34EF790000000000000F1B
+t1278537593
+s3867
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m
+c000000004C34EF79000000000000239B
+t1278537593
+s9115
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"Reachability.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.h
+c000000004E1B64CD00000000000001F7
+t1310418125
+s503
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m
+c000000004E3F32DF0000000000001A03
+t1312764639
+s6659
+i"RootViewController.h"
+i"Parser.h"
+i"Detail.h"
+i"DaysAppDelegate.h"
+i"Reachability.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib
+c000000004E3F367600000000000065EC
+t1312765558
+s26092
+
+N/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.h
+c000000004E04D8D9000000000000030B
+t1308940505
+s779
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m
+c000000004E13ED110000000000000F99
+t1309928721
+s3993
+i"flipsideViewController.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/infoView.h
+c000000004E11357B00000000000001EB
+t1309750651
+s491
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Classes/infoView.m
+c000000004E3F3AAB00000000000010B2
+t1312766635
+s4274
+i"infoView.h"
+
+N/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib
+c000000004E38377F0000000000005994
+t1312307071
+s22932
+
+N/Users/dnjwaller/Documents/48 Days/Days_Prefix.pch
+c000000004DD6C74C000000000000013A
+t1305921356
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/Default.png
+c000000004E070D34000000000001F66B
+t1309084980
+s128619
+
+N/Users/dnjwaller/Documents/48 Days/MainWindow.xib
+c000000004DD6C74C0000000000005FE8
+t1305921356
+s24552
+
+N/Users/dnjwaller/Documents/48 Days/RootViewController.xib
+c000000004DE6C43E00000000000043BB
+t1306969150
+s17339
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent
+t1312767545
+s397
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DayParse.o
+t1312767545
+s24144
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days
+t1312767545
+s97656
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days.LinkFileList
+c000000004E3F3E3700000000000006AF
+t1312767543
+s1711
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DaysAppDelegate.o
+t1312767545
+s67980
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Detail.o
+t1312767545
+s47032
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/NetWebViewController.o
+t1312767545
+s58544
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Parser.o
+t1312767545
+s66356
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanDetail.o
+t1312767545
+s56600
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanViewController.o
+t1312767545
+s60188
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewController.o
+t1312767545
+s60868
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewDetail.o
+t1312767545
+s47568
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Reachability.o
+t1312767545
+s19300
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/RootViewController.o
+t1312767545
+s61664
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/flipsideViewController.o
+t1312767545
+s52908
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/infoView.o
+t1312767545
+s59316
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/main.o
+t1312767544
+s6504
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DayParse.o
+t1312767545
+s24136
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days
+t1312767545
+s98136
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days.LinkFileList
+c000000004E3F3E3700000000000006AF
+t1312767543
+s1711
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DaysAppDelegate.o
+t1312767545
+s68036
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Detail.o
+t1312767545
+s47032
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/NetWebViewController.o
+t1312767545
+s58556
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Parser.o
+t1312767545
+s66348
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanDetail.o
+t1312767545
+s56592
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanViewController.o
+t1312767545
+s60144
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewController.o
+t1312767545
+s60864
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewDetail.o
+t1312767545
+s47568
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Reachability.o
+t1312767545
+s19272
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/RootViewController.o
+t1312767545
+s61668
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/flipsideViewController.o
+t1312767545
+s52788
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/infoView.o
+t1312767545
+s59264
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/main.o
+t1312767545
+s6480
+
+N/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app
+t1312767546
+s1156
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app.dSYM
+t1312767545
+s102
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days
+t1312767545
+s200536
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Default.png
+t1312767544
+s150850
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Detail.nib
+t1312767543
+s2990
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Info.plist
+t1312767543
+s961
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/MainWindow.nib
+t1312767543
+s2453
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/NetWebView.nib
+t1312767543
+s1629
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PkgInfo
+t1312767543
+s8
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PlanDetail.nib
+t1312767543
+s3875
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PlanViewController.nib
+t1312767543
+s1516
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PodcastViewController.nib
+t1312767543
+s1516
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PodcastViewDetail.nib
+t1312767543
+s4333
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/ResourceRules.plist
+t1312767543
+s485
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/RootViewController.nib
+t1312767543
+s1518
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/calendar.png
+t1312767543
+s2905
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/days_schedule.xml
+t1312767543
+s23208
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision
+t1312767545
+s7041
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/flipsideView.nib
+t1312767544
+s3858
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/group.png
+t1312767544
+s3416
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/infoView.nib
+t1312767544
+s3998
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/infoWeb.html
+t1312767544
+s249
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/microphone.png
+t1312767543
+s3114
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png
+t1312767544
+s6491
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_hires.png
+t1312767544
+s11489
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_hires.png
+t1312767544
+s6247
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png
+t1312767544
+s3991
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png
+t1312767544
+s6205
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/newspaper.png
+t1312767543
+s337
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/notepad.png
+t1312767544
+s184
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/star.png
+t1312767544
+s3451
+
+N/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/status.txt
+t1312767543
+s102
+
+N/Users/dnjwaller/Documents/48 Days/calendar.png
+c000000004CB88ABE0000000000000B49
+t1287162558
+s2889
+
+N/Users/dnjwaller/Documents/48 Days/group.png
+c000000004CB88AA00000000000000C4A
+t1287162528
+s3146
+
+N/Users/dnjwaller/Documents/48 Days/infoWeb.html
+c000000004E3F2A0D00000000000000F9
+t1312762381
+s249
+
+N/Users/dnjwaller/Documents/48 Days/main.m
+c000000004DD6C74C0000000000000162
+t1305921356
+s354
+i<UIKit/UIKit.h>
+
+N/Users/dnjwaller/Documents/48 Days/microphone.png
+c000000004CB88AB80000000000000BA3
+t1287162552
+s2979
+
+N/Users/dnjwaller/Documents/48 Days/new_icon2_small_ipod.png
+c000000004E3C06FC00000000000016AB
+t1312556796
+s5803
+
+N/Users/dnjwaller/Documents/48 Days/new_icon_hires.png
+c000000004E399A6500000000000027C8
+t1312397925
+s10184
+
+N/Users/dnjwaller/Documents/48 Days/new_icon_search_hires.png
+c000000004E399B3D00000000000015EC
+t1312398141
+s5612
+
+N/Users/dnjwaller/Documents/48 Days/new_icon_search_ipod.png
+c000000004E399B120000000000000F02
+t1312398098
+s3842
+
+N/Users/dnjwaller/Documents/48 Days/new_icon_small_ipod.png
+c000000004E399A2500000000000015CD
+t1312397861
+s5581
+
+N/Users/dnjwaller/Documents/48 Days/newspaper.png
+c000000004CBBD09E0000000000000133
+t1287377054
+s307
+
+N/Users/dnjwaller/Documents/48 Days/notepad.png
+c000000004CBBD06200000000000000B0
+t1287376994
+s176
+
+N/Users/dnjwaller/Documents/48 Days/star.png
+c000000004CB88AAC0000000000000C36
+t1287162540
+s3126
+
+N/Users/dnjwaller/Documents/48 Days/status.txt
+c000000004E00F8990000000000000066
+t1308686489
+s102
+
+N/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision
+c000000004E1E49670000000000001B81
+t1310607719
+s7041
+
+N/var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch.gch
+t1312767544
+s9975708
+
+N/var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch.gch
+t1312767544
+s10438556
+
+NDays-Info.plist
+c000000004E3F2AF7000000000000040C
+t1312762615
+s1036
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334460343#334460343#0(0"0(0#1#0"8618663520#0"0#
+
+CCodeSign "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+s334460345.941112
+e334460346.062057
+r1
+xCodeSign
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app
+lSLF07#2@45"CodeSign build/Distribution-iphoneos/Days.app334460345#334460346#0(0"0(0#0#71"/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app8614562848#637"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Daniel Waller" "--resource-rules=/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/ResourceRules.plist" --entitlements "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DayParse.o "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.172604
+e334460345.287133
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DayParse.o
+x/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/dnjwaller/Documents/48 Days/Classes/DayParse.m334460345#334460345#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m8614561952#1745"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DayParse.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DaysAppDelegate.o "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.914414
+e334460345.062961
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DaysAppDelegate.o
+x/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m334460344#334460345#0(0"0(0#0#60"/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m8614333248#1759"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/DaysAppDelegate.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Detail.o "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.950527
+e334460345.061922
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Detail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Detail.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/dnjwaller/Documents/48 Days/Classes/Detail.m334460344#334460345#0(0"0(0#0#51"/Users/dnjwaller/Documents/48 Days/Classes/Detail.m8618476128#1741"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Detail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/NetWebViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.072117
+e334460345.231006
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/NetWebViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m334460345#334460345#0(0"0(0#0#65"/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m8618710336#1769"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/NetWebViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Parser.o "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.915546
+e334460345.072032
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Parser.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Parser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/dnjwaller/Documents/48 Days/Classes/Parser.m334460344#334460345#0(0"0(0#0#51"/Users/dnjwaller/Documents/48 Days/Classes/Parser.m8613399104#1741"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Parser.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.229790
+e334460345.348875
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanDetail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m334460345#334460345#0(0"0(0#0#55"/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m8619548128#1749"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanDetail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.093411
+e334460345.286252
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m334460345#334460345#0(0"0(0#0#63"/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m8615840608#1765"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PlanViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.062021
+e334460345.229637
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m334460345#334460345#0(0"0(0#0#66"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m8620667584#1771"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.063022
+e334460345.172527
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewDetail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m334460345#334460345#0(0"0(0#0#62"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m8619082880#1763"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/PodcastViewDetail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Reachability.o "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.287194
+e334460345.402474
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Reachability.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/dnjwaller/Documents/48 Days/Classes/Reachability.m334460345#334460345#0(0"0(0#0#57"/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m8614423424#1753"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Reachability.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/RootViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.914961
+e334460345.093330
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/RootViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m334460344#334460345#0(0"0(0#0#63"/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m8613568672#1765"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/flipsideViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.231075
+e334460345.354702
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/flipsideViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m334460345#334460345#0(0"0(0#0#67"/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m8618702496#1773"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/flipsideViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/infoView.o "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460345.286332
+e334460345.412725
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/infoView.o
+x/Users/dnjwaller/Documents/48 Days/Classes/infoView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/dnjwaller/Documents/48 Days/Classes/infoView.m334460345#334460345#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/Classes/infoView.m8618117696#1745"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/infoView.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/main.o "/Users/dnjwaller/Documents/48 Days/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.913715
+e334460344.950442
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/main.o
+x/Users/dnjwaller/Documents/48 Days/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/dnjwaller/Documents/48 Days/main.m334460344#334460344#0(0"0(0#0#41"/Users/dnjwaller/Documents/48 Days/main.m8613569856#1729"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/main.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DayParse.o "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.653388
+e334460345.764128
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DayParse.o
+x/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/dnjwaller/Documents/48 Days/Classes/DayParse.m334460345#334460345#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m8619002144#1745"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/DayParse.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DayParse.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DaysAppDelegate.o "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.354807
+e334460345.499136
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DaysAppDelegate.o
+x/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m334460345#334460345#0(0"0(0#0#60"/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m8614295168#1759"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/DaysAppDelegate.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/DaysAppDelegate.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Detail.o "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.457662
+e334460345.561413
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Detail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Detail.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/dnjwaller/Documents/48 Days/Classes/Detail.m334460345#334460345#0(0"0(0#0#51"/Users/dnjwaller/Documents/48 Days/Classes/Detail.m8615596544#1741"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Detail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Detail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/NetWebViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.561496
+e334460345.707138
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/NetWebViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m334460345#334460345#0(0"0(0#0#65"/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m8613125472#1769"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/NetWebViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/NetWebViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Parser.o "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.403619
+e334460345.553319
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Parser.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Parser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/dnjwaller/Documents/48 Days/Classes/Parser.m334460345#334460345#0(0"0(0#0#51"/Users/dnjwaller/Documents/48 Days/Classes/Parser.m8619405920#1741"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Parser.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Parser.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.654399
+e334460345.768250
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanDetail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m334460345#334460345#0(0"0(0#0#55"/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m8618514528#1749"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanDetail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.588981
+e334460345.780493
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m334460345#334460345#0(0"0(0#0#63"/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m8619989216#1765"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PlanViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.499218
+e334460345.653303
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m334460345#334460345#0(0"0(0#0#66"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m8614405344#1771"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewDetail.o "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.553402
+e334460345.654332
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewDetail.o
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m334460345#334460345#0(0"0(0#0#62"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m8619589856#1763"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/PodcastViewDetail.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Reachability.o "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.768329
+e334460345.858204
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Reachability.o
+x/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/dnjwaller/Documents/48 Days/Classes/Reachability.m334460345#334460345#0(0"0(0#0#57"/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m8613417696#1753"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/Reachability.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Reachability.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/RootViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.402556
+e334460345.588766
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/RootViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m334460345#334460345#0(0"0(0#0#63"/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m8614517568#1765"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/RootViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/flipsideViewController.o "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.707221
+e334460345.823333
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/flipsideViewController.o
+x/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m334460345#334460345#0(0"0(0#0#67"/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m8617839136#1773"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/flipsideViewController.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/flipsideViewController.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/infoView.o "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.764204
+e334460345.866500
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/infoView.o
+x/Users/dnjwaller/Documents/48 Days/Classes/infoView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/dnjwaller/Documents/48 Days/Classes/infoView.m334460345#334460345#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/Classes/infoView.m8613881824#1745"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/Classes/infoView.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/infoView.o"0#
+
+CCompileC build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/main.o "/Users/dnjwaller/Documents/48 Days/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460345.348961
+e334460345.403553
+r1
+xCompileC
+xbuild/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/main.o
+x/Users/dnjwaller/Documents/48 Days/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/dnjwaller/Documents/48 Days/main.m334460345#334460345#0(0"0(0#0#41"/Users/dnjwaller/Documents/48 Days/main.m8613751584#1729"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch -c "/Users/dnjwaller/Documents/48 Days/main.m" -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib"
+s334460343.226896
+e334460343.610405
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib
+lSLF07#2@29"CompileXIB Classes/Detail.xib334460343#334460343#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib8619633376#540"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Detail.nib" "/Users/dnjwaller/Documents/48 Days/Classes/Detail.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib"
+s334460343.562994
+e334460343.937631
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib
+lSLF07#2@33"CompileXIB Classes/NetWebView.xib334460343#334460343#0(0"0(0#0#57"/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib8619733568#548"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/NetWebView.nib" "/Users/dnjwaller/Documents/48 Days/Classes/NetWebView.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib"
+s334460343.610580
+e334460343.878578
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib
+lSLF07#2@33"CompileXIB Classes/PlanDetail.xib334460343#334460343#0(0"0(0#0#57"/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib8617451200#548"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PlanDetail.nib" "/Users/dnjwaller/Documents/48 Days/Classes/PlanDetail.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib"
+s334460343.564177
+e334460343.936991
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib
+lSLF07#2@41"CompileXIB Classes/PlanViewController.xib334460343#334460343#0(0"0(0#0#65"/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib8619093920#564"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PlanViewController.nib" "/Users/dnjwaller/Documents/48 Days/Classes/PlanViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib"
+s334460343.227306
+e334460343.545639
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib
+lSLF07#2@44"CompileXIB Classes/PodcastViewController.xib334460343#334460343#0(0"0(0#0#68"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib8619414432#570"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PodcastViewController.nib" "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib"
+s334460343.545709
+e334460343.953287
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib
+lSLF07#2@40"CompileXIB Classes/PodcastViewDetail.xib334460343#334460343#0(0"0(0#0#64"/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib8620662624#562"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PodcastViewDetail.nib" "/Users/dnjwaller/Documents/48 Days/Classes/PodcastViewDetail.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib"
+s334460344.001599
+e334460344.368149
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib
+lSLF07#2@35"CompileXIB Classes/flipsideView.xib334460344#334460344#0(0"0(0#0#59"/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib8614474240#552"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/flipsideView.nib" "/Users/dnjwaller/Documents/48 Days/Classes/flipsideView.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib"
+s334460344.002431
+e334460344.373043
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib
+lSLF07#2@31"CompileXIB Classes/infoView.xib334460344#334460344#0(0"0(0#0#55"/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib8614304128#544"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/infoView.nib" "/Users/dnjwaller/Documents/48 Days/Classes/infoView.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/MainWindow.xib"
+s334460343.225979
+e334460343.563603
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334460343#334460343#0(0"0(0#0#49"/Users/dnjwaller/Documents/48 Days/MainWindow.xib8619990528#540"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/MainWindow.nib" "/Users/dnjwaller/Documents/48 Days/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/dnjwaller/Documents/48 Days/RootViewController.xib"
+s334460343.226455
+e334460343.562629
+r1
+xCompileXIB
+x/Users/dnjwaller/Documents/48 Days/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib334460343#334460343#0(0"0(0#0#57"/Users/dnjwaller/Documents/48 Days/RootViewController.xib8619758464#556"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/RootViewController.nib" "/Users/dnjwaller/Documents/48 Days/RootViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Default.png" Default.png
+s334460344.002024
+e334460344.266625
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Default.png
+xDefault.png
+lSLF07#2@72"CopyPNGFile build/Distribution-iphoneos/Days.app/Default.png Default.png334460344#334460344#0(0"0(0#0#46"/Users/dnjwaller/Documents/48 Days/Default.png8614382176#460"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/Default.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Default.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/calendar.png" calendar.png
+s334460343.953357
+e334460344.001551
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/calendar.png
+xcalendar.png
+lSLF07#2@74"CopyPNGFile build/Distribution-iphoneos/Days.app/calendar.png calendar.png334460343#334460344#0(0"0(0#0#47"/Users/dnjwaller/Documents/48 Days/calendar.png8617532864#462"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/calendar.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/calendar.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/group.png" group.png
+s334460343.880181
+e334460344.001466
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/group.png
+xgroup.png
+lSLF07#2@68"CopyPNGFile build/Distribution-iphoneos/Days.app/group.png group.png334460343#334460344#0(0"0(0#0#44"/Users/dnjwaller/Documents/48 Days/group.png8619606816#456"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/group.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/group.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/microphone.png" microphone.png
+s334460343.937688
+e334460344.000731
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/microphone.png
+xmicrophone.png
+lSLF07#2@78"CopyPNGFile build/Distribution-iphoneos/Days.app/microphone.png microphone.png334460343#334460344#0(0"0(0#0#49"/Users/dnjwaller/Documents/48 Days/microphone.png8618961696#466"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/microphone.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/microphone.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png" new_icon2_small_ipod.png
+s334460344.146120
+e334460344.172211
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png
+xnew_icon2_small_ipod.png
+lSLF07#2@98"CopyPNGFile build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png new_icon2_small_ipod.png334460344#334460344#0(0"0(0#0#59"/Users/dnjwaller/Documents/48 Days/new_icon2_small_ipod.png8615793440#486"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/new_icon2_small_ipod.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon2_small_ipod.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_hires.png" new_icon_hires.png
+s334460344.096445
+e334460344.126989
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_hires.png
+xnew_icon_hires.png
+lSLF07#2@86"CopyPNGFile build/Distribution-iphoneos/Days.app/new_icon_hires.png new_icon_hires.png334460344#334460344#0(0"0(0#0#53"/Users/dnjwaller/Documents/48 Days/new_icon_hires.png8619017440#474"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/new_icon_hires.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_hires.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_hires.png" new_icon_search_hires.png
+s334460344.045716
+e334460344.073830
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_hires.png
+xnew_icon_search_hires.png
+lSLF07#2@100"CopyPNGFile build/Distribution-iphoneos/Days.app/new_icon_search_hires.png new_icon_search_hires.png334460344#334460344#0(0"0(0#0#60"/Users/dnjwaller/Documents/48 Days/new_icon_search_hires.png8619615392#488"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/new_icon_search_hires.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_hires.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png" new_icon_search_ipod.png
+s334460344.073957
+e334460344.096373
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png
+xnew_icon_search_ipod.png
+lSLF07#2@98"CopyPNGFile build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png new_icon_search_ipod.png334460344#334460344#0(0"0(0#0#59"/Users/dnjwaller/Documents/48 Days/new_icon_search_ipod.png8619279968#486"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/new_icon_search_ipod.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_search_ipod.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png" new_icon_small_ipod.png
+s334460344.127066
+e334460344.146044
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png
+xnew_icon_small_ipod.png
+lSLF07#2@96"CopyPNGFile build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png new_icon_small_ipod.png334460344#334460344#0(0"0(0#0#58"/Users/dnjwaller/Documents/48 Days/new_icon_small_ipod.png8618866912#484"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/new_icon_small_ipod.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/new_icon_small_ipod.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/newspaper.png" newspaper.png
+s334460343.937068
+e334460344.001376
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/newspaper.png
+xnewspaper.png
+lSLF07#2@76"CopyPNGFile build/Distribution-iphoneos/Days.app/newspaper.png newspaper.png334460343#334460344#0(0"0(0#0#48"/Users/dnjwaller/Documents/48 Days/newspaper.png8619142560#464"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/newspaper.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/newspaper.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/notepad.png" notepad.png
+s334460344.000811
+e334460344.021418
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/notepad.png
+xnotepad.png
+lSLF07#2@72"CopyPNGFile build/Distribution-iphoneos/Days.app/notepad.png notepad.png334460344#334460344#0(0"0(0#0#46"/Users/dnjwaller/Documents/48 Days/notepad.png8613589024#460"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/notepad.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/notepad.png"0#
+
+CCopyPNGFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/star.png" star.png
+s334460344.021491
+e334460344.042328
+r1
+xCopyPNGFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/star.png
+xstar.png
+lSLF07#2@66"CopyPNGFile build/Distribution-iphoneos/Days.app/star.png star.png334460344#334460344#0(0"0(0#0#43"/Users/dnjwaller/Documents/48 Days/star.png8613707104#454"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/dnjwaller/Documents/48 Days/star.png" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/star.png"0#
+
+CCpResource build/Distribution-iphoneos/Days.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s334460343.191613
+e334460343.225732
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Days.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist334460343#334460343#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8613940064#515"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CCpResource build/Distribution-iphoneos/Days.app/days_schedule.xml ../days_schedule.xml
+s334460343.563653
+e334460343.567287
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Days.app/days_schedule.xml
+x../days_schedule.xml
+lSLF07#2@25"Copy ../days_schedule.xml334460343#334460343#0(0"0(0#0#55"/Users/dnjwaller/Documents/48 Days/../days_schedule.xml8619549760#483"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/dnjwaller/Documents/48 Days/../days_schedule.xml" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CCpResource build/Distribution-iphoneos/Days.app/infoWeb.html infoWeb.html
+s334460344.042405
+e334460344.046317
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Days.app/infoWeb.html
+xinfoWeb.html
+lSLF07#2@17"Copy infoWeb.html334460344#334460344#0(0"0(0#0#47"/Users/dnjwaller/Documents/48 Days/infoWeb.html8620085888#475"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/dnjwaller/Documents/48 Days/infoWeb.html" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CCpResource build/Distribution-iphoneos/Days.app/status.txt status.txt
+s334460343.878652
+e334460343.896486
+r1
+xCpResource
+xbuild/Distribution-iphoneos/Days.app/status.txt
+xstatus.txt
+lSLF07#2@15"Copy status.txt334460343#334460343#0(0"0(0#0#45"/Users/dnjwaller/Documents/48 Days/status.txt8619921248#473"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/dnjwaller/Documents/48 Days/status.txt" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CCreateUniversalBinary "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days" normal "armv6 armv7"
+s334460345.889468
+e334460345.891628
+r1
+xCreateUniversalBinary
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days
+xnormal
+xarmv6 armv7
+lSLF07#2@84"CreateUniversalBinary build/Distribution-iphoneos/Days.app/Days normal "armv6 armv7"334460345#334460345#0(0"0(0#0#46"/Users/dnjwaller/Documents/48 Days/armv6 armv78615420256#507"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days" "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days" -output "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days"0#
+
+CGenerateDSYMFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app.dSYM" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days"
+s334460345.891693
+e334460345.936639
+r1
+xGenerateDSYMFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app.dSYM
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days
+lSLF07#2@100"GenerateDSYMFile build/Distribution-iphoneos/Days.app.dSYM build/Distribution-iphoneos/Days.app/Days334460345#334460345#0(0"0(0#0#76"/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days8614833536#361"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Days" -o "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app.dSYM"0#
+
+CLd "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days" normal armv6
+s334460345.412798
+e334460345.457578
+r1
+xLd
+x/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days
+xnormal
+xarmv6
+lSLF07#2@115"Link /Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days334460345#334460345#0(0"0(0#0#0"8618453216#890"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" -filelist "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days.LinkFileList" -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv6/Days"0#
+
+CLd "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days" normal armv7
+s334460345.866564
+e334460345.889392
+r1
+xLd
+x/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days
+xnormal
+xarmv7
+lSLF07#2@115"Link /Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days334460345#334460345#0(0"0(0#0#0"8617829600#890"    cd "/Users/dnjwaller/Documents/48 Days"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" -filelist "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days.LinkFileList" -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework SystemConfiguration -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Objects-normal/armv7/Days"0#
+
+CProcessInfoPlistFile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Info.plist" Days-Info.plist
+s334460343.192273
+e334460343.225922
+r1
+xProcessInfoPlistFile
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Info.plist
+xDays-Info.plist
+lSLF07#2@23"Process Days-Info.plist334460343#334460343#0(0"0(0#0#50"/Users/dnjwaller/Documents/48 Days/Days-Info.plist8613642752#563"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Days-Info.plist -genpkginfo "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/ResourceRules.plist" -o "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/Info.plist"0#
+
+CProcessPCH /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch.gch Days_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s334460344.373130
+e334460344.881645
+r1
+xProcessPCH
+x/var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch.gch
+xDays_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Days_Prefix.pch334460344#334460344#0(0"0(0#0#50"/Users/dnjwaller/Documents/48 Days/Days_Prefix.pch8614642432#1625"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv6" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/dnjwaller/Documents/48 Days/Days_Prefix.pch" -o /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-dkyavnsjxsmnnrgajxbogofzksyb/Days_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch.gch Days_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s334460344.373761
+e334460344.913636
+r1
+xProcessPCH
+x/var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch.gch
+xDays_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Days_Prefix.pch334460344#334460344#0(0"0(0#0#50"/Users/dnjwaller/Documents/48 Days/Days_Prefix.pch8619751232#1625"    cd "/Users/dnjwaller/Documents/48 Days"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-generated-files.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-own-target-headers.hmap" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-all-target-headers.hmap" -iquote "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days-project-headers.hmap" "-F/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos" "-I/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/include" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources/armv7" "-I/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/dnjwaller/Documents/48 Days/Days_Prefix.pch" -o /var/folders/YD/YD-WQmmsGtKHeNqhQBz9pE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-gqlcqekgqgbmuycgaicmqmggveme/Days_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision" "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision"
+s334460345.936716
+e334460345.937536
+r1
+xProcessProductPackaging
+x/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision
+lSLF07#2@184"ProcessProductPackaging "/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision" build/Distribution-iphoneos/Days.app/embedded.mobileprovision334460345#334460345#0(0"0(0#0#96"/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision8619712640#411"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/dnjwaller/Library/MobileDevice/Provisioning Profiles/Distribution_Profile.mobileprovision" -o "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent"
+s334460345.939843
+e334460345.941065
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent
+lSLF07#2@173"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Days.build/Distribution-iphoneos/Days.build/Days.xcent334460345#334460345#0(0"0(0#0#95"/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent8617553184#426"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o "/Users/dnjwaller/Documents/48 Days/build/Days.build/Distribution-iphoneos/Days.build/Days.xcent"0#
+
+CTouch "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+s334460345.937583
+e334460345.939717
+r1
+xTouch
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app
+lSLF07#2@77"Touch /Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app334460345#334460345#0(0"0(0#0#0"8619093280#264"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+
+CValidate "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"
+s334460346.062110
+e334460346.130465
+r1
+xValidate
+x/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app
+o2011-08-07 21:39:06.072 Validation[7520:607] *** Warning: Defaulting to the standard codesign tool
+lSLF07#2@45"Validate build/Distribution-iphoneos/Days.app334460346#334460346#0(99"2011-08-07 21:39:06.072 Validation[7520:607] *** Warning: Defaulting to the standard codesign tool0(0#0#71"/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app8620774912#373"    cd "/Users/dnjwaller/Documents/48 Days"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/dnjwaller/Documents/48 Days/build/Distribution-iphoneos/Days.app"0#
+

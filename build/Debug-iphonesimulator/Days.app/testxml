@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+<channel>
+	<title>48 Days</title>
+	
+	<link>http://www.48days.com</link>
+	<description>Your source for career building!</description>
+	<lastBuildDate>Wed, 15 Jun 2011 08:00:30 +0000</lastBuildDate>
+	<language>en</language>
+
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.3</generator>
+<!-- podcast_generator="Blubrry PowerPress/2.0.3" -->
+	<itunes:summary>"48 Days to the Work You Love" with Host Dan Miller, career-based life coach and best selling author of 48 Days To The Work You Love. Listen in and learn how to make your passions your vocations!</itunes:summary>
+	<itunes:author>Dan Miller</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+
+	<itunes:image href="http://www.48days.com/wp-content/uploads/podcastartwork.jpg" />
+	<itunes:owner>
+		<itunes:name>Dan Miller</itunes:name>
+		<itunes:email>askdan@48days.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>askdan@48days.com (Dan Miller)</managingEditor>
+	<itunes:subtitle>The Authority on the Work You Love!</itunes:subtitle>
+
+	<itunes:keywords>career, job, self-employment, job coaching, work</itunes:keywords>
+	<image>
+		<title>48 Days</title>
+		<url>http://www.48days.com/wp-content/uploads/podcastartwork.jpg</url>
+		<link>http://www.48days.com</link>
+	</image>
+	<itunes:category text="Business">
+
+		<itunes:category text="Careers" />
+	</itunes:category>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/48Days" /><feedburner:info uri="48days" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>48Days</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/48Days" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2F48Days" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+
+		<title>How are you connected to 48Days?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/xWlsGJguspw/</link>
+		<comments>http://www.48days.com/2011/06/15/how-are-you-connected-to-48days/#comments</comments>
+		<pubDate>Wed, 15 Jun 2011 08:00:30 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7278</guid>
+		<description><![CDATA[I appreciate your connection to the 48Days community.  Every now and then we like to give you some new<a href="http://www.48days.com/reader-survey/"></a> options and to get feedback on your preferences.
+There are many ways to get the 48 Days Blog daily or weekly newsletter!  You can subscribe via RSS <a href="http://feeds.feedburner.com/48Days">HERE</a> or get the blog in your email inbox <a href="http://feedburner.google.com/fb/a/mailverify?uri=nomoremondaysblog&#38;loc=en_US">HERE</a>. (we&#8230; <a href="http://www.48days.com/2011/06/15/how-are-you-connected-to-48days/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>I appreciate your connection to the 48Days community.  Every now and then we like to give you some new<a href="http://www.48days.com/reader-survey/"><img class="alignright size-full wp-image-7279" title="survey" src="http://www.48days.com/wp-content/uploads/survey.png" alt="" width="248" height="168" /></a> options and to get feedback on your preferences.</p>
+<p>There are many ways to get the 48 Days Blog daily or weekly newsletter!  You can subscribe via RSS <a href="http://feeds.feedburner.com/48Days">HERE</a> or get the blog in your email inbox <a href="http://feedburner.google.com/fb/a/mailverify?uri=nomoremondaysblog&amp;loc=en_US">HERE</a>. (we promise we keep your email private)</p>
+<p>Twitter is another way to get both the blog and FaceBook updates.  Just follow <a href="http://twitter.com/#%21/48DaysTeam">@48DaysTeam</a>.</p>
+<p>The FaceBook fan page is another resource to connect and comment on daily updates: <a href="https://www.facebook.com/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts">48 Days FaceBook Page</a></p>
+<p>Additionally, there is the weekly <a href="http://www.48days.com/listen/">Podcast</a> (also in <a href="http://itunes.apple.com/podcast/48-days-to-the-work-you-love/id178145160">iTunes</a>), the 48 Days weekly <a href="http://www.48days.com/48-days-newsletter/sign-up/">Newsletter</a>, and of course, the <a href="http://www.48days.net">48 Days Community</a>.</p>
+<p>What are you doing to stay connected?  <a href="http://www.48days.com/reader-survey/">Take our survey</a> and let us know.  (Bonus for you &#8211; a free eBook when you finish the survey).</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=xWlsGJguspw:YenL4VoqXxA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xWlsGJguspw:YenL4VoqXxA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xWlsGJguspw:YenL4VoqXxA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=xWlsGJguspw:YenL4VoqXxA:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xWlsGJguspw:YenL4VoqXxA:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=xWlsGJguspw:YenL4VoqXxA:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/xWlsGJguspw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/15/how-are-you-connected-to-48days/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/15/how-are-you-connected-to-48days/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-are-you-connected-to-48days</feedburner:origLink></item>
+
+		<item>
+		<title>Does God want me to “swallow poison every day”?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/fpK7a_Hj6-k/</link>
+		<comments>http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/#comments</comments>
+		<pubDate>Tue, 14 Jun 2011 08:00:30 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[angry God]]></category>
+		<category><![CDATA[hate my job]]></category>
+		<category><![CDATA[passion]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7250</guid>
+		<description><![CDATA[Patrice wants to know why she has been unable to develop her passion and the only jobs available are ones that she hates.
+Here’s part of her lengthy letter:
+<em>&#8220;After everything I&#8217;ve been through I&#8217;m afraid that somehow, God&#8217;s will for me is actually not to pursue the<a rel="attachment wp-att-7251" href="http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/angry_god/"></a> sole vocational passion He appears to have put in</em>&#8230; <a href="http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Patrice wants to know why she has been unable to develop her passion and the only jobs available are ones that she hates.</p>
+<p>Here’s part of her lengthy letter:</p>
+<p><em>&#8220;After everything I&#8217;ve been through I&#8217;m afraid that somehow, God&#8217;s will for me is actually not to pursue the<a rel="attachment wp-att-7251" href="http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/angry_god/"><img class="alignright size-medium wp-image-7251" title="angry_god" src="http://www.48days.com/wp-content/uploads/angry_god-213x300.jpg" alt="" width="213" height="300" /></a> sole vocational passion He appears to have put in my heart, but to do this office work that feels like I&#8217;m swallowing poison every day.  Maybe I&#8217;m projecting my family&#8217;s patterns onto God &#8211; child abuse survivors do that, probably even more so than those with healthier backgrounds &#8211; but I&#8217;m afraid that, counterintuitive though it is, God has given me a passion that is completely mismatched with the opportunities in my life. Do you think this is possible? That for some reason the God I&#8217;ve always known as a loving one wants me to suffer through jobs I hate, and that I hate myself for doing, all my life?&#8221;</em></p>
+<p>Dear Patrice – No, I do not think that “God has given you a passion that is completely mismatched with the opportunities in your life.”   That would be a vicious God – not a loving one.  The Bible tells us to “delight yourself in the Lord and he will give you the desires of your heart.” (Psalm 37:4) Handing your life over to God does not mean walking away from your desires and passions – rather, it means finding authentic ways to make those God-given passions come alive.</p>
+<p>Yes, I do think we all tend to create the God we see emerge from the patterns of our own family – at least as a starting point.  Please believe that God has gifted you and given you a blank piece of paper on which to draw the life you want.  He is not mean and capricious as you suspect.  Just take responsibility for your success and know that the door is as open to you as to anyone in the world.  God is not micromanaging the little details in your life to make you miserable.  He wants you to thrive and prosper – and to do work that is fulfilling and meaningful.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=fpK7a_Hj6-k:5o0uh-gCPXU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=fpK7a_Hj6-k:5o0uh-gCPXU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=fpK7a_Hj6-k:5o0uh-gCPXU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=fpK7a_Hj6-k:5o0uh-gCPXU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=fpK7a_Hj6-k:5o0uh-gCPXU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=fpK7a_Hj6-k:5o0uh-gCPXU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/fpK7a_Hj6-k" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/14/does-god-want-me-to-%e2%80%9cswallow-poison-every-day%e2%80%9d/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=does-god-want-me-to-%25e2%2580%259cswallow-poison-every-day%25e2%2580%259d</feedburner:origLink></item>
+		<item>
+		<title>Dont’ go round the mulberry bush…</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/ClloVUGYBpo/</link>
+
+		<comments>http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/#comments</comments>
+		<pubDate>Mon, 13 Jun 2011 15:47:58 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Business Start-Up]]></category>
+		<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[mulberry bush]]></category>
+
+		<category><![CDATA[mulberry fudge]]></category>
+		<category><![CDATA[mulberry tree]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7257</guid>
+		<description><![CDATA[Remember the mulberry tree back on the farm?  My Dad grew apple, pear, peach and plum trees – giving them<a rel="attachment wp-att-7258" href="http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/clara-picking-mulberries4/"></a> careful attention throughout the year.  I’ve never tried to grow fruit trees, but in spite of my lack of attention, we have a massive mulberry tree on our property that continues to give us lots of sweet&#8230; <a href="http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Remember the mulberry tree back on the farm?  My Dad grew apple, pear, peach and plum trees – giving them<a rel="attachment wp-att-7258" href="http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/clara-picking-mulberries4/"><img class="alignright size-medium wp-image-7258" title="Clara Picking Mulberries4" src="http://www.48days.com/wp-content/uploads/Clara-Picking-Mulberries4-300x225.jpg" alt="" width="300" height="225" /></a> careful attention throughout the year.  I’ve never tried to grow fruit trees, but in spite of my lack of attention, we have a massive mulberry tree on our property that continues to give us lots of sweet treats and memories.  Mulberry trees tend to be gnarled, crooked, unwanted, uncultivated and as such, off the radar of our attention.</p>
+<p>And yet if you’ve ever encountered a mulberry tree, chances are you have fond memories of children with purple stained fingers, lips and teeth – cramming sweet fruit into their mouths as fast as they can pick a handful.  A couple weeks ago we spread plastic sheets on the ground and simply shook the branches.  We took about 5 gallons of fresh mulberries back to the house and made jam, cobbler, fudge and kept some for adding to cereal.</p>
+<p>This makes me wonder &#8212; what other opportunity right in front of me is waiting to add excitement, fulfilling work and possibly extraordinary income?  What have I been overlooking in my life because it’s not new and flashy?  In the last two weeks I’ve seen people make earrings out of cicada wings, carve discarded wood into beautiful sculptures, use wood chips for playground areas, and recycle old blue jeans into fashionable purses.</p>
+<p>Sometimes our best opportunities are not hidden behind expensive degrees or complicated technology.  Often it’s just in recognizing a new use for a common and readily available thing.</p>
+<p><em><strong>What is the mulberry tree in your life?</strong></em></p>
+<p>Oh yes, those are my granddaughters Clara and Ellie being treated to a drive-by mulberry feast.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=ClloVUGYBpo:tPVNGclAHMQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=ClloVUGYBpo:tPVNGclAHMQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=ClloVUGYBpo:tPVNGclAHMQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=ClloVUGYBpo:tPVNGclAHMQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=ClloVUGYBpo:tPVNGclAHMQ:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=ClloVUGYBpo:tPVNGclAHMQ:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/ClloVUGYBpo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+
+		<feedburner:origLink>http://www.48days.com/2011/06/13/dont-go-round-the-mulberry-bush/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dont-go-round-the-mulberry-bush</feedburner:origLink></item>
+		<item>
+		<title>The little difference………..</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/7yh2udxMwOw/</link>
+		<comments>http://www.48days.com/2011/06/10/the-little-difference/#comments</comments>
+		<pubDate>Fri, 10 Jun 2011 08:00:30 +0000</pubDate>
+
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[difference]]></category>
+		<category><![CDATA[Longfellow]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7203</guid>
+		<description><![CDATA[<em><strong>“The Heights of great men gained and kept are not achieved by sudden flight. But they, while their companions slept, toiled upward through the night.”</strong></em> Henry Wadsworth Longfellow
+It’s the little things that make a difference.  Spending just 48 minutes a day for 48 days can change the direction of your life.  You can find a new job, start&#8230; <a href="http://www.48days.com/2011/06/10/the-little-difference/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p><em><strong>“The Heights of great men gained and kept are not achieved by sudden flight. But they, while their companions slept, toiled upward through the night.”</strong></em> Henry Wadsworth Longfellow</p>
+<p>It’s the little things that make a difference.  Spending just 48 minutes a day for 48 days can change the direction of your life.  You can find a new job, start a new business, create healing in negative relationships, or correct your eating habits for transformed health and begin the rest of your life with higher levels of success than experienced by 98% of the general population.</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=7yh2udxMwOw:E6XiukeTUtc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=7yh2udxMwOw:E6XiukeTUtc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=7yh2udxMwOw:E6XiukeTUtc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=7yh2udxMwOw:E6XiukeTUtc:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=7yh2udxMwOw:E6XiukeTUtc:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=7yh2udxMwOw:E6XiukeTUtc:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/7yh2udxMwOw" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/06/10/the-little-difference/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/10/the-little-difference/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-little-difference</feedburner:origLink></item>
+		<item>
+		<title>I hate milking cows but love working in a barn</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/tSnFjVlIUVE/</link>
+
+		<comments>http://www.48days.com/2011/06/09/i-hate-milking-cows-but-love-working-in-a-barn/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 08:00:28 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[48days.net]]></category>
+		<category><![CDATA[cropmob]]></category>
+		<category><![CDATA[ifoam]]></category>
+
+		<category><![CDATA[ncat]]></category>
+		<category><![CDATA[wwoof]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7222</guid>
+		<description><![CDATA[When I was 5 years old had to get up on those cold New York mornings at 5:30 AM to help milk the cows and<a href="http://www.48days.com/liveevents/wtb/"></a> feed the chickens. At that point I thought every little boy had the same life as I was experiencing.  But then when I started school I discovered some kids that didn’t have to work&#8230; <a href="http://www.48days.com/2011/06/09/i-hate-milking-cows-but-love-working-in-a-barn/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>When I was 5 years old had to get up on those cold New York mornings at 5:30 AM to help milk the cows and<a href="http://www.48days.com/liveevents/wtb/"><img class="alignright size-medium wp-image-7223" title="Sanctuary#4 - 07-19-10" src="http://www.48days.com/wp-content/uploads/Sanctuary4-07-19-10-300x225.jpg" alt="" width="300" height="225" /></a> feed the chickens. At that point I thought every little boy had the same life as I was experiencing.  But then when I started school I discovered some kids that didn’t have to work for two hours before breakfast – they just got up and got dressed for school.  My search for an escape from milking cows in bitter winter cold and baling hay in blazing summer heat began as soon as I knew there were other options.</p>
+<p>Obviously that path was not unique to only me.  At one point over 79% of Americans were directly involved in farming – today, it’s less than 3%.  But now there is an explosion of young people who are eager to get back to the farm.  Inspired by ecological concerns, food quality issues, and a desire to escape cubicle world, we are seeing thousands of young students eager to explore farming.  They see farming as an economically and ecologically optimistic way make a living – and to make a difference in the process.</p>
+<p><a href="http://www.48days.net/">48Days.net</a> members Sam Burton and Karen Wortman  have found ways to be connected to bring their passion for farming to life with E<a href="http://www.east-of-eden-farms.com/">ast of Eden Farms</a> and <a href="http://www.hiddenspringsfarms.com/">Hidden Springs Farms</a>.  Check out the Nubian Dairy goats, free-range chickens (and eggs), turkeys, and naturally grown vegetables and herbs they are growing.</p>
+<p>Internships, apprenticeships and volunteer opportunities are expanding exponentially.  Here are a few of the best options if you’d like to explore farming:</p>
+<p><a href="http://wwoof.org">World-Wide Opportunities on Organic Farms</a> (the world’s largest farm-volunteer exchange program)</p>
+<p><a href="http://ifoam.org/">International Foundation for Organic Agriculture</a> (IFOAM)</p>
+<p><a href="http://www2.ca.uky.edu/sustainableag">University of Kentucky Sustainable Agriculture Program</a></p>
+<p><a href="https://attra.ncat.org/">National Sustainable Agriculture Information Service</a></p>
+<p><a href="http://www.roguefarmcorps.org/">Rogue Farm Corps</a></p>
+<p><a href="http://cropmob.org/about">Crop Mob</a> (Crop mob is primarily a group of young, landless, and wannabe farmers who come together to build and empower communities by working side by side.)</p>
+<p>If you’re looking for a path out of the cubicle, maybe farming is for you.  And yes, as much as I hated milking cows, I would still rather do that than wear a necktie and sit in an office.  I guess that’s why I work in my blue jeans in an old barn.  Thankfully, we all have options today to chose our work environment.  I hope you love yours as much as I do mine.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=tSnFjVlIUVE:bHyyjrQGth0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=tSnFjVlIUVE:bHyyjrQGth0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=tSnFjVlIUVE:bHyyjrQGth0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=tSnFjVlIUVE:bHyyjrQGth0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=tSnFjVlIUVE:bHyyjrQGth0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=tSnFjVlIUVE:bHyyjrQGth0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/tSnFjVlIUVE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/09/i-hate-milking-cows-but-love-working-in-a-barn/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+
+		<feedburner:origLink>http://www.48days.com/2011/06/09/i-hate-milking-cows-but-love-working-in-a-barn/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=i-hate-milking-cows-but-love-working-in-a-barn</feedburner:origLink></item>
+		<item>
+		<title>Unemployed Need Not Apply</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/Ea94C_V1zWs/</link>
+		<comments>http://www.48days.com/2011/06/08/unemployed-need-not-apply/#comments</comments>
+		<pubDate>Wed, 08 Jun 2011 08:00:06 +0000</pubDate>
+
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Job Search]]></category>
+		<category><![CDATA[Just a Job]]></category>
+		<category><![CDATA[careerbuilder]]></category>
+		<category><![CDATA[monster.com]]></category>
+		<category><![CDATA[unemployed]]></category>
+		<category><![CDATA[unemployment]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7227</guid>
+
+		<description><![CDATA[Okay, here’s a phenomenon we’re seeing that is probably going to outrage some of you and confirm that “life is<a rel="attachment wp-att-7228" href="http://www.48days.com/2011/06/08/unemployed-need-not-apply/frustrated-2/"></a> not fair” to others.  Job listings spotted on <a href="http://www.monster.com/">Monster</a>, <a href="http://www.careerbuilder.com/">Careerbuilder</a> and other websites flatly state any applicant should be currently employed.  There are job ads being posted that specifically say, “No unemployed will be considered.”&#8230; <a href="http://www.48days.com/2011/06/08/unemployed-need-not-apply/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Okay, here’s a phenomenon we’re seeing that is probably going to outrage some of you and confirm that “life is<a rel="attachment wp-att-7228" href="http://www.48days.com/2011/06/08/unemployed-need-not-apply/frustrated-2/"><img class="alignright size-medium wp-image-7228" title="frustrated" src="http://www.48days.com/wp-content/uploads/frustrated1-300x199.jpg" alt="" width="300" height="199" /></a> not fair” to others.  Job listings spotted on <a href="http://www.monster.com/">Monster</a>, <a href="http://www.careerbuilder.com/">Careerbuilder</a> and other websites flatly state any applicant should be currently employed.  There are job ads being posted that specifically say, “No unemployed will be considered.”</p>
+<p>Let’s just cut to the chase and list some reasons why:</p>
+<ul>
+<li>Employed workers are perceived as more skilled and valued</li>
+<li>Hiring a top performer is seen as a way of accessing a competitor’s strategies</li>
+<li>Employers still may assume jobless workers were laid off for performance problems</li>
+<li>Hiring managers wonder if an unemployed person’s skills and contacts are up to date</li>
+<li>Unemployed often are frustrated, bitter and angry – characteristics not welcomed in new work environments</li>
+<li>Weeding out the “unemployed” just helps as a screening tool for overworked human resources departments</li>
+</ul>
+<p>And no, this is not discrimination.  The unemployed are not a protected class under U.S. law.  You <strong>can’t</strong> say you won’t hire Hispanics, Muslims, women with small breasts (Seinfeld), or old people – but you <strong>can</strong> say you won’t hire anyone who is unemployed.</p>
+<p>Is this just the way the cookie crumbles or is this kicking someone when they’re down?  What would you propose as a helpful solution?</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=Ea94C_V1zWs:Oo3f4QxewBw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ea94C_V1zWs:Oo3f4QxewBw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ea94C_V1zWs:Oo3f4QxewBw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=Ea94C_V1zWs:Oo3f4QxewBw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ea94C_V1zWs:Oo3f4QxewBw:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=Ea94C_V1zWs:Oo3f4QxewBw:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/Ea94C_V1zWs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/08/unemployed-need-not-apply/feed/</wfw:commentRss>
+		<slash:comments>81</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/08/unemployed-need-not-apply/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=unemployed-need-not-apply</feedburner:origLink></item>
+		<item>
+
+		<title>What’s your dream life?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/YdCdsY4R1a4/</link>
+		<comments>http://www.48days.com/2011/06/07/whats-your-dream-life/#comments</comments>
+		<pubDate>Tue, 07 Jun 2011 08:00:50 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Just a Job]]></category>
+
+		<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[dream job]]></category>
+		<category><![CDATA[internship]]></category>
+		<category><![CDATA[mentor]]></category>
+		<category><![CDATA[vocation/vacation]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7215</guid>
+		<description><![CDATA[If you’re a troubled teenage guy I can recommend <a href="http://narrowgatefoundation.org/gallery.aspx">NarrowGate</a> as a place for personal discovery as you ride horses, fish, forge iron and build furniture.  If you’re a college student you can intern with <a href="http://keza.com/intern.php">Keza</a> in Rwanda or Kenya to help design jewelry for ladies escaping poverty there.
+But what if you’re 40 or 50 and burned out&#8230; <a href="http://www.48days.com/2011/06/07/whats-your-dream-life/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>If you’re a troubled teenage guy I can recommend <a href="http://narrowgatefoundation.org/gallery.aspx">NarrowGate</a> as a place for personal discovery as you ride horses, fish, forge iron and build furniture.  If you’re a college student you can intern with <a href="http://keza.com/intern.php">Keza</a> in Rwanda or Kenya to help design jewelry for ladies escaping poverty there.</p>
+<p>But what if you’re 40 or 50 and burned out but unsure about how to explore a new career.  No one’s looking for a 53-yr-old intern or a 46-yr-old apprentice.  Brian Kurth saw his own life slipping away each morning while stuck in his 2-3 hour commute to his boring job in Chicago.  So in 2004 Brian founded <a href="http://vocationvacations.com/">VocationVacations</a> to expose people to alternative careers in 1, 2 or 3-days getaways.  The mentors &#8212; all working professionals &#8212; offer one-on-one training in 185 careers, from archeology to sports play-by-play announcing. Clients learn directly from brewmasters, make-up artists and television script writers &#8212; a few of the most popular choices, Kurth says. The more adventurous step far beyond the 9-to-5 world to try bison ranching and guiding white-water rafting tours.</p>
+<p>With Father’s Day just around the corner, maybe you need to get Dad to try out of one of these popular choices:<a rel="attachment wp-att-7216" href="http://www.48days.com/2011/06/07/whats-your-dream-life/race-car1/"><img class="alignright size-medium wp-image-7216" title="Race Car#1" src="http://www.48days.com/wp-content/uploads/Race-Car1-300x245.jpg" alt="" width="300" height="245" /></a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?category=Pit+Crew+Member">Race Team Pit Crew Member</a></p>
+<p><a href="http://www.vocationvacations.com/search/listing.php?category=Music+Producer">Music Producer</a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?category=Bed+%26+Breakfast+Owner">B&amp;B Owner</a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?general=dog%20trainer&amp;country=US">Dog Trainer</a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?category=Songwriter+and+Music+Publisher">Song Writer</a></p>
+<p><a href=" http://vocationvacations.com/DreamJobHolidays/running-dog-luthier.php ">Luthier</a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?general=wine%20maker&amp;country=US">Travel Writer Wine Maker</a></p>
+<p><a href="http://vocationvacations.com/search/listing.php?general=chocolatier&amp;country=US">Chocolatier</a></p>
+<p>Didn&#8217;t find your dream job on this list?  What would you love to try out as a new vocation?</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=YdCdsY4R1a4:zO4cyx00hFQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=YdCdsY4R1a4:zO4cyx00hFQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=YdCdsY4R1a4:zO4cyx00hFQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=YdCdsY4R1a4:zO4cyx00hFQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=YdCdsY4R1a4:zO4cyx00hFQ:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=YdCdsY4R1a4:zO4cyx00hFQ:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/YdCdsY4R1a4" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/06/07/whats-your-dream-life/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/07/whats-your-dream-life/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=whats-your-dream-life</feedburner:origLink></item>
+		<item>
+		<title>Just look at your “friends”</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/HatXex73-0Y/</link>
+
+		<comments>http://www.48days.com/2011/06/06/just-look-at-your-friends/#comments</comments>
+		<pubDate>Mon, 06 Jun 2011 18:21:56 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[4-hour workweek]]></category>
+		<category><![CDATA[48 days]]></category>
+
+		<category><![CDATA[tim ferriss]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7196</guid>
+		<description><![CDATA[When <a href="http://en.wikipedia.org/wiki/Timothy_Ferriss">Tim Ferriss</a> was 12 years old, an unidentified caller left this Jim Rohn quotation on his answering machine:  <em><strong>“You are the average of the five people you spend the most time with.”</strong></em>
+That message changed Tim’s life forever.  At only 12 years old, he recognized that the kids he was hanging out<a rel="attachment wp-att-7197" href="http://www.48days.com/2011/06/06/just-look-at-your-friends/timothyferriss/"></a> with were not&#8230; <a href="http://www.48days.com/2011/06/06/just-look-at-your-friends/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>When <a href="http://en.wikipedia.org/wiki/Timothy_Ferriss">Tim Ferriss</a> was 12 years old, an unidentified caller left this Jim Rohn quotation on his answering machine:  <em><strong>“You are the average of the five people you spend the most time with.”</strong></em></p>
+<p>That message changed Tim’s life forever.  At only 12 years old, he recognized that the kids he was hanging out<a rel="attachment wp-att-7197" href="http://www.48days.com/2011/06/06/just-look-at-your-friends/timothyferriss/"><img class="alignright size-medium wp-image-7197" title="timothyferriss" src="http://www.48days.com/wp-content/uploads/timothyferriss-257x300.jpg" alt="" width="257" height="300" /></a> with were not the ones he wanted influencing his future.  His school intensity changed.  He spent his junior year in Japan studying Zen meditation.  He was accepted at Princeton University where he became an all-American wrestler and a national kick-boxing champion.  At age 23 he founded <a href="http://www.bodybuilding.com/store/bq/body.html">BrainQUICKEN</a>, a sports nutrition company which he then sold eight years later.  At age 29 he wrote the best-selling book – <a href="http://fourhourworkweek.com">The 4-Hour Workweek</a> and is now a full-time angel investor.</p>
+<p><em>“Pay any price to stay in the presence of extraordinary people.”</em> Mike Murdock, author of <a href="http://www.amazon.com/Leadership-Secrets-Jesus-Mike-Murdock/dp/1563941732/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1307375226&amp;sr=1-1  ">The Leadership Secrets of Jesus</a></p>
+<p>So, do you want to be the average of the five people you are spending the most time with?  Have you gotten trapped around toxic people – people who are full-time members of the “Ain’t It Awful’ club?  People who are flag-carrying AmeriCAN’Ts?</p>
+<p>Years ago I read Brian Tracy saying that one of the hallmark characteristics of successful people is to spend time with those who are already performing at the level at which you want to perform.  In 2002 (9 years ago) I attended <a href="http://www.markvictorhansen.com/">Mark Victor Hansen</a>’s MegaBook University.  I spent 3 days with people who were already successful authors.  Then I came home and did what I saw them doing.  In 2005 the first edition of <a href="http://www.48days.com/store/">48 Days to the Work You Love</a> was published.  In 2008 I got a fat contract with the biggest publishing house in the world – Random House – to publish <a href="http://www.48days.com/store/">No More Dreaded Mondays</a>.  I’ve continued to attend writers’ seminars every year and now have a blast welcoming up-and-coming writers to our popular <a href="http://www.48days.com/liveevents/wtb/">Write to the Bank</a> events here on our property.  Today I can take my pick of publishers waiting for my next book.  I’m not smarter, faster or better looking – I just spend time around people who are living the life I want to live.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=HatXex73-0Y:MfqLOhH0M7A:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HatXex73-0Y:MfqLOhH0M7A:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HatXex73-0Y:MfqLOhH0M7A:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=HatXex73-0Y:MfqLOhH0M7A:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HatXex73-0Y:MfqLOhH0M7A:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=HatXex73-0Y:MfqLOhH0M7A:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/HatXex73-0Y" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/06/just-look-at-your-friends/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/06/just-look-at-your-friends/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=just-look-at-your-friends</feedburner:origLink></item>
+
+		<item>
+		<title>Do you have more than good intentions?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/isUoFZBHwNI/</link>
+		<comments>http://www.48days.com/2011/06/03/do-you-have-more-than-good-intentions/#comments</comments>
+		<pubDate>Fri, 03 Jun 2011 08:00:34 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[good intentions]]></category>
+		<category><![CDATA[margaret thatcher]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7149</guid>
+		<description><![CDATA[<strong>No one would remember the Good Samaritan if he&#8217;d only had good intentions &#8211; he had money, too. – Margaret Thatcher</strong><strong> </strong>
+
+Too often we assume that humanitarian or Godly work is done best by those in honorable professions like social worker, pastor, teacher, nurse, or non-profit employee and that the more money a person makes, the more removed they&#8230; <a href="http://www.48days.com/2011/06/03/do-you-have-more-than-good-intentions/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>No one would remember the Good Samaritan if he&#8217;d only had good intentions &#8211; he had money, too. – Margaret Thatcher</strong><strong> </strong></p>
+<div>
+<p>Too often we assume that humanitarian or Godly work is done best by those in honorable professions like social worker, pastor, teacher, nurse, or non-profit employee and that the more money a person makes, the more removed they are likely to be from “doing good.”  Be aware that if making money is one of your talents, you have added extreme leverage to your ability to do good in the world.</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=isUoFZBHwNI:44SdR5i6nF0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=isUoFZBHwNI:44SdR5i6nF0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=isUoFZBHwNI:44SdR5i6nF0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=isUoFZBHwNI:44SdR5i6nF0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=isUoFZBHwNI:44SdR5i6nF0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=isUoFZBHwNI:44SdR5i6nF0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/isUoFZBHwNI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/03/do-you-have-more-than-good-intentions/feed/</wfw:commentRss>
+
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/03/do-you-have-more-than-good-intentions/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=do-you-have-more-than-good-intentions</feedburner:origLink></item>
+		<item>
+		<title>Passion First, Paycheck Second</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/iWHMq6h7CkU/</link>
+		<comments>http://www.48days.com/2011/06/02/passion-first-paycheck-second/#comments</comments>
+
+		<pubDate>Thu, 02 Jun 2011 08:00:04 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[art]]></category>
+		<category><![CDATA[da vinci]]></category>
+		<category><![CDATA[ronald baldwin]]></category>
+		<category><![CDATA[scott stearman]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7155</guid>
+		<description><![CDATA[When it comes to careers, I see a lot of people get it backward.  They choose a career because they think they’ll<a rel="attachment wp-att-7156" href="http://www.48days.com/2011/06/02/passion-first-paycheck-second/scott-stearman/"></a> make a lot of money in it.  Maybe they will; maybe they won’t.  But making money is never enough compensation for investing our time and energy.  There must be a sense of meaning, purpose&#8230; <a href="http://www.48days.com/2011/06/02/passion-first-paycheck-second/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p>When it comes to careers, I see a lot of people get it backward.  They choose a career because they think they’ll<a rel="attachment wp-att-7156" href="http://www.48days.com/2011/06/02/passion-first-paycheck-second/scott-stearman/"><img class="alignright size-medium wp-image-7156" title="Scott Stearman" src="http://www.48days.com/wp-content/uploads/Scott-Stearman-199x300.jpg" alt="" width="199" height="300" /></a> make a lot of money in it.  Maybe they will; maybe they won’t.  But making money is never enough compensation for investing our time and energy.  There must be a sense of meaning, purpose and accomplishment.  I have seen countless dentists who just thought they could make a lot of money – and now are miserable at the life they have created.</p>
+<p>Look first for a career that puts legs on your passion.  Do that and you’ll naturally excel because you love what you’re doing.  And in most cases, doing what you love with excellence, will cause money to show up in unexpected ways.   Ask my friends <a href="http://scottstearman.com/Home.html">Scott Stearman</a> why he moved into sculpting or <a href="http://www.ronaldbaldwin.com">Ron Baldwin</a> why he left being a pastor to become a world-famous artist.</p>
+</div>
+<p><em>&#8220;Where the spirit does not works with the hand, there is no art.&#8221;</em> &#8212; Da Vinci</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=iWHMq6h7CkU:5QcxdKaqzck:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iWHMq6h7CkU:5QcxdKaqzck:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iWHMq6h7CkU:5QcxdKaqzck:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=iWHMq6h7CkU:5QcxdKaqzck:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iWHMq6h7CkU:5QcxdKaqzck:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=iWHMq6h7CkU:5QcxdKaqzck:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/iWHMq6h7CkU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/06/02/passion-first-paycheck-second/feed/</wfw:commentRss>
+		<slash:comments>36</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/02/passion-first-paycheck-second/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=passion-first-paycheck-second</feedburner:origLink></item>
+
+		<item>
+		<title>Discouraged – Yes   Down and out – No</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/Ma7yag0Bl8U/</link>
+		<comments>http://www.48days.com/2011/06/01/discouraged-%e2%80%93-yes-down-and-out-%e2%80%93-no/#comments</comments>
+		<pubDate>Wed, 01 Jun 2011 00:00:24 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[Job Search]]></category>
+		<category><![CDATA[Dave Ramsey]]></category>
+		<category><![CDATA[discouraged worker]]></category>
+		<category><![CDATA[unemployment]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7142</guid>
+		<description><![CDATA[Last Thursday I was a guest on <a href="http://www.daveramsey.com/category/show/">The Dave Ramsey Show</a>.   One of the things Dave and I discussed was the <a href="http://www.bls.gov/">Bureau of Labor Statistics</a> term “discouraged worker.”   Each quarter the Bureau compiles the current employment figures.
+In April, 2.5 million persons were marginally attached to the labor force.  These individuals were not in the labor<a rel="attachment&#8230; <a href="http://www.48days.com/2011/06/01/discouraged-%e2%80%93-yes-down-and-out-%e2%80%93-no/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p>Last Thursday I was a guest on <a href="http://www.daveramsey.com/category/show/">The Dave Ramsey Show</a>.   One of the things Dave and I discussed was the <a href="http://www.bls.gov/">Bureau of Labor Statistics</a> term “discouraged worker.”   Each quarter the Bureau compiles the current employment figures.</p>
+<p>In April, 2.5 million persons were marginally attached to the labor force.  These individuals were not in the labor<a rel="attachment wp-att-7143" href="http://www.48days.com/2011/06/01/discouraged-%e2%80%93-yes-down-and-out-%e2%80%93-no/stressed-man-and-laptop-2/"><img class="alignright size-full wp-image-7143" title="Stressed man and laptop" src="http://www.48days.com/wp-content/uploads/Discouragement21.jpg" alt="" width="240" height="180" /></a> force, wanted and were available for work, and had looked for a job sometime in the prior 12 months. They were not counted as unemployed because they had not searched for work in the 4 weeks preceding the survey.</p>
+</div>
+<p>Among the marginally attached, there were 989,000 discouraged workers in April, a decline of 208,000 from a year earlier.  <em><strong>Discouraged workers are persons not currently looking for work because they believe no jobs are available for them.</strong></em></p>
+<p>What do you do if you are in fact a discouraged worker?</p>
+<div>
+<p>No matter how it happens, a job loss is painful.  Maybe you were caught up in a corporate downsizing, and it’s nothing personal.  Maybe it was personal; your boss was an insensitive jerk who didn’t recognize your talent.  Either way, it’s easy to start questioning your self-worth at such a time.  You may wonder if you’ll end up homeless, never to contribute in a meaningful way to civilization again.  In 30 days, your savings will be depleted.  Are your old office workers laughing behind your back?  Are your neighbors looking at “the loser” when they see you at home on a weekday?</p>
+</div>
+<p>Well, don’t get caught up in the negatives.  This will only sabotage your immediate future.  Here are some tips for breaking the downward spiral of discouragement:</p>
+<ul>
+<li><strong>Release Your Anger.</strong> It’s OK to be angry at the unfairness of the economy, the government or the world.  But don’t stay there.  While you may have been treated unfairly, sharing that will only make potential new employers uneasy and prevent them from wanting you on their team.</li>
+<li><strong>Evaluate Your Life.</strong> Take advantage of these transitions to take a fresh look at your life.  What is unique about you?  How important is time flexibility?  What income do you want?  See this as a time to move up and forward; not down.</li>
+<li><strong>Network Constantly.</strong> Start each day with an action plan.  Get out there and meet people.  Talk to anyone you can who might offer suggestions on how to improve your job search.  Don’t be embarrassed to let people know you are looking for work.  You are selling a product, and that product is YOU.</li>
+<li><strong>Don’t Make Excuses.</strong> You are not too old, too short or missing a degree.  Excuses tend to become self-fulfilling after a while, and mentally you can become your own worst enemy in the job-search process.</li>
+<li><strong>Create other successes.</strong> Our success tends to spiral up or down together.  Career success leads to financial success, more social and family success, etc.  The opposite is also true.  Don’t allow a job loss to turn you into a couch potato.  Stay sharp physically and mentally.  Keep developing your important relationships.</li>
+<li><strong>Stay in the game.</strong> Don’t disengage.  Show up at a construction site and offer to do clean up.  Contact 8 companies and offer to work by the hour in your area of specialty.  Don’t ask for a “job,” just wow them with your unique talents.</li>
+</ul>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=Ma7yag0Bl8U:UJRbBpHDgHQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ma7yag0Bl8U:UJRbBpHDgHQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ma7yag0Bl8U:UJRbBpHDgHQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=Ma7yag0Bl8U:UJRbBpHDgHQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Ma7yag0Bl8U:UJRbBpHDgHQ:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=Ma7yag0Bl8U:UJRbBpHDgHQ:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/Ma7yag0Bl8U" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/06/01/discouraged-%e2%80%93-yes-down-and-out-%e2%80%93-no/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/06/01/discouraged-%e2%80%93-yes-down-and-out-%e2%80%93-no/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=discouraged-%25e2%2580%2593-yes-down-and-out-%25e2%2580%2593-no</feedburner:origLink></item>
+		<item>
+		<title>Watch and Grow Stupid</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/zGB3bHoISCk/</link>
+
+		<comments>http://www.48days.com/2011/05/31/watch-and-grow-stupid/#comments</comments>
+		<pubDate>Tue, 31 May 2011 15:50:50 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[center for media research]]></category>
+		<category><![CDATA[habitat for humanity]]></category>
+
+		<category><![CDATA[tv watching]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7132</guid>
+		<description><![CDATA[A post by my friend and blogging coach <a href="http://www.microexplosion.com/home">Bill Seaver</a> alerted me to a new study on TV watching from <a href="http://www.mediapost.com/publications/?fa=Archives.showArchive&#38;art_type=8">The Center for Media Research</a>.
+The average American watched 34 hours 39 minutes of TV per week in the last quarter of 2010, a year-over-<a rel="attachment wp-att-7133" href="http://www.48days.com/2011/05/31/watch-and-grow-stupid/stupid-tv-31/"></a>year increase of two minutes. The heaviest users of traditional&#8230; <a href="http://www.48days.com/2011/05/31/watch-and-grow-stupid/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p>A post by my friend and blogging coach <a href="http://www.microexplosion.com/home">Bill Seaver</a> alerted me to a new study on TV watching from <a href="http://www.mediapost.com/publications/?fa=Archives.showArchive&amp;art_type=8">The Center for Media Research</a>.</p>
+<p>The average American watched 34 hours 39 minutes of TV per week in the last quarter of 2010, a year-over-<a rel="attachment wp-att-7133" href="http://www.48days.com/2011/05/31/watch-and-grow-stupid/stupid-tv-31/"><img class="alignright size-medium wp-image-7133" title="STUPID-TV-31" src="http://www.48days.com/wp-content/uploads/STUPID-TV-31-300x226.jpg" alt="" width="300" height="226" /></a>year increase of two minutes. The heaviest users of traditional TV are adults 65+ (47 hours 33 minutes per week), followed by adults 50-64 (43 hours per week). Trailing all other age groups, teens age 12-17 watch the least amount of TV (23 hours 41 minutes per week).</p>
+<p>Good grief &#8211; 34.5 hrs a week of TV!! That’s almost 5 hours a day.  No wonder it&#8217;s so easy to read more, write more, produce a new product a month and do more than the average American. And here I thought maybe I was smarter &#8212; but no, it appears I just have an extra 34 hours a week to do something productive. Silly me –</p>
+<p>So how hard to you think it is to set yourself apart from the “average” American?  Using even 15-20 hours of that normal TV watching time you could write a book, start a business, learn a new language, get another degree, build a house with <a href="http://www.habitat.org/default.aspx?tgs=NS8zMS8yMDExIDExOjQxOjU0IEFN">Habitat for Humanity</a>, take art classes, mentor a needy person, prepare for a marathon, do a stunning landscape of your property, or perfect that invention you’ve been thinking about.</p>
+<p>Last night Joanne and I sat down, exhausted after a holiday spent planting flowers and partying with friends.  I flipped on the TV right at the beginning of the new <a href="http://www.cbs.com/primetime/hawaii_five_0/">Hawaii-Five-O</a>.  We complained about having to endure all the commercials but actually watched the entire show. And then we immediately thought &#8211; Why did we do that?  A lady was murdered, her husband was the suspect but he was suffering from psychological problems.  The little girl lost her Mom and her Dad was likely going to prison or a mental hospital.  How is this good news?  How was this supposed to brighten our day or give us hope?  And then we expected to go to bed for a restful night&#8217;s sleep &#8211; with those images in our minds?  What a poor use of precious time!  And what negative, useless content to pour into our minds.</p>
+<p>Do you really think one more crime show, looking into one more dysfunctional family, hearing one more angry talk show host, seeing one more pretty face reading a teleprompter and calling it “news,” listening to one more politician, or just sitting on your butt for 34.5 hours is going to improve your life?</p>
+<p>The most common excuse I hear for not accomplishing new goals is “I don’t have enough time.”  What could you accomplish yet this year if you redirected 34 hours a week to one of your goals?</p>
+<p>*****************************************************</p>
+<p>For <a href="http://blog.nielsen.com/nielsenwire/wp-content/uploads/2011/04/State-of-the-Media-2011-TV-Upfronts.pdf">more information on these TV viewing trends</a>, and the complete PDF file, download the State of the Media report from Nielsen here.</p>
+<p><em><strong>&#8220;I find television to be very educating.  Every time somebody turns on the set, I go in the other room and read a book.&#8221;</strong></em> &#8211; Groucho Marx</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=zGB3bHoISCk:qOYqkfqb0WM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=zGB3bHoISCk:qOYqkfqb0WM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=zGB3bHoISCk:qOYqkfqb0WM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=zGB3bHoISCk:qOYqkfqb0WM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=zGB3bHoISCk:qOYqkfqb0WM:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=zGB3bHoISCk:qOYqkfqb0WM:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/zGB3bHoISCk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/31/watch-and-grow-stupid/feed/</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/31/watch-and-grow-stupid/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=watch-and-grow-stupid</feedburner:origLink></item>
+
+		<item>
+		<title>Do you have to see it to believe it?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/iThIVok8jWU/</link>
+		<comments>http://www.48days.com/2011/05/27/do-you-have-to-see-it-to-believe-it/#comments</comments>
+		<pubDate>Fri, 27 May 2011 08:00:21 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[believe]]></category>
+		<category><![CDATA[see it to believe it]]></category>
+		<category><![CDATA[st. augustine]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7075</guid>
+		<description><![CDATA[
+“Faith is believing in that in which you have not seen.  The reward of faith is seeing that in which you believed.”  &#8212; St .  Augustine
+Too many people tell me they have to see it to believe it.  Try believing first – you may be amazed at what you begin to “see.”
+
+&#160;
+]]></description>
+			<content:encoded><![CDATA[<div>
+<p>“Faith is believing in that in which you have not seen.  The reward of faith is seeing that in which you believed.”  &#8212; St .  Augustine</p>
+<p>Too many people tell me they have to see it to believe it.  Try believing first – you may be amazed at what you begin to “see.”</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=iThIVok8jWU:fiUR2rKGvb8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iThIVok8jWU:fiUR2rKGvb8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iThIVok8jWU:fiUR2rKGvb8:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=iThIVok8jWU:fiUR2rKGvb8:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=iThIVok8jWU:fiUR2rKGvb8:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=iThIVok8jWU:fiUR2rKGvb8:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/iThIVok8jWU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/27/do-you-have-to-see-it-to-believe-it/feed/</wfw:commentRss>
+
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/27/do-you-have-to-see-it-to-believe-it/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=do-you-have-to-see-it-to-believe-it</feedburner:origLink></item>
+		<item>
+		<title>No money? Start  your own business…..</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/yNshrgNwkFU/</link>
+		<comments>http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/#comments</comments>
+
+		<pubDate>Thu, 26 May 2011 08:00:30 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Business Start-Up]]></category>
+		<category><![CDATA[business]]></category>
+		<category><![CDATA[low cost business ideas]]></category>
+		<category><![CDATA[wood chips]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7065</guid>
+
+		<description><![CDATA[<strong>There is still a popular myth that starting your own business requires a chunk of money.</strong>
+<strong> </strong>
+<strong>A COUPLE OF YEARS AGO </strong>I noticed there were several tree companies working in our neighborhood. Their<a rel="attachment wp-att-7068" href="http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/wood-chip-pile-3/"></a> assignment was to cut the trees back wherever there was danger of them falling against power lines. Their work often left the&#8230; <a href="http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>There is still a popular myth that starting your own business requires a chunk of money.</strong></p>
+<p><strong> </strong></p>
+<p><strong>A COUPLE OF YEARS AGO </strong>I noticed there were several tree companies working in our neighborhood. Their<a rel="attachment wp-att-7068" href="http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/wood-chip-pile-3/"><img class="alignright size-medium wp-image-7068" title="Wood Chip Pile" src="http://www.48days.com/wp-content/uploads/Wood-Chip-Pile2-300x225.jpg" alt="" width="300" height="225" /></a> assignment was to cut the trees back wherever there was danger of them falling against power lines. Their work often left the trees looking misshapen and distorted, thus they were frowned upon and treated badly by most of the neighborhood residents, even though they were doing work that needed to be done. While they were on my property I concluded that I would get better results if I befriended the workers. In doing so I also discovered they had to drive about 15 miles out in the country to dump each truckload of freshly chipped wood. I asked if they would mind just dumping the chips from my property right there in a big pile. They laughed at the thought of not having to waste an hour driving to their normal dump site. What they thought was trash I recognized as a bonus for me.</p>
+<p>Over the course of about six months those tree companies brought me approximately 120 truckloads of chips. I have used them for nature trails, playground areas and in covering areas formerly full of rocks and thorns.</p>
+<p>Neighbors have asked me if they could buy chips from me and wondered how I was so “lucky.”</p>
+<p>If I were looking for another source of income I could sell this “free” product, install playgrounds or create nature trails as I have done on our property.</p>
+<div>
+<p>Cost of business – zero.</p>
+<p>***********************************************</p>
+<p>Here’s a related idea</p>
+<p><strong><a rel="attachment wp-att-7069" href="http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/tires-and-swings/"><img class="alignleft size-medium wp-image-7069" title="Tires and swings" src="http://www.48days.com/wp-content/uploads/Tires-and-swings-300x225.jpg" alt="" width="300" height="225" /></a>WHEN OUR THREE KIDS WERE SMALL </strong>I had two old tractor tires in the back yard that were their favorite playground items. I recently duplicated the same thing for our grandchildren in our yard here in Tennessee. The tires you see came from our local tire dealer – and were absolutely free. I buried them about one/third deep in the ground, making them unmovable. Then my granddaughter Clara <em>helped </em>me paint them with a standard outdoor paint.</p>
+</div>
+<p>All the grandkids love these tires. They are indestructible and offer a multitude of possibilities. The kids climb up on them, jump from one to another, hide in them and let their imaginations run wild. With a few wood chips around them (free – see #18 ) they become a central playground attraction.</p>
+<p>Could you promote and provide this remarkable attraction for homeowners in your town? Would they be willing to pay for it? Of course. Yes, digging the holes takes some work. But what if you had a package price of $500, $800 or $997? With an attractive flyer do you think you’d get some takers? Absolutely.</p>
+<div>
+<p>Start-up Costs: Obviously it would be helpful to have a pickup truck. Beyond that, a good shovel, pick and some good pictures of what you can do. Approximately $50</p>
+<p>**************************************************</p>
+</div>
+<p>These are two of 48 ideas from <a href="http://www.48days.net/">Dan’s 48 Low-Cost Business Ideas</a>.  You can see the entire document for free.  Just go to <a href="http://www.48days.net/">48Days.net</a> and scroll down the right hand side till you see the post-it-note.  Over 100,000 people have already downloaded the ideas and I&#8217;m hearing from lots of them who have ACTED.  Let me know your success story.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=yNshrgNwkFU:-nuEFqh8bkU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=yNshrgNwkFU:-nuEFqh8bkU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=yNshrgNwkFU:-nuEFqh8bkU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=yNshrgNwkFU:-nuEFqh8bkU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=yNshrgNwkFU:-nuEFqh8bkU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=yNshrgNwkFU:-nuEFqh8bkU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/yNshrgNwkFU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/26/no-money-start-your-own-business%e2%80%a6/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=no-money-start-your-own-business%25e2%2580%25a6</feedburner:origLink></item>
+		<item>
+
+		<title>Try following what “amuses your mind”</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/T4qEKFhpw88/</link>
+		<comments>http://www.48days.com/2011/05/25/try-following-what-%e2%80%9camuses-your-mind%e2%80%9d/#comments</comments>
+		<pubDate>Wed, 25 May 2011 08:00:54 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Finding Passion]]></category>
+
+		<category><![CDATA[jared angaza]]></category>
+		<category><![CDATA[karmann ghia]]></category>
+		<category><![CDATA[oprah]]></category>
+		<category><![CDATA[Plato]]></category>
+		<category><![CDATA[what amuses your mind]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7058</guid>
+		<description><![CDATA[“Do not then train youth to learn by force and harshness; but direct them to it by what amuses their minds so that you may be better able to discover with accuracy the peculiar bent of the genius of each.&#8221;  &#8212; Plato
+My son <a href="http://jaredangaza.com/">Jared</a> failed miserably in the public school classroom.  We removed him from that “harsh” environment<a&#8230; <a href="http://www.48days.com/2011/05/25/try-following-what-%e2%80%9camuses-your-mind%e2%80%9d/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>“Do not then train youth to learn by force and harshness; but direct them to it by what amuses their minds so that you may be better able to discover with accuracy the peculiar bent of the genius of each.&#8221;  &#8212; Plato</p>
+<p>My son <a href="http://jaredangaza.com/">Jared</a> failed miserably in the public school classroom.  We removed him from that “harsh” environment<a rel="attachment wp-att-7059" href="http://www.48days.com/2011/05/25/try-following-what-%e2%80%9camuses-your-mind%e2%80%9d/karmann-ghia/"><img class="alignright size-medium wp-image-7059" title="karmann-ghia" src="http://www.48days.com/wp-content/uploads/karmann-ghia-300x200.jpg" alt="" width="300" height="200" /></a> where they demanded that he know physics and mathematics from a book – to be well rounded and “educated.”  When he was fourteen I bought a <a href="http://en.wikipedia.org/wiki/Volkswagen_Karmann_Ghia">1968 VW Karmann Ghia</a> for Jared’s first car.  Together we sanded the body and ultimately painted it ourselves – Porsche Guards Red.  We replaced the interior carpeting, all the rubber around the glass and most of the exterior chrome.  We pulled the engine and supertuned it from top to bottom.  Jared learned about electrical systems, internal combustion, brake systems – and oh yes, physics and mathematics in the process.  The resulting eye-popping ride was a source of pride and knowledge for Jared because it was also a focus for his pleasure.  And it gave him <a href="http://jaredangaza.com/">the framework for helping others</a> find unique expressions of their God-given talents.</p>
+<p>Bill Gates, Michael Dell, Oprah Winfrey, Michelangelo, Henry David Thoreau, Angelina Jolie, Donald Trump, Justin Bieber, and Mr. Rogers all seemed to have developed what amused their minds.</p>
+<p>Are you trying to grow by submitting yourself to “force and harshness” or are you paying attention to “what amuses your mind?”  Have you bought into the common philosophy that if you enjoy something you certainly can’t make a living with that as a focus?  Why don’t you stop beating yourself up and just follow your passions?   You just might go directly toward success.</p>
+<p>In <strong><em><a href="http://www.48days.com/store/learn-and-grow-rich/">Learn &amp; Grow Rich</a></em></strong> I’ve identified the books, seminars, blogs and other resources that can make your learning change who you are and put money in your bank account – beginning immediately.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=T4qEKFhpw88:s-xuITWtNA0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=T4qEKFhpw88:s-xuITWtNA0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=T4qEKFhpw88:s-xuITWtNA0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=T4qEKFhpw88:s-xuITWtNA0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=T4qEKFhpw88:s-xuITWtNA0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=T4qEKFhpw88:s-xuITWtNA0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/T4qEKFhpw88" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/05/25/try-following-what-%e2%80%9camuses-your-mind%e2%80%9d/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/25/try-following-what-%e2%80%9camuses-your-mind%e2%80%9d/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=try-following-what-%25e2%2580%259camuses-your-mind%25e2%2580%259d</feedburner:origLink></item>
+		<item>
+		<title>What’s new with you – no, really</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/9wLs8TKow6s/</link>
+
+		<comments>http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/#comments</comments>
+		<pubDate>Tue, 24 May 2011 08:00:16 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[franklin]]></category>
+
+		<category><![CDATA[grant achatz]]></category>
+		<category><![CDATA[next]]></category>
+		<category><![CDATA[nissan]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7051</guid>
+		<description><![CDATA[Here in Franklin, TN we have an abundance of restaurants.  The Tennessean says there are 150 lunch restaurants within a one mile radius of the new <a href="http://www.nissanusa.com/about/corporate-info/nissan-in-north-america.html">North American Nissan corporate headquarters</a> here.
+So how do you stand out in a sea of sameness – where there are many places to get sushi, a salad or burrito? <a rel="attachment wp-att-7052" href="http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/leisure-suit/"></a>&#8230; <a href="http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Here in Franklin, TN we have an abundance of restaurants.  The Tennessean says there are 150 lunch restaurants within a one mile radius of the new <a href="http://www.nissanusa.com/about/corporate-info/nissan-in-north-america.html">North American Nissan corporate headquarters</a> here.</p>
+<p>So how do you stand out in a sea of sameness – where there are many places to get sushi, a salad or burrito? <a rel="attachment wp-att-7052" href="http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/leisure-suit/"><img class="alignright size-medium wp-image-7052" title="leisure suit" src="http://www.48days.com/wp-content/uploads/leisure-suit-300x276.jpg" alt="" width="300" height="276" /></a> Joanne and I frequent lots of these places and quickly decide if we like that particular ambience and menu.  How can they draw us back if we don’t like Thai food?</p>
+<p>On April 1<sup>st</sup>, famous chef <a href="http://en.wikipedia.org/wiki/Grant_Achatz">Grant Achatz</a> opened his new restaurant, <a href="https://www.nextrestaurant.com/website/faq">Next</a>, in Chicago.  Every three months, the restaurant is going to abandon its entire menu and start over.  Currently on the menu is Potage à la Tortue Claire – yep that’s a clear turtle soup with fennel, leek, parsley, and carrots.  If that’s not your fancy, you may look forward to the mignardises.</p>
+<p>The point is – what are you doing to freshen up what you offer.   Whether that’s a twist on the products you’re known for or an added area of expertise on your resume, chances are a stagnant “menu” of what you offer will diminish in appeal.</p>
+<p>Maybe it&#8217;s time to trade in that <a href="http://en.wikipedia.org/wiki/Leisure_suit">leisure suit</a> you wore to the prom.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=9wLs8TKow6s:vVuJl4UPPyw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=9wLs8TKow6s:vVuJl4UPPyw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=9wLs8TKow6s:vVuJl4UPPyw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=9wLs8TKow6s:vVuJl4UPPyw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=9wLs8TKow6s:vVuJl4UPPyw:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=9wLs8TKow6s:vVuJl4UPPyw:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/9wLs8TKow6s" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/feed/</wfw:commentRss>
+
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/24/what%e2%80%99s-new-with-you-%e2%80%93-no-really/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=what%25e2%2580%2599s-new-with-you-%25e2%2580%2593-no-really</feedburner:origLink></item>
+		<item>
+		<title>People Think I’m Crazy</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/C6N6hZ7byvI/</link>
+		<comments>http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/#comments</comments>
+
+		<pubDate>Mon, 23 May 2011 17:51:18 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[artist]]></category>
+		<category><![CDATA[chris gardner]]></category>
+		<category><![CDATA[indecision]]></category>
+		<category><![CDATA[insecurities]]></category>
+
+		<category><![CDATA[pursuit of happiness]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=7042</guid>
+		<description><![CDATA[Here&#8217;s a reader question that frames the feeling many of you have when moving against the crowd:
+Dan, I work at Miami State as a Network Administrator, but we are trying to finish building our recording studio<a rel="attachment wp-att-7043" href="http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/starving_artist/"></a> in our basement and move back into the entertainment industry full time, as that is our calling.  Sometimes I feel&#8230; <a href="http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Here&#8217;s a reader question that frames the feeling many of you have when moving against the crowd:</p>
+<p>Dan, I work at Miami State as a Network Administrator, but we are trying to finish building our recording studio<a rel="attachment wp-att-7043" href="http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/starving_artist/"><img class="alignright size-medium wp-image-7043" title="Starving_Artist" src="http://www.48days.com/wp-content/uploads/Starving_Artist-300x226.png" alt="" width="300" height="226" /></a> in our basement and move back into the entertainment industry full time, as that is our calling.  Sometimes I feel like I&#8217;m marching around a wall trying to bring it down, or I&#8217;m a choir sent out to the battlefield, or perhaps a small boy with a sling and some stones sent to battle a giant, and everyone, even strong fellow believers, are telling me I&#8217;m crazy, despite the fact that I tell them it&#8217;s what I KNOW Yahweh wants for me.  They tell me things like, &#8220;well you can do that, but of course you&#8217;ll have to sacrifice decent money and security&#8230;&#8221;  Now I know that doing what I love and what is my calling is the way to true security, as well as a decent income.  Thank you so much for your affirmation and letting me know that I&#8217;m not crazy, and that sometimes the apparent safe and &#8220;logical&#8221; path is not necessarily the road to follow, which is evident over and over from so many different scriptures.     Phil</p>
+<p>***********************************************************</p>
+<p>Phil, in the movie, <a href="http://en.wikipedia.org/wiki/The_Pursuit_of_Happyness">The Pursuit of Happiness</a>, there is a real-life line from the movie’s character inspiration, <a href="http://en.wikipedia.org/wiki/Chris_Gardner">Chris Gardner</a>.  His mother used to tell him, “Don’t ever let someone else tell you what you can’t do. Not even me.”  Chris explains, “When someone says, ‘You can’t,’ what it really means is <strong><em>they</em></strong> can’t – so why should you get to?”</p>
+<p>Everyone knows about starving artists and writers.  And yeah, you know what to do when a musician knocks on your door – pay him and take the pizza.</p>
+<p>Okay, so you know your calling and have your dream to bring it to life.  But people say you’re crazy.  Do you have a clear plan for making the work you&#8217;ll be doing profitable?  Have you created a transition from what you&#8217;re doing now so you don&#8217;t end up living on the street?  As long as you have a plan for how you’ll move forward, don’t allow jealous onlookers to push their insecurities and indecision in to the life you want to live.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=C6N6hZ7byvI:CvLR4_c4heg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=C6N6hZ7byvI:CvLR4_c4heg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=C6N6hZ7byvI:CvLR4_c4heg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=C6N6hZ7byvI:CvLR4_c4heg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=C6N6hZ7byvI:CvLR4_c4heg:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=C6N6hZ7byvI:CvLR4_c4heg:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/C6N6hZ7byvI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/23/people-think-i%e2%80%99m-crazy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=people-think-i%25e2%2580%2599m-crazy</feedburner:origLink></item>
+
+		<item>
+		<title>Yes, it’s true…</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/Bk4wglCjD0s/</link>
+		<comments>http://www.48days.com/2011/05/20/yes-it%e2%80%99s-true%e2%80%a6/#comments</comments>
+		<pubDate>Fri, 20 May 2011 08:00:54 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Workplace Humor]]></category>
+		<category><![CDATA[bonus]]></category>
+		<category><![CDATA[new job]]></category>
+		<category><![CDATA[pay raise]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6975</guid>
+		<description><![CDATA[&#8220;I have to have a raise,&#8221; Eric said to his boss. &#8220;And I probably should let you know, there are three other companies after me.&#8221;
+&#8220;Is that so?&#8221; asked the manager. &#8220;And just who are those other companies that are after you?&#8221;
+&#8220;The electric company, the telephone company, and the gas company.&#8221;
+&#160;
+]]></description>
+			<content:encoded><![CDATA[<p>&#8220;I have to have a raise,&#8221; Eric said to his boss. &#8220;And I probably should let you know, there are three other companies after me.&#8221;</p>
+<p>&#8220;Is that so?&#8221; asked the manager. &#8220;And just who are those other companies that are after you?&#8221;</p>
+<p>&#8220;The electric company, the telephone company, and the gas company.&#8221;</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=Bk4wglCjD0s:UhUFcfwkiFU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Bk4wglCjD0s:UhUFcfwkiFU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Bk4wglCjD0s:UhUFcfwkiFU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=Bk4wglCjD0s:UhUFcfwkiFU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=Bk4wglCjD0s:UhUFcfwkiFU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=Bk4wglCjD0s:UhUFcfwkiFU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/Bk4wglCjD0s" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/20/yes-it%e2%80%99s-true%e2%80%a6/feed/</wfw:commentRss>
+
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/20/yes-it%e2%80%99s-true%e2%80%a6/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=yes-it%25e2%2580%2599s-true%25e2%2580%25a6</feedburner:origLink></item>
+		<item>
+		<title>I’m so sorry for this…..</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/L3WFI_fRtZI/</link>
+		<comments>http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/#comments</comments>
+
+		<pubDate>Thu, 19 May 2011 08:00:31 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[confidence]]></category>
+		<category><![CDATA[false humility]]></category>
+		<category><![CDATA[humility]]></category>
+		<category><![CDATA[toastmasters]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6967</guid>
+		<description><![CDATA[I visited an artists’ conference recently.  The room was filled with well-known and talented musicians and for the<a rel="attachment wp-att-6969" href="http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/sorry-2/"></a><a rel="attachment wp-att-6968" href="http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/sorry/">
+</a> concluding evening session, a variety of those were invited up to play or sing.  However, the talent was somewhat obscured as each artist, without exception, apologized in advance for what they were about to offer.
+
+I haven’t played&#8230; <a href="http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>I visited an artists’ conference recently.  The room was filled with well-known and talented musicians and for the<a rel="attachment wp-att-6969" href="http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/sorry-2/"><img class="alignright size-medium wp-image-6969" title="Sorry" src="http://www.48days.com/wp-content/uploads/Sorry1-300x296.jpg" alt="" width="300" height="296" /></a><a rel="attachment wp-att-6968" href="http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/sorry/"><br />
+</a> concluding evening session, a variety of those were invited up to play or sing.  However, the talent was somewhat obscured as each artist, without exception, apologized in advance for what they were about to offer.</p>
+<ul>
+<li>I haven’t played the piano for several years now.</li>
+<li>I’ve been struggling with my voice not being strong.</li>
+<li>I wrote this song but a better songwriter could probably do something more.</li>
+<li>We’re having trouble getting the microphones set up for both our voices.</li>
+<li>I didn’t really have time to practice for this.</li>
+<li>I’m sorry, I sing mostly for kids.</li>
+</ul>
+<p>I fully expected the next person to apologize for the “C” she got in high school history and for the Coke spill on the seat of her car.  It seemed the performance was to see who could outdo the previous presenter in apologies.</p>
+<p>Why do we start any personal presentation with an apology for what we are going to deliver?  I know it seems like humility but it serves no one.  If you really don’t believe your presentation is worth hearing then please just ask to not perform.  And false humility is a dangerous practice in which the person degrades himself in the hope that others will compliment and build him up.  There is little to be gained by apologizing and it instantly damages your credibility with the audience.  If you apologize for not being an expert, for example, your audience will question why they are listening to you.  If you apologize for not being prepared or not being your best physically, those listening have been alerted they will not be getting your best.</p>
+<p>Here are <a href="http://www.toastmasters.org/tips.asp">10 tips from Toastmasters International</a> that can be applied to singing, speaking, showing your art, or teaching a Sunday School class:</p>
+<ol>
+<li><strong>Know your material. </strong></li>
+<li><strong>Practice. Practice. Practice! </strong></li>
+<li><strong>Know the audience. </strong></li>
+<li><strong>Know the room. </strong></li>
+<li><strong>Relax. </strong></li>
+<li><strong> Visualize yourself giving your speech. </strong></li>
+<li><strong>Realize that people want you to succeed. </strong></li>
+<li><strong>Don’t apologize for any nervousness or problem – the audience probably never noticed it.</strong></li>
+<li><strong>Concentrate on the message – not the medium. </strong></li>
+<li><strong>Gain experience.</strong></li>
+</ol>
+<p>I apologize for not having 11 tips.  I was going to come up with one more but I didn’t sleep well last night, this is allergy season, the rain slowed me down on my walk to my office, plus I was never good at math.  I really am sorry – please forgive me.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=L3WFI_fRtZI:kQA7Oz8rtZ0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=L3WFI_fRtZI:kQA7Oz8rtZ0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=L3WFI_fRtZI:kQA7Oz8rtZ0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=L3WFI_fRtZI:kQA7Oz8rtZ0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=L3WFI_fRtZI:kQA7Oz8rtZ0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=L3WFI_fRtZI:kQA7Oz8rtZ0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/L3WFI_fRtZI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/19/i%e2%80%99m-so-sorry-for-this%e2%80%a6/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=i%25e2%2580%2599m-so-sorry-for-this%25e2%2580%25a6</feedburner:origLink></item>
+
+		<item>
+		<title>Dan, I’m super depressed….</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/lpMe8XmTb3k/</link>
+		<comments>http://www.48days.com/2011/05/18/dan-i%e2%80%99m-super-depressed%e2%80%a6/#comments</comments>
+		<pubDate>Wed, 18 May 2011 08:00:03 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Job Search]]></category>
+		<category><![CDATA[Just a Job]]></category>
+		<category><![CDATA[discouragement]]></category>
+		<category><![CDATA[excuses]]></category>
+		<category><![CDATA[job search]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6951</guid>
+		<description><![CDATA[&#8220;Dan, I’ve been struggling with feeling super depressed. I have been doing everything you teach in your book and I am diligently putting my name out there. However I am truly losing hope at times. This job search attacks my self esteem in huge ways and I simply feel God won’t bless me or help me.  I am pleading for your daily&#8230; <a href="http://www.48days.com/2011/05/18/dan-i%e2%80%99m-super-depressed%e2%80%a6/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>&#8220;Dan, I’ve been struggling with feeling super depressed. I have been doing everything you teach in your book and I am diligently putting my name out there. However I am truly losing hope at times. This job search attacks my self esteem in huge ways and I simply feel God won’t bless me or help me.  I am pleading for your daily prayers. 1/ Pray I do not lose hope, 2/ I sense God and 3/ that He brings me to the RIGHT place of employment.&#8221;  Discouraged<br />
+*********************************************************</p>
+<p>I know not getting the results you want can be discouraging.  But don’t let your work be the only source of your<a rel="attachment wp-att-6952" href="http://www.48days.com/2011/05/18/dan-i%e2%80%99m-super-depressed%e2%80%a6/discouragement-6/"><img class="alignright size-medium wp-image-6952" title="Discouragement" src="http://www.48days.com/wp-content/uploads/Discouragement6-201x300.jpg" alt="" width="201" height="300" /></a> self-esteem.  Make sure you’re making deposits of success in physical, personal development, spiritual and relationship areas as well.  And being strong in those areas will make you a more attractive job candidate.  We all tend to be pretty transparent in how we are feeling about ourselves so you don’t want to let low self-esteem sabotage your presentations for work.  Also don’t overlook creative ways to put legs on your skills.  A 40-hr job may be just one of many possibilities – and some of those may not require that someone “offer you a job.”</p>
+<p>Here are some additional tips for moving forward:</p>
+<ul>
+<li><strong>Release Your Anger.</strong> It’s OK to be angry at the unfairness of the boss, the company or the world.  But don’t stay there.  While you may have been treated unfairly, sharing that will only make potential new employers uneasy and prevent them from wanting you on their team.</li>
+<li><strong>Evaluate Your Life.</strong> Take advantage of these transitions to take a fresh look at your life.  What is unique about you?  How important is time flexibility?  What income do you want?  See this as a time to move up and forward; not down.</li>
+<li><strong>Network Constantly.</strong> Start each day with an action plan.  Get out there and meet people.  Talk to anyone you can who might offer suggestions on how to improve your job search.  Don’t be embarrassed to let people know you are looking for work.  You are selling a product, and that product is YOU.</li>
+<li><strong>Don’t Make Excuses.</strong> You are not too old, too short or missing a degree.  Excuses tend to become self-fulfilling after a while, and mentally you can become your own worst enemy in the job-search process.</li>
+<li><strong>Stay Balanced.</strong> Our success tends to spiral up or down together.  Career success leads to financial success, more social and family success, etc.  The opposite is also true.  Don’t allow a job loss to turn you into a couch potato.  Stay sharp physically and mentally.  Keep developing your important relationships.</li>
+</ul>
+<p>And yes, we’ll pray with you that your best God-given talents will shine through.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=lpMe8XmTb3k:Y7KMVVgSuuk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=lpMe8XmTb3k:Y7KMVVgSuuk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=lpMe8XmTb3k:Y7KMVVgSuuk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=lpMe8XmTb3k:Y7KMVVgSuuk:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=lpMe8XmTb3k:Y7KMVVgSuuk:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=lpMe8XmTb3k:Y7KMVVgSuuk:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/lpMe8XmTb3k" height="1" width="1"/>]]></content:encoded>
+
+			<wfw:commentRss>http://www.48days.com/2011/05/18/dan-i%e2%80%99m-super-depressed%e2%80%a6/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/18/dan-i%e2%80%99m-super-depressed%e2%80%a6/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=dan-i%25e2%2580%2599m-super-depressed%25e2%2580%25a6</feedburner:origLink></item>
+		<item>
+		<title>Can you tell me the “right” answer?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/HuJI41iNPLo/</link>
+
+		<comments>http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/#comments</comments>
+		<pubDate>Tue, 17 May 2011 08:00:40 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Interviewing]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[christopher columbus]]></category>
+		<category><![CDATA[glassdoor]]></category>
+
+		<category><![CDATA[ibm ericson]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6959</guid>
+		<description><![CDATA[In a workshop break on Saturday a lady approached me with a quandary.  She’s interviewing as a teacher for a<a rel="attachment wp-att-6961" href="http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/columbus-2/"></a><a rel="attachment wp-att-6960" href="http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/columbus/">
+</a> prestigious school and has a written application to complete.  One of the questions was “When did Columbus discover America?”  Like you, she’s heard the little ditty – “In 1492 Columbus sailed the ocean blue” but&#8230; <a href="http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p>In a workshop break on Saturday a lady approached me with a quandary.  She’s interviewing as a teacher for a<a rel="attachment wp-att-6961" href="http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/columbus-2/"><img class="alignright size-thumbnail wp-image-6961" title="Columbus" src="http://www.48days.com/wp-content/uploads/Columbus1-150x75.jpg" alt="" width="150" height="75" /></a><a rel="attachment wp-att-6960" href="http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/columbus/"><br />
+</a> prestigious school and has a written application to complete.  One of the questions was “When did Columbus discover America?”  Like you, she’s heard the little ditty – “In 1492 Columbus sailed the ocean blue” but her fear was that this was a trick question.  What about the <a href="http://en.wikipedia.org/wiki/Native_Americans_in_the_United_States">Native Americans</a>? What about <a href="http://en.wikipedia.org/wiki/Leif_Ericson">Leif Ericson</a>? Or what about <a href="http://en.wikipedia.org/wiki/Amerigo_Vespucci">Americus Vespucius</a>?</p>
+<p>I suggested that the school was probably more interested in her thought process than in providing a “correct” answer.</p>
+<p>This conversation reminded me of the turn toward “behavioral interviewing” that we are seeing in this knowledge based workplace.  No longer is it enough to have a degree or to be able to calculate 2+2=4.</p>
+<p>According to researchers at <a href="http://www.glassdoor.com/index.htm">Glassdoor.com</a> here are some actual questions posed by interviewers in the last 15 months.  How would you respond?</p>
+<ol>
+<li>&#8220;Given the numbers 1 to 1,000, what is the minimum number of guesses needed to find a specific number, if you are given the hint &#8216;higher&#8217; or &#8216;lower&#8217; for each guess you make?&#8221; &#8212; <a href="http://www.facebook.com/">Facebook</a></li>
+<li>&#8220;Using a scale of 1 to 10, rate yourself on how weird you are.&#8221; &#8212; <a href="https://www.capitalone.com/">Capital One</a></li>
+<li>&#8220;How many balloons would fit in this room?&#8221; &#8212; <a href="http://www.pwc.com/us/en/index.jhtml">PricewaterhouseCoopers</a></li>
+<li>&#8220;If you were shrunk to the size of a pencil and put in a blender, how would you get out?&#8221; &#8212; <a href="http://www2.goldmansachs.com/?cid=PS_01_05_06_99_01_03">Goldman Sachs </a></li>
+<li>&#8220;You have a bouquet of flowers. All but two are roses, all but two are daisies, and all but two are tulips. How many flowers do you have?&#8221; &#8212; <a href="http://www.epic.com/">Epic Systems</a></li>
+<li>&#8220;What is the philosophy of martial arts?&#8221; &#8212; <a href="http://www.aflac.com/individuals/default.aspx?WT.mc_id=Branded+2011_B2B_SEM_Brand+Aflac+Only+Exact_Google_Brand+Aflac+Only_aflac&amp;WT.srch1">Aflac</a></li>
+<li>&#8220;Explain to me what has happened in this country during the last 10 years.&#8221; &#8212; <a href="http://www.bcg.com/">Boston Consulting</a></li>
+<li>&#8220;If you could be any superhero, which one would you be?&#8221; &#8212; <a href="http://www.att.com/">AT&amp;T</a></li>
+<li>&#8220;How do you weigh an elephant without using a scale?&#8221; &#8212; <a href="http://www.ibm.com/us/en/sandbox/ver1/">IBM</a></li>
+<li>&#8220;You have five bottles of pills. One bottle has 9 gram pills, the others have 10 gram pills. You have a scale that can be used only once. How can you find out which bottle contains the 9 gram pills?&#8221; &#8211;<a href="http://www.ebay.com/?ssPageName=ADME:B:TB1:US:1">eBay</a></li>
+<li>&#8220;How would you market ping pong balls if ping pong itself became obsolete? List many ways, then pick one and go into detail.&#8221; &#8212; <a href="http://www.microsoft.com/en-us/default.aspx">Microsoft</a></li>
+<li>&#8220;You are in charge of 20 people. Organize them to figure out how many bicycles were sold in your area last year.&#8221; &#8212; <a href="http://www.slb.com/">Schlumberger</a></li>
+<li>&#8220;Why do you think only a small percentage of the population makes over $125,000 a year?&#8221; &#8212; <a href="https://www.newyorklife.com/lifeinsurance_gppc?cmp=KNC-FormPages&amp;gclid=CKbXo8Oh7agCFQpm7Aod9keqHw">New York Life</a></li>
+<li>&#8220;You have three boxes. One contains only apples, one contains only oranges, and one contains both apples and oranges. The boxes have been incorrectly labeled so that no label accurately identifies the contents of any of the boxes. Opening just one box, and without looking inside, you take out one piece of fruit. By looking at the fruit, how can you immediately label all of the boxes correctly?&#8221; &#8212; <a href="http://www.apple.com/">Apple</a></li>
+<li>&#8220;How many ball bearings, each one inch in diameter, can fit inside a 747 aircraft?&#8221; &#8212; <a href="http://www.saic.com/">SAIC</a></li>
+</ol>
+</div>
+<div>
+<p>Are you ready to interview in today’s workplace where we have 5 candidates for every job opening?  Will you stand out because of your remarkable thinking skills?</p>
+<p>Incidentally, if you breeze through these questions without breaking a sweat you probably don’t need a “job.”</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=HuJI41iNPLo:QN2vE9WEN_c:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HuJI41iNPLo:QN2vE9WEN_c:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HuJI41iNPLo:QN2vE9WEN_c:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=HuJI41iNPLo:QN2vE9WEN_c:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=HuJI41iNPLo:QN2vE9WEN_c:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=HuJI41iNPLo:QN2vE9WEN_c:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/HuJI41iNPLo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/17/can-you-tell-me-the-right-answer/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=can-you-tell-me-the-right-answer</feedburner:origLink></item>
+
+		<item>
+		<title>Are you more than what you have become?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/TZHUrmAfC94/</link>
+		<comments>http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/#comments</comments>
+		<pubDate>Mon, 16 May 2011 15:13:53 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[Personal Development]]></category>
+		<category><![CDATA[being vs doing]]></category>
+		<category><![CDATA[destiny]]></category>
+		<category><![CDATA[lion king]]></category>
+		<category><![CDATA[mufasa]]></category>
+		<category><![CDATA[simba]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6944</guid>
+
+		<description><![CDATA[Remember the scene in <a href="http://en.wikipedia.org/wiki/The_Lion_King">The Lion King</a> where Simba is being challenged to go back home and be the king he was<a rel="attachment wp-att-6945" href="http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/job-i-am-not-my-job/"></a> born to be?  Simba ran from his destiny – the struggle in confronting his mean uncle was just too difficult.  But now he looks in the water and sees the subtle reflection of&#8230; <a href="http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<div>
+<p>Remember the scene in <a href="http://en.wikipedia.org/wiki/The_Lion_King">The Lion King</a> where Simba is being challenged to go back home and be the king he was<a rel="attachment wp-att-6945" href="http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/job-i-am-not-my-job/"><img class="alignright size-medium wp-image-6945" title="Job - I am not my job" src="http://www.48days.com/wp-content/uploads/Job-I-am-not-my-job-240x300.png" alt="" width="240" height="300" /></a> born to be?  Simba ran from his destiny – the struggle in confronting his mean uncle was just too difficult.  But now he looks in the water and sees the subtle reflection of his father, Mufasa, who says, <em><strong>“You have forgotten who you are….   Look inside yourself, Simba.  You are more than what you have become…Remember who you are.”</strong></em></p>
+<p>Be clear about what is being said here.  Mufasa didn’t tell Simba he should have gotten another degree, should be living in a bigger house or should be making more money.  He simply said, <em>“You are more than what you have become.” </em> <strong>Becoming</strong> more is much different than having or <strong>doing</strong> more.</p>
+<p>It’s easier to quantity <strong>doing</strong> than <strong>being</strong>.</p>
+<p>We can quantify what we do.  How many sales we made, how many miles we drove, how many chairs were built or how many pages were written.  It’s also easy to see things that need to be done – dishes need to be washed, beds that need to be made or podcasts that need to be recorded.  Being is harder to quantify and measure – being a great Mom, being a spiritual leader, being a compassionate friend, an understanding boss, or a caring, loving neighbor.</p>
+<p>Becoming more may require doing less.</p>
+<p>Are you destined to be more than you have become?</p>
+</div>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=TZHUrmAfC94:ODs8HacaMyU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=TZHUrmAfC94:ODs8HacaMyU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=TZHUrmAfC94:ODs8HacaMyU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=TZHUrmAfC94:ODs8HacaMyU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=TZHUrmAfC94:ODs8HacaMyU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=TZHUrmAfC94:ODs8HacaMyU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/TZHUrmAfC94" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/16/are-you-more-than-what-you-have-become/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=are-you-more-than-what-you-have-become</feedburner:origLink></item>
+		<item>
+
+		<title>Blame Someone Else Day – Friday the 13th</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/O-O3eNy7fkM/</link>
+		<comments>http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/#comments</comments>
+		<pubDate>Fri, 13 May 2011 08:00:11 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[No More Mondays]]></category>
+
+		<category><![CDATA[13th]]></category>
+		<category><![CDATA[blame]]></category>
+		<category><![CDATA[friday]]></category>
+		<category><![CDATA[superstition]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6846</guid>
+		<description><![CDATA[Yep, it’s official.   Today is <a href="http://www.holidayinsights.com/other/blamesomeoneday.htm">Blame Someone Else Day</a> – the first Friday the 13th of each year.  And since there is<a rel="attachment wp-att-6847" href="http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/friday-the-13th/"></a> only one Friday the 13th this entire year, today’s your only chance to blame others all day long.  So have at it.  You don’t have to take responsibility for anything that goes wrong.  And&#8230; <a href="http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>Yep, it’s official.   Today is <a href="http://www.holidayinsights.com/other/blamesomeoneday.htm">Blame Someone Else Day</a> – the first Friday the 13<sup>th</sup> of each year.  And since there is<a rel="attachment wp-att-6847" href="http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/friday-the-13th/"><img class="alignright size-medium wp-image-6847" title="Friday the 13th" src="http://www.48days.com/wp-content/uploads/Friday-the-13th-300x229.jpg" alt="" width="300" height="229" /></a> only one Friday the 13<sup>th</sup> this entire year, today’s your only chance to blame others all day long.  So have at it.  You don’t have to take responsibility for anything that goes wrong.  And you can blame someone else for all the problems, mistakes and unfairness in your life.</p>
+<p>However if you are a Paraskevidekatriaphobic, you may not even want to get out of bed today.  Yes, this is the official term to describe those people afflicted with a morbid, irrational fear of Friday the 13<sup>th. </sup> Whatever you do, don&#8217;t walk under a ladder, and don&#8217;t let a black cat cross your path on this day.</p>
+<p>According to the <a href="http://news.nationalgeographic.com/news/2004/02/0212_040212_friday13.html">Stress Management Center and Phobia Institute</a> in Asheville, North Carolina, an estimated 17 to 21 million people in the United States are affected by a fear of this day. Some people are so paralyzed by fear that they avoid their normal routines in doing business, taking flights or even getting out of bed.  According to <a href="http://en.wikipedia.org/wiki/Friday_the_13th">Wikipedia</a> &#8220;It&#8217;s been estimated that $800-$900 million is lost in business on this day.&#8221;</p>
+<p>Oh, and I hope you have a wonderful Saturday, May 14<sup>th</sup>.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=O-O3eNy7fkM:SPq4KnhrcG4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=O-O3eNy7fkM:SPq4KnhrcG4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=O-O3eNy7fkM:SPq4KnhrcG4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=O-O3eNy7fkM:SPq4KnhrcG4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=O-O3eNy7fkM:SPq4KnhrcG4:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=O-O3eNy7fkM:SPq4KnhrcG4:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/O-O3eNy7fkM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/feed/</wfw:commentRss>
+
+		<slash:comments>14</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/13/blame-someone-else-day-%e2%80%93-friday-the-13th/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=blame-someone-else-day-%25e2%2580%2593-friday-the-13th</feedburner:origLink></item>
+		<item>
+		<title>Would you do this for $50 an hour?</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/_U7BEES_3rY/</link>
+		<comments>http://www.48days.com/2011/05/12/would-you-accept-50-an-hour-for-this/#comments</comments>
+
+		<pubDate>Thu, 12 May 2011 20:20:36 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+				<category><![CDATA[Business Start-Up]]></category>
+		<category><![CDATA[Finding Passion]]></category>
+		<category><![CDATA[No More Mondays]]></category>
+		<category><![CDATA[eker]]></category>
+		<category><![CDATA[millionaire mind]]></category>
+		<category><![CDATA[poor people]]></category>
+
+		<category><![CDATA[rich people]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6929</guid>
+		<description><![CDATA[This morning I was scanning my tabs in T. Harv Eker’s book <a href="http://www.amazon.com/Secrets-Millionaire-Mind-Mastering-Wealth/dp/0060763280/ref=sr_1_1?s=books&#38;ie=UTF8&#38;qid=1305227188&#38;sr=1-1">Secrets of the Millionaire Mind</a>.  I read this book back in 2005 but like most books that I keep, I go back and review the highlights frequently.
+One thing jumped out at me where the author says:  <em><strong>“There’s nothing wrong with getting a steady paycheck, unless it</strong></em>&#8230; <a href="http://www.48days.com/2011/05/12/would-you-accept-50-an-hour-for-this/" class="read_more">More...</a>]]></description>
+			<content:encoded><![CDATA[<p>This morning I was scanning my tabs in T. Harv Eker’s book <a href="http://www.amazon.com/Secrets-Millionaire-Mind-Mastering-Wealth/dp/0060763280/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1305227188&amp;sr=1-1">Secrets of the Millionaire Mind</a>.  I read this book back in 2005 but like most books that I keep, I go back and review the highlights frequently.</p>
+<p>One thing jumped out at me where the author says:  <em><strong>“There’s nothing wrong with getting a steady paycheck, unless it interferes with your ability to earn what you’re worth.  There’s the rub.  It usually does.”</strong></em></p>
+<p>Eker goes on to say that poor people prefer to be paid a steady salary or hourly wage.  They need the security of<a rel="attachment wp-att-6930" href="http://www.48days.com/2011/05/12/would-you-accept-50-an-hour-for-this/poor-person/"><img class="alignright size-full wp-image-6930" title="poor-person" src="http://www.48days.com/wp-content/uploads/poor-person.gif" alt="" width="105" height="135" /></a> knowing that exactly the same amount of money is coming in at exactly the same time each week.  What they don’t realize is that this security comes with a price, and that price is this:  if you choose to get paid for your time, you are pretty much killing your chances for wealth.</p>
+<p>Poor people trade their time for money.  Rich people prefer to get paid on the results they produce.   They work on commission or get a percentage of revenues.  Many choose to own their own business in some form.</p>
+<p>As soon as you agree to be paid on results rather than time, you remove the ceiling to your income.</p>
+<p>******************************************************</p>
+<p>&#8220;As every millionaire knows, you&#8217;ll never gain wealth and financial security by working in a job you hate. <em><a href="http://www.48days.com/store/nmm-deluxe">No More Mondays</a></em> provides an inspiring roadmap on how to find meaningful work <em>and</em> financial freedom.&#8221;                       -<strong>T. Harv Eker, Author of #1 NY Times Bestseller <em>Secrets of the Millionaire Mind</em></strong></p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=_U7BEES_3rY:h4MDOEYLYgE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=_U7BEES_3rY:h4MDOEYLYgE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=_U7BEES_3rY:h4MDOEYLYgE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=_U7BEES_3rY:h4MDOEYLYgE:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=_U7BEES_3rY:h4MDOEYLYgE:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=_U7BEES_3rY:h4MDOEYLYgE:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/_U7BEES_3rY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/12/would-you-accept-50-an-hour-for-this/feed/</wfw:commentRss>
+		<slash:comments>15</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/12/would-you-accept-50-an-hour-for-this/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=would-you-accept-50-an-hour-for-this</feedburner:origLink></item>
+
+		<item>
+		<title>How can I support myself in “ministry?”</title>
+		<link>http://feedproxy.google.com/~r/48Days/~3/xl2C5lvvd9A/</link>
+		<comments>http://www.48days.com/2011/05/11/how-can-i-support-myself-in-ministry/#comments</comments>
+		<pubDate>Wed, 11 May 2011 23:02:38 +0000</pubDate>
+		<dc:creator>Dan Miller</dc:creator>
+
+				<category><![CDATA[Business Start-Up]]></category>
+		<category><![CDATA[africa]]></category>
+		<category><![CDATA[kenya]]></category>
+		<category><![CDATA[keza]]></category>
+		<category><![CDATA[mombasa]]></category>
+		<category><![CDATA[social entrepreneurship]]></category>
+
+		<guid isPermaLink="false">http://www.48days.com/?p=6871</guid>
+		<description><![CDATA[Dan, I left a corporate job 2 years ago, sold my home, and have worked with a ministry in Kenya since then. My ideal life would be to work in Africa part of the year and be in the states the rest. What would you suggest to support myself and do ministry? I’m currently self-supporting.  Carol
+************************************************************
+Carol – that&#8230; <a href="http://www.48days.com/2011/05/11/how-can-i-support-myself-in-ministry/" class="read_more">More...</a>]]></description>
+
+			<content:encoded><![CDATA[<p>Dan, I left a corporate job 2 years ago, sold my home, and have worked with a ministry in Kenya since then. My ideal life would be to work in Africa part of the year and be in the states the rest. What would you suggest to support myself and do ministry? I’m currently self-supporting.  Carol</p>
+<p>************************************************************</p>
+<p>Carol – that sounds awesome.  And my encouragement is to connect your life in Africa with your life here in the<a rel="attachment wp-att-6872" href="http://www.48days.com/2011/05/11/how-can-i-support-myself-in-ministry/keza-gal/"><img class="alignright size-medium wp-image-6872" title="Keza gal" src="http://www.48days.com/wp-content/uploads/Keza-gal-200x300.jpg" alt="" width="200" height="300" /></a> states.  Don’t try to live a compartmentalized life – in doing “ministry” part of the time and then just put on your making money hat.  Do both – through a business plan you might call <em><a href="http://en.wikipedia.org/wiki/Social_entrepreneurship">social entrepreneurship</a></em> or <em>ethical capitalism.</em></p>
+<p>Draw from your own background experience by teaching the people in Kenya what you learned in the corporate world.  Don’t cripple them by just giving them resources.  Engage them in the process of becoming self-sufficient.  Compassion is more about equipping than it is about handouts.</p>
+<p>Listen to this <a href="http://www.48days.com/2010/02/04/interview-with-dans-son-jared-miller/">interview I did with my son Jared</a>.  He and his wife Ilea live in <a href="http://en.wikipedia.org/wiki/Mombasa">Mombasa, Kenya</a>, right down on the Indian Ocean.  They aren’t struggling there, living a life of sacrifice, or suffering for Jesus.  They live there because they think it’s the hippest place in the world to live.  They love the 85 degrees every day of the year, the amazing food and because they want “to live deep and suck all the marrow out of life.” (Thoreau)  Yes, they do help the disadvantaged women there make beautiful jewelry through their organization called <a href="http://keza.com/">Keza</a> – and then they come back here and do high-end fashion shows in places like New York City, Chicago and Los Angeles to promote and sell that jewelry.  The income pays the ladies for their work and Jared is able to do philanthropy consulting for organizations that want to know how to interact with African cultures in ways that equip rather than enable.</p>
+<p>You can create a similar model that fits you.  Don&#8217;t think you have to give up doing well in order to do good.  In today&#8217;s world, with unlimited options, you can do both.</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/48Days?a=xl2C5lvvd9A:YN9aw0RlC-M:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/48Days?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xl2C5lvvd9A:YN9aw0RlC-M:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/48Days?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xl2C5lvvd9A:YN9aw0RlC-M:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/48Days?i=xl2C5lvvd9A:YN9aw0RlC-M:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/48Days?a=xl2C5lvvd9A:YN9aw0RlC-M:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/48Days?i=xl2C5lvvd9A:YN9aw0RlC-M:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/48Days/~4/xl2C5lvvd9A" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.48days.com/2011/05/11/how-can-i-support-myself-in-ministry/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		<feedburner:origLink>http://www.48days.com/2011/05/11/how-can-i-support-myself-in-ministry/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-can-i-support-myself-in-ministry</feedburner:origLink></item>
+	</channel>
+</rss><!-- Dynamic page generated in 1.260 seconds. --><!-- Cached page generated by WP-Super-Cache on 2011-06-15 08:15:10 -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cwe</key>
+	<array>
+		<string>September 13-14, 2012</string>
+	</array>
+	<key>cwe1StartDay</key>
+	<string>2012-09-13 08:30:00</string>
+	<key>cwe1EndDay</key>
+	<string>2012-09-14 08:30:00</string>
+	<key>wtb</key>
+	<array>
+		<string>August 2-3, 2012</string>
+	</array>
+	<key>wtb1StartDay</key>
+	<string>2012-08-02 08:30:00</string>
+	<key>wtb1EndDay</key>
+	<string>2012-08-03 08:30:00</string>
+	<key>hours</key>
+	<array>
+		<string>August 18,25 2012</string>
+	</array>
+	<key>hours1StartDay</key>
+	<string>2012-08-18 08:00:00</string>
+	<key>hours1EndDay</key>
+	<string>2012-08-25 08:00:00</string>
+	<key>hours2StartDay</key>
+	<string>2012-08-25 08:00:00</string>
+	<key>hours2EndDay</key>
+	<string>2012-08-25 08:00:00</string>
+</dict>
+</plist>

@@ -1,0 +1,255 @@
+TDays
+v7
+r0
+t327614661.272401
+cCheck dependencies
+cProcessInfoPlistFile /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Info.plist Days-Info.plist
+cCompileXIB /Users/dawaller/Documents/Days/MainWindow.xib
+cCompileXIB /Users/dawaller/Documents/Days/RootViewController.xib
+cProcessPCH /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch.gch Days_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/main.o /Users/dawaller/Documents/Days/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o /Users/dawaller/Documents/Days/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h
+c000000004DD6C9430000000000000349
+t1305921859
+s841
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m
+c000000004DD6C93D00000000000012BD
+t1305921853
+s4797
+i"DaysAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/dawaller/Documents/Days/Classes/RootViewController.h
+c000000004DD6C74C00000000000000E4
+t1305921356
+s228
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Documents/Days/Classes/RootViewController.m
+c000000004DD6C74C00000000000010BC
+t1305921356
+s4284
+i"RootViewController.h"
+
+N/Users/dawaller/Documents/Days/Days_Prefix.pch
+c000000004DD6C74C000000000000013A
+t1305921356
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dawaller/Documents/Days/MainWindow.xib
+c000000004DD6C74C0000000000005FE8
+t1305921356
+s24552
+
+N/Users/dawaller/Documents/Days/RootViewController.xib
+c000000004DD6C74C000000000000444F
+t1305921356
+s17487
+
+N/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/Days.LinkFileList
+c000000004DD6C943000000000000015D
+t1305921859
+s349
+
+N/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o
+t2
+s0
+
+N/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o
+t1305921861
+s41144
+
+N/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/main.o
+t1305921861
+s6288
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app
+t2
+s0
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app.dSYM
+t2
+s0
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Days
+t2
+s0
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Info.plist
+t1305921859
+s579
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/MainWindow.nib
+t1305921860
+s1506
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/PkgInfo
+t1305921859
+s8
+
+N/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/RootViewController.nib
+t1305921860
+s979
+
+N/Users/dawaller/Documents/Days/main.m
+c000000004DD6C74C0000000000000162
+t1305921356
+s354
+i<UIKit/UIKit.h>
+
+N/var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch.gch
+t1305921860
+s15453392
+
+NDays-Info.plist
+c000000004DD6C74C000000000000038D
+t1305921356
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327614659#327614659#0(0"0(0#1#0"8604560064#0"0#
+
+CCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327614661.089377
+e327614661.209377
+r0
+xCompileC
+xbuild/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o
+x/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:9:
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:16: error: expected specifier-qualifier-list before 'MyTableViewController'
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:17: error: expected specifier-qualifier-list before 'MySecondTableViewController'
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:26: error: expected specifier-qualifier-list before 'MyTableViewController'
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:27: error: expected specifier-qualifier-list before 'MySecondTableViewController'
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:15: error: no declaration of property 'myTableViewController' found in the interface
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:15: error: no declaration of property 'mySecondTableViewController' found in the interface
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m: In function '-[DaysAppDelegate applicationDidFinishLaunching:]':
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: 'myTableViewController' undeclared (first use in this function)
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: (Each undeclared identifier is reported only once
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: for each function it appears in.)
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: 'MyTableViewController' undeclared (first use in this function)
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:25: error: 'mySecondTableViewController' undeclared (first use in this function)
+o/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:25: error: 'MySecondTableViewController' undeclared (first use in this function)
+lSLF07#2@64"Compile /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614661#327614661#0(1799"In file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:9:/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:16: error: expected specifier-qualifier-list before 'MyTableViewController'/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:17: error: expected specifier-qualifier-list before 'MySecondTableViewController'/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:26: error: expected specifier-qualifier-list before 'MyTableViewController'/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h:27: error: expected specifier-qualifier-list before 'MySecondTableViewController'/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:15: error: no declaration of property 'myTableViewController' found in the interface/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:15: error: no declaration of property 'mySecondTableViewController' found in the interface/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m: In function '-[DaysAppDelegate applicationDidFinishLaunching:]':/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: 'myTableViewController' undeclared (first use in this function)/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: (Each undeclared identifier is reported only once/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: for each function it appears in.)/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:21: error: 'MyTableViewController' undeclared (first use in this function)/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:25: error: 'mySecondTableViewController' undeclared (first use in this function)/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m:25: error: 'MySecondTableViewController' undeclared (first use in this function)10(4@64"Expected specifier-qualifier-list before 'MyTableViewController'327614661#82#133#2(7@78"In file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#9#0#9#0#0"0(13@124"Expected specifier-qualifier-list before 'MyTableViewController' in /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#16#0#16#0#0"0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#16#0#16#0#19"expected * before *0(4@70"Expected specifier-qualifier-list before 'MySecondTableViewController'327614661#215#139#2(7@78"In file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#9#0#9#0#0"0(13@130"Expected specifier-qualifier-list before 'MySecondTableViewController' in /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#17#0#17#0#0"0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#17#0#17#0#19"expected * before *0(4@64"Expected specifier-qualifier-list before 'MyTableViewController'327614661#354#133#2(7@78"In file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#9#0#9#0#0"0(13@124"Expected specifier-qualifier-list before 'MyTableViewController' in /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#26#0#26#0#0"0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#26#0#26#0#19"expected * before *0(4@70"Expected specifier-qualifier-list before 'MySecondTableViewController'327614661#487#139#2(7@78"In file included from /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#9#0#9#0#0"0(13@130"Expected specifier-qualifier-list before 'MySecondTableViewController' in /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614661#18446744073709551615#0#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#27#0#27#0#0"0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.h327614659#27#0#27#0#19"expected * before *0(4@73"No declaration of property 'myTableViewController' found in the interface327614661#626#142#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#15#0#15#0#0"0(4@79"No declaration of property 'mySecondTableViewController' found in the interface327614661#768#148#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#15#0#15#0#0"0(4@63"'myTableViewController' undeclared (first use in this function)327614661#1039#132#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#21#0#21#0#43"'*' undeclared (first use in this function)0(4@63"'MyTableViewController' undeclared (first use in this function)327614661#1391#132#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#21#0#21#0#43"'*' undeclared (first use in this function)0(4@69"'mySecondTableViewController' undeclared (first use in this function)327614661#1523#138#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#25#0#25#0#43"'*' undeclared (first use in this function)0(4@69"'MySecondTableViewController' undeclared (first use in this function)327614661#1661#138#0(6@56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m327614653#25#0#25#0#43"'*' undeclared (first use in this function)0(0#0#56"/Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m8615677504#1796"    cd /Users/dawaller/Documents/Days    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-generated-files.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-own-target-headers.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-all-target-headers.hmap -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-project-headers.hmap -F/Users/dawaller/Documents/Days/build/Debug-iphonesimulator -I/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/include -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources/i386 -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources -include /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch -c /Users/dawaller/Documents/Days/Classes/DaysAppDelegate.m -o /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/DaysAppDelegate.o1#
+
+CCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o /Users/dawaller/Documents/Days/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327614661.146492
+e327614661.272320
+r1
+xCompileC
+xbuild/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o
+x/Users/dawaller/Documents/Days/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/dawaller/Documents/Days/Classes/RootViewController.m327614661#327614661#0(0"0(0#0#59"/Users/dawaller/Documents/Days/Classes/RootViewController.m8614239968#1802"    cd /Users/dawaller/Documents/Days    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-generated-files.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-own-target-headers.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-all-target-headers.hmap -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-project-headers.hmap -F/Users/dawaller/Documents/Days/build/Debug-iphonesimulator -I/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/include -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources/i386 -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources -include /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch -c /Users/dawaller/Documents/Days/Classes/RootViewController.m -o /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/main.o /Users/dawaller/Documents/Days/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327614661.088380
+e327614661.146396
+r1
+xCompileC
+xbuild/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/main.o
+x/Users/dawaller/Documents/Days/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/dawaller/Documents/Days/main.m327614661#327614661#0(0"0(0#0#37"/Users/dawaller/Documents/Days/main.m8617149568#1766"    cd /Users/dawaller/Documents/Days    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-generated-files.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-own-target-headers.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-all-target-headers.hmap -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-project-headers.hmap -F/Users/dawaller/Documents/Days/build/Debug-iphonesimulator -I/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/include -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources/i386 -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources -include /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch -c /Users/dawaller/Documents/Days/main.m -o /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dawaller/Documents/Days/MainWindow.xib
+s327614659.699897
+e327614660.139208
+r1
+xCompileXIB
+x/Users/dawaller/Documents/Days/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327614659#327614660#0(0"0(0#0#45"/Users/dawaller/Documents/Days/MainWindow.xib8615186080#543"    cd /Users/dawaller/Documents/Days    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/MainWindow.nib /Users/dawaller/Documents/Days/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/dawaller/Documents/Days/RootViewController.xib
+s327614659.700535
+e327614660.129251
+r1
+xCompileXIB
+x/Users/dawaller/Documents/Days/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib327614659#327614660#0(0"0(0#0#53"/Users/dawaller/Documents/Days/RootViewController.xib8614932928#559"    cd /Users/dawaller/Documents/Days    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/RootViewController.nib /Users/dawaller/Documents/Days/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app.dSYM /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Days
+r0
+
+CLd /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Days normal i386
+r0
+
+CProcessInfoPlistFile /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Info.plist Days-Info.plist
+s327614659.658690
+e327614659.699813
+r1
+xProcessInfoPlistFile
+x/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Info.plist
+xDays-Info.plist
+lSLF07#2@23"Process Days-Info.plist327614659#327614659#0(0"0(0#0#46"/Users/dawaller/Documents/Days/Days-Info.plist8613831712#446"    cd /Users/dawaller/Documents/Days    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Days-Info.plist -genpkginfo /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app/Info.plist0#
+
+CProcessPCH /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch.gch Days_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327614660.139321
+e327614661.088287
+r1
+xProcessPCH
+x/var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch.gch
+xDays_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Days_Prefix.pch327614660#327614661#0(0"0(0#0#46"/Users/dawaller/Documents/Days/Days_Prefix.pch8615410560#1669"    cd /Users/dawaller/Documents/Days    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-generated-files.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-own-target-headers.hmap -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-all-target-headers.hmap -iquote /Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/Days-project-headers.hmap -F/Users/dawaller/Documents/Days/build/Debug-iphonesimulator -I/Users/dawaller/Documents/Days/build/Debug-iphonesimulator/include -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources/i386 -I/Users/dawaller/Documents/Days/build/Days.build/Debug-iphonesimulator/Days.build/DerivedSources -c /Users/dawaller/Documents/Days/Days_Prefix.pch -o /var/folders/0s/0s2Moy7THtak2B3ekyKID++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Days_Prefix-ayemmgpczhwuhgdwjuxyumfcszko/Days_Prefix.pch.gch0#
+
+CTouch /Users/dawaller/Documents/Days/build/Debug-iphonesimulator/Days.app
+r0
+
