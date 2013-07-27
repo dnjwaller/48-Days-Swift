@@ -13,7 +13,8 @@
 	@property (strong, nonatomic) NSMutableString *currentTitle;  
 	@property (strong, nonatomic) NSMutableString *currentDate;  
 	@property (strong, nonatomic) NSMutableString *currentSummary;  
-	@property (strong, nonatomic) NSMutableString *currentPodcastLink; 
+	@property (strong, nonatomic) NSMutableString *currentPodcastLink;
+    @property (strong, nonatomic) NSMutableString *currentBlogLink;
 @end
 
 
@@ -23,7 +24,8 @@
  @synthesize currentTitle;  
  @synthesize currentDate;  
  @synthesize currentSummary;  
- @synthesize currentPodcastLink;  
+ @synthesize currentPodcastLink;
+ @synthesize currentBlogLink;
 
 
  - (void)parseRssFeed:(NSString *)url withDelegate:(id)aDelegate {  
@@ -91,7 +93,8 @@
 		 currentTitle = [[NSMutableString alloc] init];  
          currentDate = [[NSMutableString alloc] init];  
          currentSummary = [[NSMutableString alloc] init];  
-         currentPodcastLink = [[NSMutableString alloc] init];  
+         currentPodcastLink = [[NSMutableString alloc] init];
+         currentBlogLink = [[NSMutableString alloc] init];
 }  
        
      // podcast url is an attribute of the element enclosure  
@@ -111,7 +114,8 @@
      if ([elementName isEqualToString:@"item"]) {  
          [item setObject:self.currentTitle forKey:@"title"];  
          [item setObject:self.currentSummary forKey:@"summary"];  
-         [item setObject:self.currentPodcastLink forKey:@"podcastLink"];  
+         [item setObject:self.currentPodcastLink forKey:@"podcastLink"];
+         [item setObject:self.currentBlogLink forKey:@"blogLink"];
            
          // Parse date here  
                     
@@ -131,7 +135,9 @@
 	 } else if ([currentElement isEqualToString:@"pubDate"]) {  
 		 [currentDate appendString:string]; 
          [currentDate setString: [self.currentDate stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]]];
-     }  
+     }  else if ([currentElement isEqualToString:@"comments"]) {
+         [currentBlogLink appendString:[string stringByReplacingOccurrencesOfString:@"#comments" withString:@""]];
+     }
      //[string release];
  }  
    

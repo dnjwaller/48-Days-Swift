@@ -20,7 +20,8 @@
 
 @implementation DaysAppDelegate
 
-@synthesize window, button, navigationController, myTableViewController, mySecondTableViewController, tabBarController, webViewController, ThirdTableViewController, infoViewController, eventsController, fbController, productsController;
+@synthesize window, button, navigationController;
+//@synthesize window, button, navigationController, myTableViewController, mySecondTableViewController, tabBarController, webViewController, ThirdTableViewController, infoViewController, eventsController, fbController, productsController;
 @synthesize splitViewController = _splitViewController;
 @synthesize leftViewController = _leftViewController;
 @synthesize rightViewController = _rightViewController;
@@ -30,8 +31,28 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(landscapeAd) name:@"landscapeAd" object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(portraitAd) name:@"portraitAd" object:nil];
+    
+   
+    
+    //check for ios 7 and set title bar color and status bar color
+    
+    if (SYSTEM_VERSION_LESS_THAN(@"7.0")) {
+        [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:100 green:0 blue:0 alpha:1]];
+    }
+    else {
+       // [[UITabBar appearance] setSelectedImageTintColor:[UIColor redColor]];
+        [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
+        window.tintColor = [UIColor redColor];
+    }
 
-	tabBarController = [[UITabBarController alloc] init];          // creates your tab bar so you can add everything else to it
+   /* NSError *sessionError = nil;
+    [[AVAudioSession sharedInstance] setDelegate:self];
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:&sessionError];
+    UInt32 audioRouteOverride = kAudioSessionOverrideAudioRoute_Speaker;
+    AudioSessionSetProperty(kAudioSessionProperty_OverrideAudioRoute, sizeof(audioRouteOverride), &audioRouteOverride);
+*/
+	/*tabBarController = [[UITabBarController alloc] init];          // creates your tab bar so you can add everything else to it
 	
 	
 	myTableViewController = [[RootViewController alloc] init];               // creates your table view - this should be a UIViewController with a table view in it, or UITableViewController
@@ -90,12 +111,12 @@
     	
 	tabBarController.viewControllers = [NSArray arrayWithObjects:tableNavController, table2NavController,webView, table3NavController,sixthView, eigthView, seventhView,fifthView, nil]; //add both of your navigation controllers to the tab bar. You can put as many controllers on as you like, but they will turn into the more button like in the iPod program.
     self.window.rootViewController = tabBarController;
-    
+    */
 	NSURL *url = [NSURL URLWithString:@"https://sites.google.com/site/48daystheapp/examples/files/banner.png"];
 	NSData *data = [NSData dataWithContentsOfURL:url];
 	UIImage *image = [UIImage imageWithData:data];
 	
-	tabBarController.customizableViewControllers = [NSArray arrayWithObjects:nil];
+	//tabBarController.customizableViewControllers = [NSArray arrayWithObjects:nil];
 
 	
 	button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -124,11 +145,12 @@
 
 	
 	//add the tabcotroller as a subview of the view
-	[tabBarController.view  addSubview:button];
+	//[tabBarController.view  addSubview:button];
 	
 	
 	[window bringSubviewToFront:button];
-    [window addSubview:tabBarController.view];    // adds the tab bar's view property to the window
+       
+    //   [window addSubview:tabBarController.view];    // adds the tab bar's view property to the window
     //if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
     //    [window addSubview:_splitViewController.view];
    // }
@@ -161,12 +183,6 @@
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: launchUrl]];
 	
 }
-
-
-                                           // lets go of everything else, thats so your program doesn't create any leaks of memory.
-
-
-
 
 
 #pragma mark -

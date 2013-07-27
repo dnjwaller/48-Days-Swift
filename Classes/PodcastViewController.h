@@ -13,12 +13,17 @@
 	UIActivityIndicatorView *activityIndicator;  
 	NSArray *items;  
 	 BOOL netStatus;
+    IBOutlet UIBarButtonItem *shareButton;
+    
 }
 
 @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;  
 @property (strong, nonatomic) NSArray *items;  
 
+
+
 -(void)reachable;
 -(void) loadData;
+
 
 @end

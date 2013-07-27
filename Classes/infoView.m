@@ -28,7 +28,7 @@
 	
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"Info";
+	self.navigationItem.title =@"About Us";
 	
 	
 	NSBundle *myBundle = [NSBundle bundleForClass:[self class]];

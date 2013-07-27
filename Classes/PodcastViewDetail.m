@@ -11,19 +11,21 @@
 #import <AVFoundation/AVFoundation.h>
 
 
+
 @implementation PodcastViewDetail
 
-@synthesize item, itemTitle, itemDate, itemSummary;  
+@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover;
 
 MPMoviePlayerController *mediaPlayer;
 
 - (id)initWithItem:(NSDictionary *)theItem {  
-	if (self = [super initWithNibName:@"PodcastViewDetail" bundle:nil]) {  
+	/*if (self = [super initWithNibName:@"PodcastViewDetail" bundle:nil]) {
 		self.item = theItem;  
-		self.title = @"48 Days Podcast";  
+		self.title = @"";  
 	}  
-	
-	return self;  
+	*/
+    self.item = theItem;
+    return self;
 }  
 
 
@@ -33,13 +35,15 @@ MPMoviePlayerController *mediaPlayer;
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	self.itemTitle.text = [item objectForKey:@"title"];  
+	self.itemTitle.text = [item objectForKey:@"title"];
+    self.itemUrl = [item objectForKey:@"blogLink"];
 	
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];    
 	[dateFormatter setDateStyle:NSDateFormatterMediumStyle];  
 	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];  
 	
-	self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];  
+	self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+    self.itemDate.textColor = [UIColor redColor];
 	
     if ([mediaPlayer playbackState] == MPMusicPlaybackStatePlaying) {
         [mediaPlayer.view setFrame:self.view.bounds];
@@ -56,37 +60,79 @@ MPMoviePlayerController *mediaPlayer;
             NSLog(@"%s setCategoryError=%@", __PRETTY_FUNCTION__, setCategoryError);
         }
 
-        [self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];  
-
-    }  
+        [self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+    }
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline1];
+        self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
+    }
 }
 
 - (IBAction)playPodcast:(id)sender {  
 	//   
 	
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-    {
+//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+ //   {
         mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:[item objectForKey:@"podcastLink"]]];
         
         [mediaPlayer prepareToPlay];
         mediaPlayer.scalingMode = MPMovieScalingModeAspectFill; 
         mediaPlayer.fullscreen = NO; 
-        mediaPlayer.useApplicationAudioSession = NO;
+        //mediaPlayer.useApplicationAudioSession = NO;
+        NSError *setCategoryError = nil;
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
         [mediaPlayer.view setFrame:self.view.bounds];
         
         [self.view addSubview:mediaPlayer.view];  
         mediaPlayer.view.autoresizesSubviews = YES;
         mediaPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [mediaPlayer play];
-    }
+ /*   }
     else {
         NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [item objectForKey:@"podcastLink"]]];
         [self.itemSummary loadRequest:request];
+        
+        
+        
     }
-	 
+	*/ 
 }  
 
 
+- (IBAction)shareButtonTapped:(id)sender
+{
+    // initial text for social post
+    NSString *initialText = [NSString stringWithFormat:@"%@", self.itemTitle.text];
+    
+    // url for social post
+    // NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.itemUrl]];
+    
+    NSString *tagLine = [NSString stringWithFormat:@"\nSent via 48 Days app\n\n"];
+    
+    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[initialText, itemUrl, tagLine] applicationActivities:nil];
+    
+    [activity setValue:[NSString stringWithFormat:@"48 Days: %@", self.itemTitle.text] forKey:@"subject"];
+    
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        activity.excludedActivityTypes = @[UIActivityTypeAssignToContact,UIActivityTypePostToFlickr,UIActivityTypePostToVimeo,UIActivityTypeSaveToCameraRoll];
+    } else {
+        activity.excludedActivityTypes = @[UIActivityTypeAssignToContact,UIActivityTypeSaveToCameraRoll];
+    }
+    
+    if (IDIOM == IPAD) {
+        if (popover == nil) {
+            popover = [[UIPopoverController alloc] initWithContentViewController:activity];
+            [popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+        } else {
+            [popover dismissPopoverAnimated:YES];
+            popover = nil;
+        }
+    } else {
+        [self presentViewController:activity animated:YES completion:nil];
+    }
+}
 
 
 

@@ -43,12 +43,14 @@
 	//[indicator release];
 	
 	//backButton = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)] autorelease];
-    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-    self.navigationItem.leftBarButtonItem =backButton;
+
+    
+    //backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
+    //self.navigationItem.leftBarButtonItem =backButton;
 
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"48 Days Community";
+	self.navigationItem.title =@"Community";
 	//[rightButton release];
 	webDisplay.delegate = self;
 

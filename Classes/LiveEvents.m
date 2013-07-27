@@ -46,14 +46,17 @@ NSMutableDictionary *md;
 
 int interval=0;
 
-
+/*
 -(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    if (self = [super initWithNibName:@"LiveEventsView2" bundle:nil])  {
-        self.title = @"48 Days Live Events"; 
-    }
+  //  if (self = [super initWithNibName:@"LiveEventsView2" bundle:nil])  {
+  //      self.title = @"48 Days Live Events";
+  //  }
+    self.title = @"Live Events";
     return self;
 }
+*/
+
 
 -(void)reachable {
 	Reachability *r = [Reachability reachabilityWithHostName:@"www.google.com"];
@@ -70,8 +73,9 @@ int interval=0;
 - (void)viewDidLoad {
 	[super viewDidLoad];
     
-    self.view.autoresizesSubviews = YES;
-    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.title = @"Live Events";
+   // self.view.autoresizesSubviews = YES;
+   // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
 	indicator.hidesWhenStopped = YES;  

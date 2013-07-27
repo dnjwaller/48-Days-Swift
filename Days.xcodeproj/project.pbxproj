@@ -39,26 +39,26 @@
 		68EDB16C165AEA3D00F89C5E /* ino48.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB16A165AEA3D00F89C5E /* ino48.png */; };
 		68EDB16D165AEA3D00F89C5E /* masterylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB16B165AEA3D00F89C5E /* masterylogo.png */; };
 		68F0D13C1666735F009726A7 /* ad_banner.html in Resources */ = {isa = PBXBuildFile; fileRef = 68F0D13B1666735F009726A7 /* ad_banner.html */; };
+		68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */; };
 		74046D8A13C156D500087CB7 /* infoWeb.html in Resources */ = {isa = PBXBuildFile; fileRef = 74046D8913C156D500087CB7 /* infoWeb.html */; };
 		740673BE13C0C01900FC42D1 /* infoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740673BC13C0C01900FC42D1 /* infoView.m */; };
 		740673BF13C0C01900FC42D1 /* infoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740673BD13C0C01900FC42D1 /* infoView.xib */; };
 		740673C813C0C2BF00FC42D1 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 740673C713C0C2BF00FC42D1 /* star.png */; };
 		7406F02F138EF052004A7017 /* NetWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7406F02D138EF052004A7017 /* NetWebViewController.m */; };
 		7406F030138EF052004A7017 /* NetWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7406F02E138EF052004A7017 /* NetWebView.xib */; };
-		74653EC813C42EF3001722AA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 74653EC713C42EF3001722AA /* Reachability.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
+		74653EC813C42EF3001722AA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 74653EC713C42EF3001722AA /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		74653ECA13C42F33001722AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74653EC913C42F33001722AA /* SystemConfiguration.framework */; };
 		746F575613B2350F00BF0235 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 746F575513B2350F00BF0235 /* group.png */; };
 		746F575813B2355F00BF0235 /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 746F575713B2355F00BF0235 /* newspaper.png */; };
 		746F575A13B235BC00BF0235 /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 746F575913B235BC00BF0235 /* microphone.png */; };
 		746F575C13B2362B00BF0235 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 746F575B13B2362B00BF0235 /* calendar.png */; };
 		746F575F13B2365F00BF0235 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 746F575E13B2365F00BF0235 /* notepad.png */; };
-		746FE16E13A14C1F0033B2A8 /* days_schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 746FE16D13A14C1F0033B2A8 /* days_schedule.xml */; };
 		746FE17413A14D260033B2A8 /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FE17213A14D260033B2A8 /* PlanViewController.m */; };
 		746FE17513A14D260033B2A8 /* PlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 746FE17313A14D260033B2A8 /* PlanViewController.xib */; };
 		746FE1A213A1625C0033B2A8 /* DayParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 746FE1A113A1625C0033B2A8 /* DayParse.m */; };
 		74749BFA1387034600023F46 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74749BF91387034600023F46 /* Parser.m */; };
 		74749C00138703F400023F46 /* Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 74749BFE138703F400023F46 /* Detail.m */; };
-		74749C01138703F400023F46 /* Detail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74749BFF138703F400023F46 /* Detail.xib */; };
+		74749C01138703F400023F46 /* Old_Detail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74749BFF138703F400023F46 /* Old_Detail.xib */; };
 		74801A74157574A70029CF86 /* LiveEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 74801A73157574A70029CF86 /* LiveEvents.m */; };
 		74801A76157575E60029CF86 /* LiveEventsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74801A75157575E60029CF86 /* LiveEventsView.xib */; };
 		74801A7A157579390029CF86 /* 8hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74801A77157579390029CF86 /* 8hours.jpg */; };
@@ -133,6 +133,7 @@
 		68EDB16A165AEA3D00F89C5E /* ino48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ino48.png; sourceTree = "<group>"; };
 		68EDB16B165AEA3D00F89C5E /* masterylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = masterylogo.png; sourceTree = "<group>"; };
 		68F0D13B1666735F009726A7 /* ad_banner.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ad_banner.html; sourceTree = "<group>"; };
+		68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
 		74046D8913C156D500087CB7 /* infoWeb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = infoWeb.html; sourceTree = "<group>"; };
 		740673BB13C0C01900FC42D1 /* infoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoView.h; sourceTree = "<group>"; };
 		740673BC13C0C01900FC42D1 /* infoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoView.m; sourceTree = "<group>"; };
@@ -141,25 +142,24 @@
 		7406F02C138EF052004A7017 /* NetWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWebViewController.h; sourceTree = "<group>"; };
 		7406F02D138EF052004A7017 /* NetWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWebViewController.m; sourceTree = "<group>"; };
 		7406F02E138EF052004A7017 /* NetWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NetWebView.xib; path = Classes/NetWebView.xib; sourceTree = "<group>"; };
-		74653EC613C42EF3001722AA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		74653EC713C42EF3001722AA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		74653EC613C42EF3001722AA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Reachability.h; sourceTree = "<group>"; };
+		74653EC713C42EF3001722AA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Reachability.m; sourceTree = "<group>"; };
 		74653EC913C42F33001722AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		746F575513B2350F00BF0235 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
 		746F575713B2355F00BF0235 /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
 		746F575913B235BC00BF0235 /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
 		746F575B13B2362B00BF0235 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		746F575E13B2365F00BF0235 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
-		746FE16D13A14C1F0033B2A8 /* days_schedule.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; name = days_schedule.xml; path = ../days_schedule.xml; sourceTree = "<group>"; };
 		746FE17113A14D260033B2A8 /* PlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
 		746FE17213A14D260033B2A8 /* PlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
 		746FE17313A14D260033B2A8 /* PlanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlanViewController.xib; path = Classes/PlanViewController.xib; sourceTree = "<group>"; };
-		746FE1A013A1625C0033B2A8 /* DayParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayParse.h; sourceTree = "<group>"; };
-		746FE1A113A1625C0033B2A8 /* DayParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayParse.m; sourceTree = "<group>"; };
-		74749BF81387034600023F46 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
-		74749BF91387034600023F46 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		746FE1A013A1625C0033B2A8 /* DayParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DayParse.h; path = Classes/DayParse.h; sourceTree = "<group>"; };
+		746FE1A113A1625C0033B2A8 /* DayParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DayParse.m; path = Classes/DayParse.m; sourceTree = "<group>"; };
+		74749BF81387034600023F46 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Parser.h; path = Classes/Parser.h; sourceTree = "<group>"; };
+		74749BF91387034600023F46 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Parser.m; path = Classes/Parser.m; sourceTree = "<group>"; };
 		74749BFD138703F400023F46 /* Detail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail.h; sourceTree = "<group>"; };
 		74749BFE138703F400023F46 /* Detail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail.m; sourceTree = "<group>"; };
-		74749BFF138703F400023F46 /* Detail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Detail.xib; path = Classes/Detail.xib; sourceTree = "<group>"; };
+		74749BFF138703F400023F46 /* Old_Detail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Old_Detail.xib; path = Classes/Old_Detail.xib; sourceTree = "<group>"; };
 		74801A72157574A70029CF86 /* LiveEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveEvents.h; sourceTree = "<group>"; };
 		74801A73157574A70029CF86 /* LiveEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveEvents.m; sourceTree = "<group>"; };
 		74801A75157575E60029CF86 /* LiveEventsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveEventsView.xib; sourceTree = "<group>"; };
@@ -224,14 +224,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				74653EC613C42EF3001722AA /* Reachability.h */,
-				74653EC713C42EF3001722AA /* Reachability.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* DaysAppDelegate.h */,
 				1D3623250D0F684500981E51 /* DaysAppDelegate.m */,
-				74749BF81387034600023F46 /* Parser.h */,
-				74749BF91387034600023F46 /* Parser.m */,
 				74749BFD138703F400023F46 /* Detail.h */,
 				74749BFE138703F400023F46 /* Detail.m */,
 				74930970138D76DF0036A23E /* PodcastViewController.h */,
@@ -242,8 +238,6 @@
 				7406F02D138EF052004A7017 /* NetWebViewController.m */,
 				746FE17113A14D260033B2A8 /* PlanViewController.h */,
 				746FE17213A14D260033B2A8 /* PlanViewController.m */,
-				746FE1A013A1625C0033B2A8 /* DayParse.h */,
-				746FE1A113A1625C0033B2A8 /* DayParse.m */,
 				74BDAE4213A2943300DFD501 /* PlanDetail.h */,
 				74BDAE4313A2943300DFD501 /* PlanDetail.m */,
 				68A0728B13B3FCD100F8BC64 /* flipsideViewController.h */,
@@ -256,6 +250,7 @@
 				D986C3B115BF628600BDFAAF /* facebookViewController.m */,
 				6822F9C6167662C700911C96 /* ProductsViewController.h */,
 				6822F9C7167662C700911C96 /* ProductsViewController.m */,
+				68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -271,6 +266,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				683886AD17A41B9D001E0C22 /* Data */,
 				6822F9D11677E55E00911C96 /* iTunesArtwork@2x */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -317,7 +313,6 @@
 				746F575913B235BC00BF0235 /* microphone.png */,
 				746F575713B2355F00BF0235 /* newspaper.png */,
 				746F575513B2350F00BF0235 /* group.png */,
-				746FE16D13A14C1F0033B2A8 /* days_schedule.xml */,
 				28A0AAE50D9B0CCF005BE974 /* Days_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				68A071CA13B02E5900F8BC64 /* status.txt */,
@@ -340,7 +335,7 @@
 				D9BABD0F15AF9E8C00F134FB /* PlanDetail~ipad.xib */,
 				D9BABD1015AF9E8C00F134FB /* PlanViewController~ipad.xib */,
 				D9BABD1115AF9E8C00F134FB /* PodcastViewController~ipad.xib */,
-				74749BFF138703F400023F46 /* Detail.xib */,
+				74749BFF138703F400023F46 /* Old_Detail.xib */,
 				7406F02E138EF052004A7017 /* NetWebView.xib */,
 				740673BD13C0C01900FC42D1 /* infoView.xib */,
 				746FE17313A14D260033B2A8 /* PlanViewController.xib */,
@@ -371,6 +366,19 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683886AD17A41B9D001E0C22 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				746FE1A013A1625C0033B2A8 /* DayParse.h */,
+				746FE1A113A1625C0033B2A8 /* DayParse.m */,
+				74653EC613C42EF3001722AA /* Reachability.h */,
+				74653EC713C42EF3001722AA /* Reachability.m */,
+				74749BF81387034600023F46 /* Parser.h */,
+				74749BF91387034600023F46 /* Parser.m */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		D9BABD0815AF9BF300F134FB /* iPad */ = {
@@ -436,11 +444,10 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				74749C01138703F400023F46 /* Detail.xib in Resources */,
+				74749C01138703F400023F46 /* Old_Detail.xib in Resources */,
 				74930974138D76DF0036A23E /* PodcastViewController.xib in Resources */,
 				749309BE138D87B20036A23E /* PodcastViewDetail.xib in Resources */,
 				7406F030138EF052004A7017 /* NetWebView.xib in Resources */,
-				746FE16E13A14C1F0033B2A8 /* days_schedule.xml in Resources */,
 				746FE17513A14D260033B2A8 /* PlanViewController.xib in Resources */,
 				74BDAE4613A2943300DFD501 /* PlanDetail.xib in Resources */,
 				68A071CB13B02E5900F8BC64 /* status.txt in Resources */,
@@ -466,6 +473,7 @@
 				D9BABD0A15AF9BF300F134FB /* MainWindow-iPad.xib in Resources */,
 				D9BABD1415AF9E8C00F134FB /* flipsideview~ipad.xib in Resources */,
 				D9BABD1515AF9E8C00F134FB /* infoView~ipad.xib in Resources */,
+				68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */,
 				D9BABD1615AF9E8C00F134FB /* NetWebView~ipad.xib in Resources */,
 				D9BABD1715AF9E8C00F134FB /* PlanDetail~ipad.xib in Resources */,
 				D9BABD1815AF9E8C00F134FB /* PlanViewController~ipad.xib in Resources */,
@@ -542,7 +550,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -565,7 +573,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -587,7 +595,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";
@@ -609,7 +617,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -631,7 +639,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PROVISIONING_PROFILE = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";
 				SDKROOT = iphoneos;
@@ -651,7 +659,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C340A83E-350D-4F09-9EDE-B39A17ADE8A4";

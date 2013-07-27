@@ -12,14 +12,14 @@
 @interface NetWebViewController : UIViewController <UIWebViewDelegate, UIAlertViewDelegate> {
     IBOutlet UIWebView *webDisplay;
 	UIActivityIndicatorView *activityIndicator;
-	UIBarButtonItem *backButton;
+	UIButton *backButton;
 	 BOOL netStatus;
 	
 }
 
 @property (strong, nonatomic) UIWebView *webDisplay;
 @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
-@property (strong, nonatomic) UIBarButtonItem *backButton;
+@property (strong, nonatomic) UIButton *backButton;
 
 -(void)reachable;
 

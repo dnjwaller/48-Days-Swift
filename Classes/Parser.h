@@ -21,7 +21,7 @@
      NSMutableDictionary *item;  
 	@private
      NSString *currentElement;  
-     NSMutableString * currentTitle, * currentDate, * currentSummary, * currentPodcastLink;  
+     NSMutableString * currentTitle, * currentDate, * currentSummary, * currentPodcastLink, *currentBlogLink;
  }  
 
 @property (strong, nonatomic) NSString *currentElement;

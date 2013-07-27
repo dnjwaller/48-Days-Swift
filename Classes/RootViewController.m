@@ -21,6 +21,7 @@
 
 
 @synthesize activityIndicator, items;
+NSDictionary *theItem;
 
 
 -(void)reachable {
@@ -42,13 +43,14 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged:)
      name:UIDeviceOrientationDidChangeNotification object:nil];
+   /* self.edgesForExtendedLayout = UIExtendedEdgeAll;
 	
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    UIEdgeInsets insets = UIEdgeInsetsMake(0, 0, 32, 0);
+    UIEdgeInsets insets = UIEdgeInsetsMake(0, 0, 60, 0);
     [self.tableView setContentInset:insets];
     [self.tableView setScrollIndicatorInsets:insets];
-    
+    */
 	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
 	indicator.hidesWhenStopped = YES;  
 	[indicator stopAnimating];  
@@ -57,8 +59,9 @@
 	
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"48 Days Blogs";
+	//self.navigationItem.title =@"48 Days Blogs";
 	
+    theItem = [[NSDictionary alloc] init];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateBlog" object:nil];
 	//[rightButton release];
     
@@ -70,15 +73,8 @@
 
 
 - (void) orientationChanged:(NSNotification *)notification {
-    //UIDeviceOrientation deviceOrientation = [UIDevice currentDevice].orientation;
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
 
-/*if (UIDeviceOrientationIsPortrait(deviceOrientation)) {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"portraitAd" object:nil];
-}
-else {
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"landscapeAd" object:nil];
-}*/
     
     if (UIInterfaceOrientationIsPortrait(orientation)) {
         [[NSNotificationCenter defaultCenter] postNotificationName:@"portraitAd" object:nil];
@@ -89,19 +85,10 @@ else {
 }
 
 - (void)loadData {  
-	//if (items == nil) {  
     [activityIndicator startAnimating];  
     
     Parser *rssParser = [[Parser alloc] init];  
     [rssParser parseRssFeed:@"http://feeds.feedburner.com/48Days?format=xml" withDelegate:self];  
-    
-    //[rssParser release];
-    //[self.view setNeedsDisplay];
-    
-    
-	//	} else {  
-	//		[self.tableView reloadData];  }
-    
 }  
 
 
@@ -117,11 +104,7 @@ else {
 		
 	} 
 	else {
-        //int height = [[UIScreen mainScreen] bounds].size.height;
-        //int width = [[UIScreen mainScreen] bounds].size.width;
-        
 	    [self loadData];
-        //[[self tableView] setFrame:CGRectMake(0, 0, width, height)];
     }
 		
 	[super viewDidAppear:animated];
@@ -141,8 +124,13 @@ else {
 	[activityIndicator stopAnimating];  
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    // Return the number of sections.
+    return 1;
+}
+
 // Customize the number of rows in the table view.  
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {  
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [items count];
 }  
 
@@ -150,21 +138,38 @@ else {
 // Customize the appearance of table view cells.  
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {  
 	
-	self.tableView.backgroundColor = [UIColor lightTextColor];
+	//self.tableView.backgroundColor = [UIColor lightTextColor];
 	
+       
     static NSString *CellIdentifier = @"Cell";  
 	
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];  
     if (cell == nil) {  
-		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-		//cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
-    }  
-	
+		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
+    
+   /* if (indexPath.row % 2 == 0) {
+        cell.textLabel.textColor = [UIColor redColor];
+    }
+    else {
+       // cell.textLabel.textColor = [UIColor lightGrayColor];
+    }
+    */
 	// Configure the cell.  
 	
-    cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"]; 
-	cell.textLabel.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:20];
+    
 	
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        //Dynamic Type
+        cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote];
+        cell.detailTextLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption2];
+        cell.detailTextLabel.textColor = [UIColor redColor];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    } else {
+        cell.textLabel.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:20];
+        cell.accessoryType = UITableViewCellAccessoryDetailButton;
+    }
+    
 	
 	// Format date  
     //NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
@@ -172,20 +177,30 @@ else {
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];  
     [dateFormatter setTimeStyle:NSDateFormatterNoStyle];  
 	
-    cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];  
-    cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;  
-	
+    
+    cell.detailTextLabel.text = [dateFormatter stringFromDate:[[items objectAtIndex:indexPath.row] objectForKey:@"date"]];
+    cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
+    
 	return cell;  
 
 }  
 
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {  
-	NSDictionary *theItem = [items objectAtIndex:indexPath.row];  
-	Detail *nextController = [[Detail alloc] initWithItem:theItem];  
-	[self.navigationController pushViewController:nextController animated:YES];  
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+	theItem = [items objectAtIndex:indexPath.row];
+    [self performSegueWithIdentifier:@"BlogDetail" sender:self];
+	//Detail *nextController = [[Detail alloc] initWithItem:theItem];
+	//[self.navigationController pushViewController:nextController animated:YES];
 	//[nextController release];
-}  
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"BlogDetail"]) {
+        Detail *detailVC = segue.destinationViewController;
+        [detailVC setItem:theItem];
+    }
+}
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -203,73 +218,6 @@ else {
 
 }
 
-
-
-
-
-
-#pragma mark -
-#pragma mark View lifecycle
-
-
-
-
-
-
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-
-#pragma mark -
-#pragma mark Table view delegate
-/*
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	
-}
-*/
 
 #pragma mark -
 #pragma mark Memory management
