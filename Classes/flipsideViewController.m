@@ -34,7 +34,9 @@
 											 selector:@selector(applicationWillTerminate:)
 												 name:UIApplicationWillTerminateNotification
 											   object:myApp];
-	
+	UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 }
 
 - (IBAction) edit:(id) sender {
@@ -44,9 +46,15 @@
 
 - (IBAction)done:(id)sender {
 	[self.textField resignFirstResponder];
-	[self.delegate flipsideViewControllerDidFinish:self];	
-	
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	//[self.delegate flipsideViewControllerDidFinish:self];
+    
+  	
+    [self writeFile];
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void) writeFile {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	//2) Create the full file path by appending the desired file name
 	NSString *fileName = [documentsDirectory stringByAppendingPathComponent:@"notes.txt"];
@@ -67,6 +75,7 @@
 	[[NSNotificationCenter defaultCenter] removeObserver:self 
 													name:UIKeyboardDidShowNotification object:nil];
 	[super viewWillDisappear:animated];
+    [self writeFile];
 }
 
 
@@ -171,19 +180,14 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
-	//2) Create the full file path by appending the desired file name
-	NSString *fileName = [documentsDirectory stringByAppendingPathComponent:@"notes.txt"];
-	NSString *str = textField.text;
-	
-	[str writeToFile:fileName atomically:TRUE encoding:NSUTF8StringEncoding error:NULL];
+	[self writeFile];
 }
 
 
 - (void)viewDidUnload {
 	
     [super viewDidUnload];
+    [self writeFile];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

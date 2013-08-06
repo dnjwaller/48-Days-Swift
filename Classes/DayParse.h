@@ -34,7 +34,7 @@
 //@property (retain, nonatomic) NSMutableString *index;
 
  
-- (void) parse:(NSString *)path withDelegate:(id)aDelegate;
+- (void) parse:(NSURL *)url withDelegate:(id)aDelegate;
 - (id)delegate;  
 - (void)setDelegate:(id)new_delegate;  
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
 
 
 @interface facebookViewController : UIViewController <UIWebViewDelegate, UIAlertViewDelegate> {
@@ -20,6 +21,8 @@
 @property (strong, nonatomic) UIWebView *webDisplay;
 @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) UIBarButtonItem *backButton;
+@property (nonatomic, retain) ACAccountStore *accountStore;
+@property (nonatomic, retain) ACAccount *facebookAccount;
 
 -(void)reachable;
 @end

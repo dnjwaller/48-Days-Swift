@@ -8,6 +8,7 @@
 
 #import "facebookViewController.h"
 #import "Reachability.h"
+#import <Social/Social.h>
 
 @interface facebookViewController (PrivateMethods)  
 - (void)loadData;  
@@ -16,6 +17,7 @@
 @implementation facebookViewController
 
 @synthesize webDisplay, activityIndicator, backButton;
+UIBarButtonItem *rightButton;
 
 
 -(void)reachable {
@@ -40,18 +42,19 @@
 	indicator.hidesWhenStopped = YES;  
 	[indicator stopAnimating];  
 	self.activityIndicator = indicator;  
-	//[indicator release];
 	
-	//backButton = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)] autorelease];
-    //backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
+    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
     //self.navigationItem.leftBarButtonItem =backButton;
     
-	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
+	 rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"48 Days Facebook";
+	//self.navigationItem.title =@"48 Days Facebook";
 	//[rightButton release];
 	webDisplay.delegate = self;
-    
+   
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -61,6 +64,7 @@
 
 
 - (void)webViewDidStartLoad:(UIWebView *)webDisplay {
+	self.navigationItem.rightBarButtonItem = rightButton;
 	[activityIndicator startAnimating];
 }
 
@@ -92,9 +96,55 @@
 
 
 - (void) loadData {
-	NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts"];
-	NSURLRequest *request = [ NSURLRequest requestWithURL: url ]; 
-	[webDisplay loadRequest: request ];	
+    
+    if(!_accountStore)
+        _accountStore = [[ACAccountStore alloc] init];
+    
+    ACAccountType *facebookTypeAccount = [_accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
+    
+    [_accountStore requestAccessToAccountsWithType:facebookTypeAccount
+                                           options:@{ACFacebookAppIdKey: @"147834932132", ACFacebookPermissionsKey: @[@"email"]}
+                                        completion:^(BOOL granted, NSError *error) {
+                                            if(granted){
+                                                NSArray *accounts = [_accountStore accountsWithAccountType:facebookTypeAccount];
+                                                _facebookAccount = [accounts lastObject];
+                                                NSLog(@"Success");
+                                                
+                                                [self loadFacebook];
+                                            }else{
+                                                // ouch
+                                                NSLog(@"Fail");
+                                                NSLog(@"Error: %@", error);
+                                                NSString *message;
+                                                if([error code]== ACErrorAccountNotFound) {
+                                                    message = @"Account not found. Please setup your account in the Settings app.";
+                                            }else {
+                                                    message = @"Account access denied.";
+                                                }
+                                                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                                [alert show];
+                                            }
+    }];
+}
+
+- (void) loadFacebook {
+        NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts"];
+       // NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
+       // [webDisplay loadRequest: request ];
+    
+        SLRequest *myrequest = [SLRequest requestForServiceType:SLServiceTypeFacebook
+                                              requestMethod:SLRequestMethodGET
+                                                        URL:url
+                                                 parameters:nil];
+    
+        myrequest.account = _facebookAccount;
+    
+        [myrequest performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error) {
+            NSString *meDataString = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
+            
+            NSLog(@"%@", meDataString);
+        
+        }];
 }
 
 

@@ -28,12 +28,13 @@
 
 #pragma mark rssParser methods  
 
--(void) parse:(NSString *)path withDelegate:(id) aDelegate {
+-(void) parse:(NSURL *)url withDelegate:(id) aDelegate {
 	[self setDelegate:aDelegate];  
 	responseData = [NSMutableData data];
 	[responseData setLength:0];
-	NSData *xmlData = [NSData dataWithContentsOfFile:path];
-	[responseData appendData:xmlData];
+//	NSData *xmlData = [NSData dataWithContentsOfFile:path];
+	NSData *xmlData = [NSData dataWithContentsOfURL:url];
+    [responseData appendData:xmlData];
 	
 	self.items = [[NSMutableArray alloc] init];
 	NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:responseData];    
@@ -42,7 +43,6 @@
 	[xmlParser setDelegate:self];
 	
 	[xmlParser parse];
-	
 }
 
 
@@ -51,7 +51,8 @@
 }  
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{  
-	self.currentElement = elementName;  
+	self.currentElement = elementName;
+    
 	if ([elementName isEqualToString:@"item"]) {  
 		item = [[NSMutableDictionary alloc] init];  
 		currentTitle = [[NSMutableString alloc] init];  

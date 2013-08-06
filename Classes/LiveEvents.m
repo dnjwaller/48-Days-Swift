@@ -84,23 +84,7 @@ int interval=0;
     
     [self loadEvents];
     
-   /* //load images
-    NSURL *url = [NSURL URLWithString:[md objectForKey:@"event1image"]];
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *img1 = [UIImage imageWithData:data];
-    
-    url = [NSURL URLWithString:[md objectForKey:@"event2image"]];
-    data = [NSData dataWithContentsOfURL:url];
-    UIImage *img2 = [UIImage imageWithData:data];
-    
-    url = [NSURL URLWithString:[md objectForKey:@"event3image"]];
-    data = [NSData dataWithContentsOfURL:url];
-    UIImage *img3 = [UIImage imageWithData:data];
-    
-    url = [NSURL URLWithString:[md objectForKey:@"event4image"]];
-    data = [NSData dataWithContentsOfURL:url];
-    UIImage *img4 = [UIImage imageWithData:data];  */
-    
+       
     UIImage *img1 =[UIImage imageNamed:@"cwe_new.png"];
     UIImage *img2 =[UIImage imageNamed:@"masterylogo.png"];
     UIImage *img3 =[UIImage imageNamed:@"ino48.png"];
@@ -119,6 +103,9 @@ int interval=0;
     scrollView.delegate = self;
     //[self.view addSubview:scrollView];
     
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateEvents" object:nil];
 }

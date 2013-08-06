@@ -21,6 +21,7 @@
 @implementation PlanViewController 
 
 @synthesize activityIndicator, items, parser, complete; 
+NSDictionary *theItem;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -29,12 +30,12 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];  
     
-    self.view.autoresizesSubviews = YES;
+  /*  self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     UIEdgeInsets insets = UIEdgeInsetsMake(0, 0, 32, 0);
     [self.tableView setContentInset:insets];
     [self.tableView setScrollIndicatorInsets:insets];
-    
+ */
 	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
 	indicator.hidesWhenStopped = YES;  
 	[indicator stopAnimating];  
@@ -42,8 +43,10 @@
 
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]init];
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"48 Days Schedule";
-
+	//self.navigationItem.title =@"48 Days Schedule";
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 }
 
 
@@ -73,11 +76,19 @@
 }
 
 
-- (void)loadData {  
+- (void)loadData {
+    
 	if (items == nil) {  
 		[activityIndicator startAnimating];
-		NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
-		NSString *xmlPath = [myBundle pathForResource:@"days_schedule" ofType:@"xml"];
+        
+    
+        NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
+        NSString *filePath = [myBundle pathForResource:@"days_schedule" ofType:@"xml"];
+        NSURL *xmlPath = [NSURL fileURLWithPath:filePath];
+
+        
+		/*NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
+		NSString *xmlPath = [myBundle pathForResource:@"days_schedule" ofType:@"xml"]; */
 		DayParse *xmlParser = [[DayParse alloc] init];
 		xmlParser.delegate = self;
 		[xmlParser parse:xmlPath withDelegate:self];
@@ -120,7 +131,7 @@
 
 // Customize the number of rows in the table view.  
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {  
-    return [items count];  
+    return [items count];
 }  
 
 // Customize the appearance of table view cells.  
@@ -138,15 +149,24 @@
 	
 	// Configure the cell.  
 	
-    cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"]; 
-	cell.textLabel.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:20];
-	row = [[[items objectAtIndex:indexPath.row] objectForKey:@"index"]intValue];
+    cell.textLabel.text = [[items objectAtIndex:indexPath.row] objectForKey:@"title"];
+	
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
+    } else {
+        cell.textLabel.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:20];
+	}
+    row = [[[items objectAtIndex:indexPath.row] objectForKey:@"index"]intValue];
 	status = [complete objectAtIndex:row];
 	BOOL done = [status isEqualToString:@"1"];
 	
 	if (done) {
-		cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;  
-	} else {
+        if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        } else {
+            cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
+        }
+    } else {
 		cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	}
 	
@@ -154,16 +174,20 @@
 }  
 
 
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {  
-	NSDictionary *theItem = [items objectAtIndex:indexPath.row];  
-	PlanDetail *nextController = [[PlanDetail alloc] initWithItem:theItem];  
-	[self.navigationController pushViewController:nextController animated:YES];
-	
+	theItem = [items objectAtIndex:indexPath.row];
+    [self performSegueWithIdentifier:@"PlanDetail" sender:self];
+	//PlanDetail *nextController = [[PlanDetail alloc] initWithItem:theItem];
+	//[self.navigationController pushViewController:nextController animated:YES];
 }  
 
-
-
-
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"PlanDetail"]) {
+        PlanDetail *detailVC = segue.destinationViewController;
+        [detailVC setItem:theItem];
+    }
+}
 
 
 

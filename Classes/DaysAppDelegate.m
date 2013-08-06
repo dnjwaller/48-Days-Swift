@@ -45,7 +45,7 @@
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
         window.tintColor = [UIColor redColor];
     }
-
+   
    /* NSError *sessionError = nil;
     [[AVAudioSession sharedInstance] setDelegate:self];
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:&sessionError];

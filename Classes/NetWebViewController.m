@@ -39,10 +39,11 @@
 	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
 	indicator.hidesWhenStopped = YES;  
 	[indicator stopAnimating];  
-	self.activityIndicator = indicator;  
-	//[indicator release];
-	
-	//backButton = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)] autorelease];
+	self.activityIndicator = indicator;
+    
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 
     
     //backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
@@ -50,7 +51,7 @@
 
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"Community";
+	//self.navigationItem.title =@"Community";
 	//[rightButton release];
 	webDisplay.delegate = self;
 

@@ -14,18 +14,19 @@
 @implementation PlanDetail
 
 - (void)flipsideViewControllerDidFinish:(flipsideViewController *)controller {
-	[self.navigationController dismissModalViewControllerAnimated:YES];
+	//[self.navigationController dismissModalViewControllerAnimated:YES];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
-
+/*
 - (IBAction)showInfo:(id)sender {    
 	
 	flipsideViewController *controller = [[flipsideViewController alloc] initWithNibName:@"flipsideView" bundle:nil];
 	controller.delegate = self;
 	
 	controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-	[self presentModalViewController:controller animated:YES];
-	
+	//[self presentModalViewController:controller animated:YES];
+	[self.navigationController presentViewController:controller animated:YES completion:nil];
 	//[controller release];
 }
 
@@ -35,16 +36,17 @@
 - (void)presentFlipSideViewController:(UIViewController *)flipsideViewController
 {
     flipsideViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
-    [self.navigationController presentModalViewController:flipsideViewController animated:YES];
+    //[self.navigationController presentModalViewController:flipsideViewController animated:YES];
+    [self.navigationController presentViewController:flipsideViewController animated:YES completion:nil];
 }
-
+*/
 
 @synthesize item, itemTitle, itemSummary, itemDate;  
 
 - (id)initWithItem:(NSDictionary *)theItem {  
-	if (self = [super initWithNibName:@"PlanDetail" bundle:nil]) {  
-		self.item = theItem;  
-	}  
+//	if (self = [super initWithNibName:@"PlanDetail" bundle:nil]) {
+//		self.item = theItem;
+//	}
 	
 	return self;  
 }  
@@ -56,11 +58,15 @@
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Complete" style: UIBarButtonItemStylePlain target:self action:@selector(isComplete:)];  
-	self.navigationItem.rightBarButtonItem = rightButton; 
+	//UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Complete" style: UIBarButtonItemStylePlain target:self action:@selector(isComplete:)];
+	//self.navigationItem.rightBarButtonItem = rightButton;
 	self.itemTitle.text = [item objectForKey:@"title"];  
 	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];  
 	row = [[item objectForKey:@"index"]intValue];
+    
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
     
    // [rightButton release];
 }  
@@ -90,29 +96,6 @@
 	
 }
 
-
-
-
-
-
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
 
 
 // Override to allow orientations other than the default portrait orientation.

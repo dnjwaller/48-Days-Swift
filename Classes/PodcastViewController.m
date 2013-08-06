@@ -58,6 +58,10 @@ BOOL playing=NO;
 	//self.navigationItem.title =@"Podcasts";
 	//[rightButton release];
 	
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
+    
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updatePodcast" object:nil];  
 }
     

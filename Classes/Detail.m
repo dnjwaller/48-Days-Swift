@@ -44,9 +44,13 @@
 	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
     
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
-        self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline1];
+        self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
     }
+    
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 }  
 
 - (IBAction)shareButtonTapped:(id)sender

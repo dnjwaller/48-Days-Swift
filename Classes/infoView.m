@@ -28,8 +28,11 @@
 	
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
 	self.navigationItem.rightBarButtonItem = rightButton;  
-	self.navigationItem.title =@"About Us";
+	//self.navigationItem.title =@"About Us";
 	
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 	
 	NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
 	NSString *filePath = [myBundle pathForResource:@"infoWeb" ofType:@"html"];
@@ -55,11 +58,6 @@
 	alertView = [[UIAlertView alloc] initWithTitle:nil message:@"Do you want to delete the Schedule Data?" delegate:self
 					 cancelButtonTitle:@"No" otherButtonTitles: @"OK", nil ];
 	
-//	alertView = [[UIAlertView alloc] initWithTitle:nil
-//													message:@"Day Completed"
-//												   delegate:self
-//										  cancelButtonTitle:@"OK"
-//										  otherButtonTitles:nil];
 	alertView.delegate = self;
 	[alertView show];
 	
@@ -101,24 +99,6 @@ if (tempAlertView == alertView) {
 	
 }
 
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
 
 
 // Override to allow orientations other than the default portrait orientation.

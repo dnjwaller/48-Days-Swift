@@ -61,6 +61,11 @@ NSDictionary *theItem;
 	self.navigationItem.rightBarButtonItem = rightButton;  
 	//self.navigationItem.title =@"48 Days Blogs";
 	
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
+    
+    
     theItem = [[NSDictionary alloc] init];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateBlog" object:nil];
 	//[rightButton release];

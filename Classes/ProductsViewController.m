@@ -16,6 +16,7 @@
 @implementation ProductsViewController
 
 @synthesize webDisplay, activityIndicator, backButton;
+UIBarButtonItem *rightButton;
 
 
 -(void)reachable {
@@ -44,15 +45,18 @@
 	
 	//backButton = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)] autorelease];
     backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-    self.navigationItem.leftBarButtonItem =backButton;
+   // self.navigationItem.leftBarButtonItem =backButton;
     
-	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
+	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
 	self.navigationItem.rightBarButtonItem = rightButton;
-	self.navigationItem.title =@"48 Days Products";
+	//self.navigationItem.title =@"Products";
 	//[rightButton release];
 	webDisplay.delegate = self;
     //webDisplay.scalesPageToFit=YES;
     
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -62,12 +66,16 @@
 
 
 - (void)webViewDidStartLoad:(UIWebView *)webDisplay {
+    self.navigationItem.rightBarButtonItem = rightButton;
 	[activityIndicator startAnimating];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webDisplay {
     [self zoomToFit];
 	[activityIndicator stopAnimating];
+    
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.navigationItem.rightBarButtonItem.enabled = (self.webDisplay.canGoBack);
 }
 
 -(void)zoomToFit

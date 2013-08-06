@@ -35,6 +35,10 @@ MPMoviePlayerController *mediaPlayer;
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navigationItem.titleView = navBarImageView;
+    
 	self.itemTitle.text = [item objectForKey:@"title"];
     self.itemUrl = [item objectForKey:@"blogLink"];
 	
@@ -64,7 +68,7 @@ MPMoviePlayerController *mediaPlayer;
     }
     
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
-        self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline1];
+        self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
     }
 }
