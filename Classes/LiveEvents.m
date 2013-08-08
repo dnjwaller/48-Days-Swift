@@ -10,7 +10,7 @@
 #import "LiveEvents.h"
 #import <EventKit/EventKit.h>
 #import "Reachability.h"
-
+#import "GAI.h"
 
 
 @implementation LiveEvents
@@ -108,6 +108,9 @@ int interval=0;
     self.navigationItem.titleView = navBarImageView;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateEvents" object:nil];
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Live Events Screen"];
 }
 
 - (void)updateView:(NSNotification *)notification {
@@ -137,6 +140,14 @@ int interval=0;
     [self loadEvents];
 }
 
+- (void) logButtonPress:(NSString *)button {
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    
+    [tracker sendEventWithCategory:@"uiAction"
+                        withAction:@"buttonPress"
+                         withLabel:[NSString stringWithFormat:@"%@ Button Pressed",button]
+                         withValue:nil];
+}
 
 
 //calendar
@@ -146,6 +157,7 @@ int interval=0;
     NSString *eventInterval = [event stringByAppendingString:@"interval"];
     title = [md objectForKey:titleString];
     interval = [[md objectForKey:eventInterval] intValue];
+    [self logButtonPress:titleString];
     [self showCalendarChoice];
     
 }
@@ -154,6 +166,7 @@ int interval=0;
 -(void) registerEvent {
     NSString *url = [event stringByAppendingString:@"url"];
     NSString *eventUrl = [md objectForKey:url];
+    [self logButtonPress:url];
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: eventUrl]];
 }
 

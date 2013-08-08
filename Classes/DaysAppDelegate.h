@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
+#import "GAI.h"
+
 
 @class LeftViewController;
 @class RightViewController;
@@ -51,6 +53,8 @@
 @property (nonatomic, strong) IBOutlet UISplitViewController *splitViewController;
 @property (nonatomic, strong) IBOutlet LeftViewController *leftViewController;
 @property (nonatomic, strong) IBOutlet RightViewController *rightViewController;
+
+@property(nonatomic, retain) id<GAITracker> tracker;
 
 -(IBAction) getAd:(id)sender;
 

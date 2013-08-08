@@ -10,7 +10,7 @@
 #import "DayParse.h"
 #import "PlanDetail.h"
 #import "DaysAppDelegate.h"
-
+#import "GAI.h"
 
 
 @interface PlanViewController (PrivateMethods)  
@@ -47,6 +47,9 @@ NSDictionary *theItem;
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Personal Schedule Screen"];
 }
 
 

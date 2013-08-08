@@ -11,7 +11,7 @@
 #import "Detail.h"
 #import "DaysAppDelegate.h"
 #import "Reachability.h"
-
+#import "GAI.h"
 
 @interface RootViewController (PrivateMethods)  
 - (void)loadData;  
@@ -69,6 +69,9 @@ NSDictionary *theItem;
     theItem = [[NSDictionary alloc] init];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateBlog" object:nil];
 	//[rightButton release];
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Blog Screen"];
     
 }  
 

@@ -9,7 +9,7 @@
 #import "PodcastViewDetail.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVFoundation/AVFoundation.h>
-
+#import "GAI.h"
 
 
 @implementation PodcastViewDetail
@@ -71,6 +71,9 @@ MPMoviePlayerController *mediaPlayer;
         self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
     }
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Podcast Detail Screen"];
 }
 
 - (IBAction)playPodcast:(id)sender {  
@@ -100,7 +103,12 @@ MPMoviePlayerController *mediaPlayer;
         
         
     }
-	*/ 
+	*/
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendEventWithCategory:@"uiAction"
+                        withAction:@"buttonPress"
+                         withLabel:@"Play Podcast Button Pressed"
+                         withValue:nil];
 }  
 
 
@@ -136,6 +144,12 @@ MPMoviePlayerController *mediaPlayer;
     } else {
         [self presentViewController:activity animated:YES completion:nil];
     }
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendEventWithCategory:@"uiAction"
+                        withAction:@"buttonPress"
+                         withLabel:@"Share Podcast Button Pressed"
+                         withValue:nil];
 }
 
 

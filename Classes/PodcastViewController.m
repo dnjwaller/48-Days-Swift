@@ -10,6 +10,7 @@
 #import "Parser.h" 
 #import "PodcastViewDetail.h"
 #import "Reachability.h"
+#import "GAI.h"
 
 
 @interface PodcastViewController (PrivateMethods)  
@@ -62,7 +63,10 @@ BOOL playing=NO;
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updatePodcast" object:nil];  
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updatePodcast" object:nil];
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Podcast Screen"];
 }
     
 -(void) isPlaying:(NSNotification *)notification {

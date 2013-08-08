@@ -30,7 +30,7 @@
 	
 	- (id)initWithItem:(NSDictionary *)theItem;  
 - (IBAction) isComplete:(id)sender;
-- (IBAction)showInfo:(id)sender;
+//- (IBAction)showInfo:(id)sender;
 
 @end
 

@@ -23,6 +23,9 @@
 		68578D3117A5DDF20052E753 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68578D3017A5DDF20052E753 /* Media.xcassets */; };
 		68578D3417A6B8CA0052E753 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */; };
 		68647E9717B08EA200E6B367 /* days_schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 68647E9617B08EA200E6B367 /* days_schedule.xml */; };
+		68647E9F17B3264600E6B367 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */; };
+		68647EA117B326A700E6B367 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68647EA017B326A700E6B367 /* CoreData.framework */; };
+		68647EA317B32ED100E6B367 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68647EA217B32ED100E6B367 /* Settings.bundle */; };
 		68A071CB13B02E5900F8BC64 /* status.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68A071CA13B02E5900F8BC64 /* status.txt */; };
 		68A0728E13B3FCD100F8BC64 /* flipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */; };
 		68A0728F13B3FCD100F8BC64 /* flipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A0728D13B3FCD100F8BC64 /* flipsideView.xib */; };
@@ -92,6 +95,14 @@
 		68578D3217A6B8CA0052E753 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
 		68647E9617B08EA200E6B367 /* days_schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = days_schedule.xml; sourceTree = "<group>"; };
+		68647E9917B3264600E6B367 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		68647E9A17B3264600E6B367 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		68647E9B17B3264600E6B367 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		68647E9C17B3264600E6B367 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransaction.h; sourceTree = "<group>"; };
+		68647E9D17B3264600E6B367 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransactionItem.h; sourceTree = "<group>"; };
+		68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		68647EA017B326A700E6B367 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		68647EA217B32ED100E6B367 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		68A071CA13B02E5900F8BC64 /* status.txt */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = status.txt; sourceTree = "<group>"; };
 		68A0728B13B3FCD100F8BC64 /* flipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipsideViewController.h; sourceTree = "<group>"; };
 		68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipsideViewController.m; sourceTree = "<group>"; };
@@ -160,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68647EA117B326A700E6B367 /* CoreData.framework in Frameworks */,
 				683886B117A5889E001E0C22 /* Accounts.framework in Frameworks */,
 				683886AF17A564A3001E0C22 /* Social.framework in Frameworks */,
 				6822F9C5167008A600911C96 /* AVFoundation.framework in Frameworks */,
@@ -169,6 +181,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				68647E9F17B3264600E6B367 /* libGoogleAnalytics.a in Frameworks */,
 				74653ECA13C42F33001722AA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +236,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				68647EA217B32ED100E6B367 /* Settings.bundle */,
+				68647E9817B3261000E6B367 /* Google Analytics */,
 				68D17A9117B0132C00E3BACC /* iCarousel */,
 				683886AD17A41B9D001E0C22 /* Data */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -285,6 +300,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				68647EA017B326A700E6B367 /* CoreData.framework */,
 				683886B017A5889E001E0C22 /* Accounts.framework */,
 				683886AE17A564A3001E0C22 /* Social.framework */,
 				6822F9C4167008A600911C96 /* AVFoundation.framework */,
@@ -311,6 +327,19 @@
 				74749BF91387034600023F46 /* Parser.m */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		68647E9817B3261000E6B367 /* Google Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				68647E9917B3264600E6B367 /* GAI.h */,
+				68647E9A17B3264600E6B367 /* GAITrackedViewController.h */,
+				68647E9B17B3264600E6B367 /* GAITracker.h */,
+				68647E9C17B3264600E6B367 /* GAITransaction.h */,
+				68647E9D17B3264600E6B367 /* GAITransactionItem.h */,
+				68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */,
+			);
+			name = "Google Analytics";
 			sourceTree = "<group>";
 		};
 		68D17A9117B0132C00E3BACC /* iCarousel */ = {
@@ -356,7 +385,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = GN4W6QZH8W;
@@ -419,6 +448,7 @@
 				D986C3B415BF628700BDFAAF /* facebookViewController.xib in Resources */,
 				D986C43815C1FC0F00BDFAAF /* PodcastViewDetail~ipad.xib in Resources */,
 				68F0D13C1666735F009726A7 /* ad_banner.html in Resources */,
+				68647EA317B32ED100E6B367 /* Settings.bundle in Resources */,
 				6822F9CA167662C700911C96 /* ProductsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +488,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -471,6 +500,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -484,7 +517,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -495,6 +527,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -507,7 +543,6 @@
 		68558B3C13EF755300BEA41A /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -529,7 +564,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -540,6 +574,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -552,7 +590,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -562,6 +599,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
 				SDKROOT = iphoneos;
@@ -572,7 +610,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				CODE_SIGN_IDENTITY = "";

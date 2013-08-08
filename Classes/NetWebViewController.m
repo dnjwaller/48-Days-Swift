@@ -8,6 +8,7 @@
 
 #import "NetWebViewController.h"
 #import "Reachability.h"
+#import "GAI.h"
 
 @interface NetWebViewController (PrivateMethods)  
 - (void)loadData;  
@@ -54,6 +55,9 @@
 	//self.navigationItem.title =@"Community";
 	//[rightButton release];
 	webDisplay.delegate = self;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Community Screen"];
 
 }
 

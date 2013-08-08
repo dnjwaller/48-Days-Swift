@@ -9,6 +9,7 @@
 #import "facebookViewController.h"
 #import "Reachability.h"
 #import <Social/Social.h>
+#import "GAI.h"
 
 @interface facebookViewController (PrivateMethods)  
 - (void)loadData;  
@@ -38,15 +39,15 @@ UIBarButtonItem *rightButton;
    // self.view.autoresizesSubviews = YES;
    // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
-	indicator.hidesWhenStopped = YES;  
-	[indicator stopAnimating];  
-	self.activityIndicator = indicator;  
+	//UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+	activityIndicator.hidesWhenStopped = YES;
+	[activityIndicator stopAnimating];
+	//self.activityIndicator = indicator;
 	
     backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
     //self.navigationItem.leftBarButtonItem =backButton;
     
-	 rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
+	// rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
 	self.navigationItem.rightBarButtonItem = rightButton;  
 	//self.navigationItem.title =@"48 Days Facebook";
 	//[rightButton release];
@@ -55,6 +56,9 @@ UIBarButtonItem *rightButton;
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Facebook Screen"];
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -97,7 +101,7 @@ UIBarButtonItem *rightButton;
 
 - (void) loadData {
     
-    if(!_accountStore)
+ /*   if(!_accountStore)
         _accountStore = [[ACAccountStore alloc] init];
     
     ACAccountType *facebookTypeAccount = [_accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierFacebook];
@@ -124,9 +128,14 @@ UIBarButtonItem *rightButton;
                                                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
                                                 [alert show];
                                             }
-    }];
+    }];*/
+    NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts"];
+    NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
+    [webDisplay loadRequest: request ];
+    
 }
 
+/*
 - (void) loadFacebook {
         NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts"];
        // NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
@@ -146,7 +155,7 @@ UIBarButtonItem *rightButton;
         
         }];
 }
-
+*/
 
 
 // Override to allow orientations other than the default portrait orientation.

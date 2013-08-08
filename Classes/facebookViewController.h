@@ -12,10 +12,9 @@
 
 @interface facebookViewController : UIViewController <UIWebViewDelegate, UIAlertViewDelegate> {
     IBOutlet UIWebView *webDisplay;
-	UIActivityIndicatorView *activityIndicator;
+	IBOutlet UIActivityIndicatorView *activityIndicator;
 	UIBarButtonItem *backButton;
     BOOL netStatus;
-	
 }
 
 @property (strong, nonatomic) UIWebView *webDisplay;

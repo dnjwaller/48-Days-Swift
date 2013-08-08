@@ -7,7 +7,7 @@
 //
 
 #import "infoView.h"
-
+#import "GAI.h"
 
 @implementation infoView
 
@@ -38,8 +38,10 @@
 	NSString *filePath = [myBundle pathForResource:@"infoWeb" ofType:@"html"];
 	NSURL *url = [NSURL fileURLWithPath:filePath];
 	NSURLRequest *request = [ NSURLRequest requestWithURL:url  ]; 
-	[infoWebView loadRequest: request ];	
-	
+	[infoWebView loadRequest: request ];
+    
+	id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Info Screen"];
 }
 
 

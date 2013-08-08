@@ -7,7 +7,7 @@
 //
 
 #import "Detail.h"
-
+#import "GAI.h"
 
 @implementation Detail
 
@@ -51,6 +51,9 @@
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Blog Detail Screen"];
 }  
 
 - (IBAction)shareButtonTapped:(id)sender
@@ -85,6 +88,12 @@
     } else {
         [self presentViewController:activity animated:YES completion:nil];
     }
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendEventWithCategory:@"uiAction"
+                        withAction:@"buttonPress"
+                         withLabel:@"Share Blog Button Pressed"
+                         withValue:nil];
 }
 
 

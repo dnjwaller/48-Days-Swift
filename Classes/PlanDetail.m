@@ -9,7 +9,7 @@
 #import "PlanDetail.h"
 #import "PlanViewController.h"
 #import "flipsideViewController.h"
-
+#import "GAI.h"
 
 @implementation PlanDetail
 
@@ -68,6 +68,10 @@
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    NSString *temp = [NSString stringWithFormat:@"Schedule Detail %@",self.itemTitle.text];
+    [tracker sendView:temp];
+    
    // [rightButton release];
 }  
 			
@@ -94,6 +98,11 @@
 	[alert show];
 	//[statusArray release];
 	
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendEventWithCategory:@"uiAction"
+                        withAction:@"buttonPress"
+                         withLabel:@"Complete Button Pressed"
+                         withValue:nil];
 }
 
 

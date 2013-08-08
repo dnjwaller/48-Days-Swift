@@ -7,7 +7,7 @@
 //
 
 #import "flipsideViewController.h"
-
+#import "GAI.h"
 
 @implementation flipsideViewController
 
@@ -37,6 +37,9 @@
 	UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Schedule Notes Screen"];
 }
 
 - (IBAction) edit:(id) sender {

@@ -8,6 +8,7 @@
 
 #import "ProductsViewController.h"
 #import "Reachability.h"
+#import "GAI.h"
 
 @interface ProductsViewController ()
 - (void)loadData;
@@ -57,6 +58,9 @@ UIBarButtonItem *rightButton;
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
+    [tracker sendView:@"Products Screen"];
 }
 
 -(void) viewWillAppear:(BOOL)animated {

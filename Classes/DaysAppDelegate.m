@@ -18,6 +18,7 @@
 
 
 
+
 @implementation DaysAppDelegate
 
 @synthesize window, button, navigationController;
@@ -25,6 +26,8 @@
 @synthesize splitViewController = _splitViewController;
 @synthesize leftViewController = _leftViewController;
 @synthesize rightViewController = _rightViewController;
+@synthesize tracker;
+	
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     
@@ -32,7 +35,19 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(portraitAd) name:@"portraitAd" object:nil];
     
-   
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSDictionary *GADefaults = [NSDictionary dictionaryWithObject:@"YES" forKey:@"optIn"];
+    [defaults registerDefaults:GADefaults];
+    [defaults synchronize];
+    
+    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+    [center addObserver:self
+               selector:@selector(defaultsChanged:)
+                   name:NSUserDefaultsDidChangeNotification
+                 object:nil];
+    
+    [self configureAnalytics];
+    
     
     //check for ios 7 and set title bar color and status bar color
     
@@ -158,6 +173,36 @@
     [window makeKeyAndVisible];      
 	
 }
+
+- (void) defaultsChanged:(NSNotification *)notification {
+    [self configureAnalytics];
+}
+
+- (void) configureAnalytics {
+    
+    BOOL optIn = [[NSUserDefaults standardUserDefaults] boolForKey:@"optIn"];
+    
+    NSLog(@"OptIn: %@",optIn ? @"Yes" : @"No");
+    if (optIn) {
+        [[GAI sharedInstance] setOptOut:NO];
+        //Google Analytics
+        // Optional: automatically send uncaught exceptions to Google Analytics.
+        [GAI sharedInstance].trackUncaughtExceptions = YES;
+        // Optional: set Google Analytics dispatch interval to e.g. 20 seconds.
+        [GAI sharedInstance].dispatchInterval = 20;
+        // Optional: set debug to YES for extra debugging information.
+        [GAI sharedInstance].debug = YES;
+        // Create tracker instance.
+        id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-43032381-1"];
+    }
+    else {
+        [[GAI sharedInstance] setOptOut:YES];
+        NSLog(@"No data sharing enabled.");
+    }
+    
+}
+
+
 
 -(void) portraitAd 
 {
