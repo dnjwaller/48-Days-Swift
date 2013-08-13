@@ -107,40 +107,50 @@
  }  
    
  - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{  
-       
-	 //NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+     
      NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+     //NSMutableString *blogString = [[NSMutableString alloc] init];
 	 
      if ([elementName isEqualToString:@"item"]) {  
          [item setObject:self.currentTitle forKey:@"title"];  
-         [item setObject:self.currentSummary forKey:@"summary"];  
+         [item setObject:self.currentSummary forKey:@"summary"];
          [item setObject:self.currentPodcastLink forKey:@"podcastLink"];
          [item setObject:self.currentBlogLink forKey:@"blogLink"];
            
          // Parse date here  
                     
-         [dateFormatter setDateFormat:@"E, d LLL yyyy HH:mm:ss Z"]; // Thu, 18 Jun 2010 04:48:09 -0700  
-         NSDate *date = [dateFormatter dateFromString:self.currentDate];  
+         [dateFormatter setDateFormat:@"E, d LLL yyyy HH:mm:ss Z"]; // Thu, 18 Jun 2010 04:48:09 -0700
+         NSDate *date = [dateFormatter dateFromString:self.currentDate];
 		 [item setObject:date forKey:@"date"]; 
 		 [items addObject:item];
          
+         
+         //NSString *temp =[NSString stringWithFormat:@"<p><b>%@</b><br></p>",self.currentTitle];
+         //[blogString appendString:temp];
+        
+         //temp = [NSString stringWithFormat:@"<b style=\"color:red\">%@</b>",[dateFormatter stringFromDate:date]];
+         //[blogString appendString:temp];
+         //[blogString appendString:self.currentSummary];
+         //currentSummary = blogString;
+         [item setObject:self.currentSummary forKey:@"summary"];
      }  
  }  
-   
- - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{  
-     if ([currentElement isEqualToString:@"title"]) {  
-         [currentTitle appendString:string];  
-     } else if ([currentElement isEqualToString:@"content:encoded"]) {  
-         [currentSummary appendString:string];  
-	 } else if ([currentElement isEqualToString:@"pubDate"]) {  
-		 [currentDate appendString:string]; 
+
+ - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
+     if ([currentElement isEqualToString:@"title"]) {
+         [currentTitle appendString:string];
+    } else if ([currentElement isEqualToString:@"pubDate"]) {
+		 [currentDate appendString:string];
          [currentDate setString: [self.currentDate stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceAndNewlineCharacterSet]]];
+     } else if ([currentElement isEqualToString:@"content:encoded"]) {
+         [currentSummary appendString:string];
+         
      }  else if ([currentElement isEqualToString:@"comments"]) {
          [currentBlogLink appendString:[string stringByReplacingOccurrencesOfString:@"#comments" withString:@""]];
      }
      //[string release];
  }  
-   
+
  - (void)parserDidEndDocument:(NSXMLParser *)parser {  
      if ([_delegate respondsToSelector:@selector(receivedItems:)])  
          [_delegate receivedItems:items];  

@@ -8,10 +8,16 @@
 
 #import "Detail.h"
 #import "GAI.h"
+#import "Parser.h"
 
 @implementation Detail
 
-@synthesize item, itemTitle, itemDate, itemSummary,popover, itemUrl, shareButton;
+NSUInteger numberOfPages;
+CGRect frame;
+NSArray *articles;
+BOOL pageControlBeingUsed;
+
+@synthesize item, itemTitle, itemDate, itemSummary,popover, itemUrl, shareButton, scrollView,activityIndicator,pageControl;
 
 - (id)initWithItem:(NSDictionary *)theItem {  
 	/*if (self = [super initWithNibName:@"Detail" bundle:nil]) {
@@ -31,17 +37,13 @@
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	self.itemTitle.text = [item objectForKey:@"title"];
-    self.itemUrl = [item objectForKey:@"blogLink"];
-	
-	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];    
-	[dateFormatter setDateStyle:NSDateFormatterMediumStyle];  
-	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];  
-	
-	self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
-    self.itemDate.textColor = [UIColor redColor];
-	
-	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+	//self.itemTitle.text = [item objectForKey:@"title"];
+    //   	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+    
+    [activityIndicator startAnimating];
+
+    
+    
     
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
@@ -52,9 +54,94 @@
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
+    
+    pageControlBeingUsed = NO;
+    scrollView.pagingEnabled = YES;
+    scrollView.showsHorizontalScrollIndicator = NO;
+    scrollView.showsVerticalScrollIndicator=YES;
+    scrollView.delegate = self;
+    
+    
+    activityIndicator.hidesWhenStopped = YES;
+	[activityIndicator stopAnimating];
+    self.pageControl.currentPage = 0;
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Blog Detail Screen"];
-}  
+}
+
+
+-(void) viewDidAppear:(BOOL)animated {
+    Parser *rssParser = [[Parser alloc] init];
+    [rssParser parseRssFeed:@"http://feeds.feedburner.com/48Days?format=xml" withDelegate:self];
+    
+	[super viewDidAppear:animated];
+}
+
+- (void) showArticle {
+    
+    UIInterfaceOrientation myOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+    for (int i=0;i<numberOfPages; i++) {
+        
+        if (UIInterfaceOrientationIsPortrait(myOrientation)) {
+            frame.origin.x = self.scrollView.bounds.size.width*i;
+            frame.origin.y = 0;
+            frame.size.height = self.scrollView.bounds.size.height;
+            frame.size.width = self.scrollView.bounds.size.width;
+            //frame.size = self.scrollView.frame.size;
+        } else if (UIInterfaceOrientationIsLandscape(myOrientation)) {
+            frame.origin.x = self.scrollView.bounds.size.width*i;
+            frame.origin.y = 0;
+            frame.size.height = self.scrollView.bounds.size.width+75;
+            frame.size.width = self.scrollView.bounds.size.width;
+        }
+        item = [articles objectAtIndex:i];
+        
+        
+        NSString *title = [item objectForKey:@"title"];
+        self.itemUrl = [item objectForKey:@"blogLink"];
+        
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+        [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+        
+        //self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+        //self.itemDate.textColor = [UIColor redColor];
+        NSString *pubDate = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+        
+        NSMutableString *blogString = [[NSMutableString alloc] init];
+        NSString *temp =[NSString stringWithFormat:@"<p><b>%@</b><br></p>",title];
+        [blogString appendString:temp];
+        
+        temp = [NSString stringWithFormat:@"<b style=\"color:red\">%@</b>",pubDate];
+        [blogString appendString:temp];
+        [blogString appendString:[item objectForKey:@"summary"]];
+        UIWebView *view = [[UIWebView alloc] initWithFrame:frame];
+        [scrollView addSubview:view];
+        [view loadHTMLString:blogString baseURL:nil];
+    }
+}
+
+- (void)receivedItems:(NSArray *)theItems {
+    dispatch_queue_t bgQueue = dispatch_queue_create( "parser", NULL );
+    dispatch_async(bgQueue, ^{
+        articles = theItems;
+        [activityIndicator stopAnimating];
+        numberOfPages = [articles count];
+        scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * numberOfPages, scrollView.frame.size.height);
+        pageControl.numberOfPages = numberOfPages;
+    });
+    dispatch_async(dispatch_get_main_queue(), ^{[self showArticle];
+    });
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat pageWidth = self.scrollView.frame.size.width;
+    int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+    self.pageControl.currentPage = page;
+    
+}
+
 
 - (IBAction)shareButtonTapped:(id)sender
 {
@@ -96,36 +183,14 @@
                          withValue:nil];
 }
 
-
-/*
-- (IBAction)playPodcast:(id)sender {  
-	NSURLRequest *request = [[NSURLRequest alloc]  
-							 initWithURL: [NSURL URLWithString: [item objectForKey:@"enclosure"]]];   
-	
-	[self.itemSummary loadRequest:request];  
-}  
-
-*/
-
-
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    pageControlBeingUsed = NO;
 }
-*/
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    pageControlBeingUsed = NO;
 }
-*/
+
 
 
 // Override to allow orientations other than the default portrait orientation.
