@@ -16,6 +16,8 @@
 
 @implementation NetWebViewController
 
+UIBarButtonItem *rightButton;
+
 @synthesize webDisplay, activityIndicator, backButton;
 
 
@@ -37,25 +39,20 @@
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
-	indicator.hidesWhenStopped = YES;  
-	[indicator stopAnimating];  
+    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+	indicator.hidesWhenStopped = YES;
+	[indicator stopAnimating];
 	self.activityIndicator = indicator;
+   
+    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
+	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
+	self.navigationItem.rightBarButtonItem = rightButton;
+    webDisplay.delegate = self;
     
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
 
-    
-    //backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-    //self.navigationItem.leftBarButtonItem =backButton;
-
-	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];  
-	self.navigationItem.rightBarButtonItem = rightButton;  
-	//self.navigationItem.title =@"Community";
-	//[rightButton release];
-	webDisplay.delegate = self;
-    
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Community Screen"];
 
@@ -68,11 +65,15 @@
 
 
 - (void)webViewDidStartLoad:(UIWebView *)webDisplay {
+    self.navigationItem.rightBarButtonItem = rightButton;
 	[activityIndicator startAnimating];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webDisplay {
 	[activityIndicator stopAnimating];
+    
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.navigationItem.rightBarButtonItem.enabled = YES;
 }
 
 

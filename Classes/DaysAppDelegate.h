@@ -14,6 +14,8 @@
 
 @class LeftViewController;
 @class RightViewController;
+@class iCarouselExampleViewController;
+
 
 @interface DaysAppDelegate : NSObject <UIApplicationDelegate> {
     

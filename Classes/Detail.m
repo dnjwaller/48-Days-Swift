@@ -16,6 +16,9 @@ NSUInteger numberOfPages;
 CGRect frame;
 NSArray *articles;
 BOOL pageControlBeingUsed;
+NSMutableArray *postTitleArray;
+NSMutableArray *postUrlArray;
+
 
 @synthesize item, itemTitle, itemDate, itemSummary,popover, itemUrl, shareButton, scrollView,activityIndicator,pageControl;
 
@@ -41,7 +44,8 @@ BOOL pageControlBeingUsed;
     //   	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
     
     [activityIndicator startAnimating];
-
+    postTitleArray = [[NSMutableArray alloc] init];
+    postUrlArray = [[NSMutableArray alloc] init];
     
     
     
@@ -100,6 +104,9 @@ BOOL pageControlBeingUsed;
         NSString *title = [item objectForKey:@"title"];
         self.itemUrl = [item objectForKey:@"blogLink"];
         
+        [postTitleArray addObject:title];
+        [postUrlArray addObject:self.itemUrl];
+        
         NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
         [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
         [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
@@ -109,12 +116,19 @@ BOOL pageControlBeingUsed;
         NSString *pubDate = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
         
         NSMutableString *blogString = [[NSMutableString alloc] init];
-        NSString *temp =[NSString stringWithFormat:@"<p><b>%@</b><br></p>",title];
+        blogString = [NSMutableString stringWithFormat:@"<html><head>"
+                                                "<style type=\"text/css\">"
+                                                "body{font:-apple-system-body;}"
+                                                "h1{font: -apple-system-headline;}"
+                                                "#date {font: -apple-system-caption1;}"
+                                                "</style>""</head>""<body>"];
+        NSString *temp =[NSString stringWithFormat:@"<h1>%@</h1>",title];
         [blogString appendString:temp];
         
-        temp = [NSString stringWithFormat:@"<b style=\"color:red\">%@</b>",pubDate];
+        temp = [NSString stringWithFormat:@"<b style=\"color:red\" id=\"date\">%@</b>",pubDate];
         [blogString appendString:temp];
         [blogString appendString:[item objectForKey:@"summary"]];
+        [blogString appendString:@"</body></html>"];
         UIWebView *view = [[UIWebView alloc] initWithFrame:frame];
         [scrollView addSubview:view];
         [view loadHTMLString:blogString baseURL:nil];
@@ -146,14 +160,13 @@ BOOL pageControlBeingUsed;
 - (IBAction)shareButtonTapped:(id)sender
 {
     // initial text for social post
-    NSString *initialText = [NSString stringWithFormat:@"%@", self.itemTitle.text];
+    NSString *initialText = [NSString stringWithFormat:@"%@", [postTitleArray objectAtIndex:pageControl.currentPage]];
     
     // url for social post
-   // NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.itemUrl]];
-    
+    NSString *postUrl = [postUrlArray objectAtIndex:pageControl.currentPage];
     NSString *tagLine = [NSString stringWithFormat:@"\nSent via 48 Days app\n\n"];
     
-    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[initialText, itemUrl, tagLine] applicationActivities:nil];
+    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[initialText, postUrl, tagLine] applicationActivities:nil];
     
    [activity setValue:[NSString stringWithFormat:@"48 Days: %@", self.itemTitle.text] forKey:@"subject"];
     

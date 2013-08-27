@@ -8,13 +8,21 @@
 
 #import "PodcastViewDetail.h"
 #import <MediaPlayer/MediaPlayer.h>
-#import <AVFoundation/AVFoundation.h>
-#import "GAI.h"
 
+#import "GAI.h"
+#import "Parser.h"
 
 @implementation PodcastViewDetail
 
-@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover;
+NSUInteger numberOfPages;
+CGRect frame;
+NSArray *articles;
+BOOL pageControlBeingUsed;
+NSMutableArray *podcastUrlArray;
+NSMutableArray *podcastTitleArray;
+NSMutableArray *postUrlArray;
+
+@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover,scrollView,activityIndicator,pageControl;
 
 MPMoviePlayerController *mediaPlayer;
 
@@ -31,9 +39,14 @@ MPMoviePlayerController *mediaPlayer;
 
 - (void)viewDidLoad {  
 	[super viewDidLoad];  
-	
+	podcastUrlArray = [[NSMutableArray alloc] init];
+    podcastTitleArray = [[NSMutableArray alloc] init];
+    postUrlArray = [[NSMutableArray alloc] init];
+    
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    
+    [activityIndicator startAnimating];
     
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -49,6 +62,18 @@ MPMoviePlayerController *mediaPlayer;
 	self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
     self.itemDate.textColor = [UIColor redColor];
 	
+    pageControlBeingUsed = NO;
+    scrollView.pagingEnabled = YES;
+    scrollView.showsHorizontalScrollIndicator = NO;
+    scrollView.showsVerticalScrollIndicator=YES;
+    scrollView.delegate = self;
+    
+    
+    activityIndicator.hidesWhenStopped = YES;
+	[activityIndicator stopAnimating];
+    self.pageControl.currentPage = 0;
+
+    
     if ([mediaPlayer playbackState] == MPMusicPlaybackStatePlaying) {
         [mediaPlayer.view setFrame:self.view.bounds];
         [self.itemSummary addSubview:mediaPlayer.view];
@@ -76,34 +101,123 @@ MPMoviePlayerController *mediaPlayer;
     [tracker sendView:@"Podcast Detail Screen"];
 }
 
+
+-(void) viewDidAppear:(BOOL)animated {
+    Parser *rssParser = [[Parser alloc] init];
+    [rssParser parseRssFeed:@"http://feeds.feedburner.com/48DaysRadio?format=xml" withDelegate:self];
+    
+	[super viewDidAppear:animated];
+}
+
+- (void) showArticle {
+    
+    UIInterfaceOrientation myOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+    for (int i=0;i<numberOfPages; i++) {
+        
+        if (UIInterfaceOrientationIsPortrait(myOrientation)) {
+            frame.origin.x = self.scrollView.bounds.size.width*i;
+            frame.origin.y = 0;
+            frame.size.height = self.scrollView.bounds.size.height;
+            frame.size.width = self.scrollView.bounds.size.width;
+            //frame.size = self.scrollView.frame.size;
+        } else if (UIInterfaceOrientationIsLandscape(myOrientation)) {
+            frame.origin.x = self.scrollView.bounds.size.width*i;
+            frame.origin.y = 0;
+            frame.size.height = self.scrollView.bounds.size.width+75;
+            frame.size.width = self.scrollView.bounds.size.width;
+        }
+        item = [articles objectAtIndex:i];
+        
+        
+        NSString *title = [item objectForKey:@"title"];
+        self.itemUrl = [item objectForKey:@"blogLink"];
+        
+        [podcastUrlArray addObject:[item objectForKey:@"podcastLink"]];
+        [podcastTitleArray addObject:title];
+        [postUrlArray addObject:self.itemUrl];
+        
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+        [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+        
+        //self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+        //self.itemDate.textColor = [UIColor redColor];
+        NSString *pubDate = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+        
+        NSMutableString *blogString = [[NSMutableString alloc] init];
+        blogString = [NSMutableString stringWithFormat:@"<html><head>"
+                      "<style type=\"text/css\">"
+                      "body{font:-apple-system-body;}"
+                      "h1{font: -apple-system-headline;}"
+                      "#date {font: -apple-system-caption1;}"
+                      "</style>""</head>""<body>"];
+        NSString *temp =[NSString stringWithFormat:@"<h1>%@</h1>",title];
+        [blogString appendString:temp];
+        
+        temp = [NSString stringWithFormat:@"<b style=\"color:red\" id=\"date\">%@</b>",pubDate];
+        [blogString appendString:temp];
+        [blogString appendString:[item objectForKey:@"summary"]];
+        [blogString appendString:@"</body></html>"];
+        UIWebView *view = [[UIWebView alloc] initWithFrame:frame];
+        [scrollView addSubview:view];
+        [view loadHTMLString:blogString baseURL:nil];
+    }
+}
+
+- (void)receivedItems:(NSArray *)theItems {
+    dispatch_queue_t bgQueue = dispatch_queue_create( "parser", NULL );
+    dispatch_async(bgQueue, ^{
+        articles = theItems;
+        [activityIndicator stopAnimating];
+        numberOfPages = [articles count];
+        scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * numberOfPages, scrollView.frame.size.height);
+        pageControl.numberOfPages = numberOfPages;
+    });
+    dispatch_async(dispatch_get_main_queue(), ^{[self showArticle];
+    });
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat pageWidth = self.scrollView.frame.size.width;
+    int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
+    self.pageControl.currentPage = page;
+    
+}
+
 - (IBAction)playPodcast:(id)sender {  
-	//   
 	
-//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
- //   {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
         mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:[item objectForKey:@"podcastLink"]]];
         
         [mediaPlayer prepareToPlay];
-        mediaPlayer.scalingMode = MPMovieScalingModeAspectFill; 
-        mediaPlayer.fullscreen = NO; 
+        mediaPlayer.scalingMode = MPMovieScalingModeAspectFill;
+        mediaPlayer.fullscreen = NO;
         //mediaPlayer.useApplicationAudioSession = NO;
         NSError *setCategoryError = nil;
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
         [mediaPlayer.view setFrame:self.view.bounds];
         
-        [self.view addSubview:mediaPlayer.view];  
+        [self.view addSubview:mediaPlayer.view];
         mediaPlayer.view.autoresizesSubviews = YES;
         mediaPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [mediaPlayer play];
- /*   }
+    }
     else {
-        NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [item objectForKey:@"podcastLink"]]];
+        NSURL *url = [NSURL URLWithString:[podcastUrlArray objectAtIndex:pageControl.currentPage]];
+        NSLog(@"URL: %@",url);
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url];
+        //NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [item objectForKey:@"podcastLink"]]];
         [self.itemSummary loadRequest:request];
         
-        
-        
+        //NSError *error;
+        //AVAudioPlayer *podcastPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+        //[podcastPlayer prepareToPlay];
+        //[podcastPlayer play];
     }
-	*/
+    
+    
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendEventWithCategory:@"uiAction"
                         withAction:@"buttonPress"
@@ -115,14 +229,13 @@ MPMoviePlayerController *mediaPlayer;
 - (IBAction)shareButtonTapped:(id)sender
 {
     // initial text for social post
-    NSString *initialText = [NSString stringWithFormat:@"%@", self.itemTitle.text];
+    NSString *initialText = [NSString stringWithFormat:@"%@", [podcastTitleArray objectAtIndex:pageControl.currentPage]];
     
     // url for social post
-    // NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@", self.itemUrl]];
-    
+    NSString *postUrl = [postUrlArray objectAtIndex:pageControl.currentPage];
     NSString *tagLine = [NSString stringWithFormat:@"\nSent via 48 Days app\n\n"];
     
-    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[initialText, itemUrl, tagLine] applicationActivities:nil];
+    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[initialText, postUrl, tagLine] applicationActivities:nil];
     
     [activity setValue:[NSString stringWithFormat:@"48 Days: %@", self.itemTitle.text] forKey:@"subject"];
     

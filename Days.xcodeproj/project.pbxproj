@@ -16,6 +16,13 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		680B06C217B9939600EC94E0 /* loadFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C117B9939600EC94E0 /* loadFeed.m */; };
+		680B06C517C12D0200EC94E0 /* PlanCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */; };
+		680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C717C12EDC00EC94E0 /* CarouselViewController.m */; };
+		680B06CA17C130B500EC94E0 /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 680B06C917C130B500EC94E0 /* page.png */; };
+		680B06D317C1612900EC94E0 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06D217C1612900EC94E0 /* iCarousel.m */; };
+		680B06D517C168AB00EC94E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680B06D417C168AB00EC94E0 /* QuartzCore.framework */; };
+		680B06D717C921A200EC94E0 /* ipod_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 680B06D617C921A100EC94E0 /* ipod_page.png */; };
+		680B06D917CC526A00EC94E0 /* red_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 680B06D817CC526A00EC94E0 /* red_page.png */; };
 		6822F9C5167008A600911C96 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6822F9C4167008A600911C96 /* AVFoundation.framework */; };
 		6822F9C9167662C700911C96 /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6822F9C7167662C700911C96 /* ProductsViewController.m */; };
 		6822F9CA167662C700911C96 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6822F9C8167662C700911C96 /* ProductsViewController.xib */; };
@@ -88,6 +95,16 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		680B06C017B9939600EC94E0 /* loadFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadFeed.h; sourceTree = "<group>"; };
 		680B06C117B9939600EC94E0 /* loadFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadFeed.m; sourceTree = "<group>"; };
+		680B06C317C12D0200EC94E0 /* PlanCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanCarouselViewController.h; sourceTree = "<group>"; };
+		680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanCarouselViewController.m; sourceTree = "<group>"; };
+		680B06C617C12EDC00EC94E0 /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		680B06C717C12EDC00EC94E0 /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		680B06C917C130B500EC94E0 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+		680B06D117C1612900EC94E0 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		680B06D217C1612900EC94E0 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		680B06D417C168AB00EC94E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		680B06D617C921A100EC94E0 /* ipod_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipod_page.png; sourceTree = "<group>"; };
+		680B06D817CC526A00EC94E0 /* red_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_page.png; sourceTree = "<group>"; };
 		6822F9C4167008A600911C96 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6822F9C6167662C700911C96 /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
 		6822F9C7167662C700911C96 /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
@@ -110,8 +127,6 @@
 		68A0728B13B3FCD100F8BC64 /* flipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipsideViewController.h; sourceTree = "<group>"; };
 		68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipsideViewController.m; sourceTree = "<group>"; };
 		68A0728D13B3FCD100F8BC64 /* flipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = flipsideView.xib; path = Classes/flipsideView.xib; sourceTree = "<group>"; };
-		68D17A9217B0132C00E3BACC /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		68D17A9317B0132C00E3BACC /* iCarousel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		68EDB16216548E6100F89C5E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		68F0D13B1666735F009726A7 /* ad_banner.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ad_banner.html; sourceTree = "<group>"; };
 		68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
@@ -174,6 +189,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680B06D517C168AB00EC94E0 /* QuartzCore.framework in Frameworks */,
 				68647EA117B326A700E6B367 /* CoreData.framework in Frameworks */,
 				683886B117A5889E001E0C22 /* Accounts.framework in Frameworks */,
 				683886AF17A564A3001E0C22 /* Social.framework in Frameworks */,
@@ -226,6 +242,10 @@
 				68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */,
 				680B06C017B9939600EC94E0 /* loadFeed.h */,
 				680B06C117B9939600EC94E0 /* loadFeed.m */,
+				680B06C317C12D0200EC94E0 /* PlanCarouselViewController.h */,
+				680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */,
+				680B06C617C12EDC00EC94E0 /* CarouselViewController.h */,
+				680B06C717C12EDC00EC94E0 /* CarouselViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -258,6 +278,9 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				680B06D817CC526A00EC94E0 /* red_page.png */,
+				680B06D617C921A100EC94E0 /* ipod_page.png */,
+				680B06C917C130B500EC94E0 /* page.png */,
 				68647E9617B08EA200E6B367 /* days_schedule.xml */,
 				68F0D13B1666735F009726A7 /* ad_banner.html */,
 				74801A77157579390029CF86 /* 8hours.jpg */,
@@ -305,6 +328,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				680B06D417C168AB00EC94E0 /* QuartzCore.framework */,
 				68647EA017B326A700E6B367 /* CoreData.framework */,
 				683886B017A5889E001E0C22 /* Accounts.framework */,
 				683886AE17A564A3001E0C22 /* Social.framework */,
@@ -350,8 +374,8 @@
 		68D17A9117B0132C00E3BACC /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				68D17A9217B0132C00E3BACC /* iCarousel.h */,
-				68D17A9317B0132C00E3BACC /* iCarousel.m */,
+				680B06D117C1612900EC94E0 /* iCarousel.h */,
+				680B06D217C1612900EC94E0 /* iCarousel.m */,
 			);
 			path = iCarousel;
 			sourceTree = "<group>";
@@ -424,6 +448,7 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				680B06D717C921A200EC94E0 /* ipod_page.png in Resources */,
 				74749C01138703F400023F46 /* Old_Detail.xib in Resources */,
 				74930974138D76DF0036A23E /* PodcastViewController.xib in Resources */,
 				749309BE138D87B20036A23E /* PodcastViewDetail.xib in Resources */,
@@ -439,11 +464,13 @@
 				74801A7A157579390029CF86 /* 8hours.jpg in Resources */,
 				68578D3117A5DDF20052E753 /* Media.xcassets in Resources */,
 				74801A7C157579390029CF86 /* wtb.jpg in Resources */,
+				680B06D917CC526A00EC94E0 /* red_page.png in Resources */,
 				B8E4B37F159260EC00923F5A /* LiveEventsView2.xib in Resources */,
 				D9BABD0A15AF9BF300F134FB /* MainWindow-iPad.xib in Resources */,
 				D9BABD1415AF9E8C00F134FB /* flipsideview~ipad.xib in Resources */,
 				D9BABD1515AF9E8C00F134FB /* infoView~ipad.xib in Resources */,
 				68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */,
+				680B06CA17C130B500EC94E0 /* page.png in Resources */,
 				D9BABD1615AF9E8C00F134FB /* NetWebView~ipad.xib in Resources */,
 				D9BABD1715AF9E8C00F134FB /* PlanDetail~ipad.xib in Resources */,
 				D9BABD1815AF9E8C00F134FB /* PlanViewController~ipad.xib in Resources */,
@@ -471,6 +498,7 @@
 				74749BFA1387034600023F46 /* Parser.m in Sources */,
 				74749C00138703F400023F46 /* Detail.m in Sources */,
 				74930973138D76DF0036A23E /* PodcastViewController.m in Sources */,
+				680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */,
 				680B06C217B9939600EC94E0 /* loadFeed.m in Sources */,
 				749309BD138D87B20036A23E /* PodcastViewDetail.m in Sources */,
 				7406F02F138EF052004A7017 /* NetWebViewController.m in Sources */,
@@ -479,11 +507,13 @@
 				746FE1A213A1625C0033B2A8 /* DayParse.m in Sources */,
 				74BDAE4513A2943300DFD501 /* PlanDetail.m in Sources */,
 				68A0728E13B3FCD100F8BC64 /* flipsideViewController.m in Sources */,
+				680B06D317C1612900EC94E0 /* iCarousel.m in Sources */,
 				740673BE13C0C01900FC42D1 /* infoView.m in Sources */,
 				74653EC813C42EF3001722AA /* Reachability.m in Sources */,
 				74801A74157574A70029CF86 /* LiveEvents.m in Sources */,
 				D986C3B315BF628700BDFAAF /* facebookViewController.m in Sources */,
 				6822F9C9167662C700911C96 /* ProductsViewController.m in Sources */,
+				680B06C517C12D0200EC94E0 /* PlanCarouselViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

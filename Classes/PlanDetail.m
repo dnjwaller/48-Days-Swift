@@ -10,8 +10,14 @@
 #import "PlanViewController.h"
 #import "flipsideViewController.h"
 #import "GAI.h"
+#import "DayParse.h"
+#import "CarouselViewController.h"
 
 @implementation PlanDetail
+
+@synthesize items, parser, complete;
+NSMutableArray *statusArray;
+NSInteger *day;
 
 - (void)flipsideViewControllerDidFinish:(flipsideViewController *)controller {
 	//[self.navigationController dismissModalViewControllerAnimated:YES];
@@ -43,14 +49,77 @@
 
 @synthesize item, itemTitle, itemSummary, itemDate;  
 
+- (void) awakeFromNib {
+    CarouselViewController *carouselVC = [[CarouselViewController alloc] init];
+    day = carouselVC.dayIndex;
+    [self loadData];
+	[self loadCompleteData];
+}
+
+- (void) loadCompleteData {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	//2) Create the full file path by appending the desired file name
+	NSString *fileName = [documentsDirectory stringByAppendingPathComponent:@"status.txt"];
+	
+	//Load the array
+	statusArray = [[NSMutableArray alloc] initWithContentsOfFile: fileName];
+	
+	if(statusArray == nil)
+    {
+        //Array file didn't exist... create a new one
+        statusArray = [[NSMutableArray alloc] initWithCapacity:49];
+        
+        //Fill with default values
+        NSInteger i;
+        for (i = 0; i < 49; i++)
+        {
+            [statusArray insertObject: @"1" atIndex: i];
+        }
+        [statusArray writeToFile:fileName atomically:YES];
+        self.complete = statusArray;
+    } else {
+        
+    }
+    
+}
+
+- (void)loadData {
+    
+	if (items == nil) {
+        
+        NSBundle *myBundle = [NSBundle bundleForClass:[self class]];
+        NSString *filePath = [myBundle pathForResource:@"days_schedule" ofType:@"xml"];
+        NSURL *xmlPath = [NSURL fileURLWithPath:filePath];
+        
+		DayParse *xmlParser = [[DayParse alloc] init];
+		xmlParser.delegate = self;
+		[xmlParser parse:xmlPath withDelegate:self];
+    }
+    self.item = [items objectAtIndex:day];
+    NSLog(@"Data:  %@",[items objectAtIndex:day]);
+}
+
+- (void) loadNewDay:(NSNotification *)aDay {
+    NSDictionary * dict = [[NSDictionary alloc] initWithDictionary:[aDay userInfo]];
+    day = [[dict objectForKey:@"day"] integerValue];
+    self.item = [items objectAtIndex:day];
+    self.itemTitle.text = [item objectForKey:@"title"];
+	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+}
+
+- (void)receivedItems:(NSArray *)theItems {
+	items = theItems;
+}
+
+/*
 - (id)initWithItem:(NSDictionary *)theItem {  
 //	if (self = [super initWithNibName:@"PlanDetail" bundle:nil]) {
 //		self.item = theItem;
 //	}
-	
 	return self;  
 }  
-
+*/
 
 - (void)viewDidLoad {  
 	[super viewDidLoad]; 
@@ -72,10 +141,12 @@
     NSString *temp = [NSString stringWithFormat:@"Schedule Detail %@",self.itemTitle.text];
     [tracker sendView:temp];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadNewDay:)
+                                                 name:@"newDay" object:nil];
    // [rightButton release];
 }  
 			
-																					
+
 		 
 -(IBAction) isComplete:(id) sender {
  NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

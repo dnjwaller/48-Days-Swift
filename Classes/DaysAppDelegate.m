@@ -15,6 +15,7 @@
 #import "LiveEvents.h"
 #import "facebookViewController.h"
 #import "ProductsViewController.h"
+#import "CarouselViewController.h"
 
 
 
@@ -52,7 +53,14 @@
     //check for ios 7 and set title bar color and status bar color
     
     if (SYSTEM_VERSION_LESS_THAN(@"7.0")) {
-        [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:100 green:0 blue:0 alpha:1]];
+        [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:255 green:255 blue:255 alpha:1]];
+        NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    [UIColor whiteColor],
+                                    UITextAttributeTextColor,
+                                    nil];
+        [[UIBarButtonItem appearance] setTintColor:[UIColor redColor]];
+        [[UIBarButtonItem appearance] setTitleTextAttributes: attributes
+                                                    forState: UIControlStateNormal];
     }
     else {
        // [[UITabBar appearance] setSelectedImageTintColor:[UIColor redColor]];

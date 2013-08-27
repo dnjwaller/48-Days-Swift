@@ -99,7 +99,7 @@
        
      // podcast url is an attribute of the element enclosure  
      if ([currentElement isEqualToString:@"enclosure"]) {  
-         [currentPodcastLink appendString:[attributeDict objectForKey:@"url"]];  
+         [currentPodcastLink appendString:[attributeDict objectForKey:@"url"]];
      }  
 	 
 	 
@@ -116,7 +116,7 @@
          [item setObject:self.currentSummary forKey:@"summary"];
          [item setObject:self.currentPodcastLink forKey:@"podcastLink"];
          [item setObject:self.currentBlogLink forKey:@"blogLink"];
-           
+    
          // Parse date here  
                     
          [dateFormatter setDateFormat:@"E, d LLL yyyy HH:mm:ss Z"]; // Thu, 18 Jun 2010 04:48:09 -0700

@@ -38,22 +38,15 @@ UIBarButtonItem *rightButton;
    // self.view.autoresizesSubviews = YES;
    // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
 	indicator.hidesWhenStopped = YES;
 	[indicator stopAnimating];
 	self.activityIndicator = indicator;
-	//[indicator release];
-	
-	//backButton = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)] autorelease];
     backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-   // self.navigationItem.leftBarButtonItem =backButton;
-    
 	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
 	self.navigationItem.rightBarButtonItem = rightButton;
-	//self.navigationItem.title =@"Products";
-	//[rightButton release];
-	webDisplay.delegate = self;
-    //webDisplay.scalesPageToFit=YES;
+    webDisplay.delegate = self;
+    
     
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -101,7 +94,6 @@ UIBarButtonItem *rightButton;
 													   delegate:nil
 											  cancelButtonTitle:@"OK"
 											  otherButtonTitles:nil];
-		//[alert autorelease];
 		[alert show];
 		
 	}

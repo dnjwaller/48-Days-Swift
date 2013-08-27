@@ -39,20 +39,17 @@ UIBarButtonItem *rightButton;
    // self.view.autoresizesSubviews = YES;
    // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
-	//UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
-	activityIndicator.hidesWhenStopped = YES;
-	[activityIndicator stopAnimating];
-	//self.activityIndicator = indicator;
-	
-    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-    //self.navigationItem.leftBarButtonItem =backButton;
     
-	// rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
-	self.navigationItem.rightBarButtonItem = rightButton;  
-	//self.navigationItem.title =@"48 Days Facebook";
-	//[rightButton release];
-	webDisplay.delegate = self;
-   
+    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+	indicator.hidesWhenStopped = YES;
+	[indicator stopAnimating];
+	self.activityIndicator = indicator;
+    
+    backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
+	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
+	self.navigationItem.rightBarButtonItem = rightButton;
+    webDisplay.delegate = self;
+    
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
@@ -68,12 +65,15 @@ UIBarButtonItem *rightButton;
 
 
 - (void)webViewDidStartLoad:(UIWebView *)webDisplay {
-	self.navigationItem.rightBarButtonItem = rightButton;
+    self.navigationItem.rightBarButtonItem = rightButton;
 	[activityIndicator startAnimating];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webDisplay {
 	[activityIndicator stopAnimating];
+    
+    self.navigationItem.rightBarButtonItem = backButton;
+    self.navigationItem.rightBarButtonItem.enabled = (self.webDisplay.canGoBack);
 }
 
 

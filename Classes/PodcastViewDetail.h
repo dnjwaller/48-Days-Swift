@@ -7,14 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 
-@interface PodcastViewDetail : UIViewController {
+
+@interface PodcastViewDetail : UIViewController <UIScrollViewDelegate> {
 	NSDictionary *item;  
 	IBOutlet UILabel *itemTitle;  
 	IBOutlet UILabel *itemDate;  
 	IBOutlet UIWebView *itemSummary;
     IBOutlet UIBarButtonItem *shareButton;
+    UIScrollView *scrollView;
+    UIActivityIndicatorView *activityIndicator;
+    UIPageControl *pageControl;
 }  
 
 @property (strong, nonatomic) NSDictionary *item;  
@@ -24,6 +29,13 @@
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 @property (strong, nonatomic) UIPopoverController *popover;
 @property (strong, nonatomic) NSURL *itemUrl;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+
+@property (nonatomic) AVPlayerItem *playerItem;
+@property (nonatomic) AVPlayer *player;
+
 
 - (id)initWithItem:(NSDictionary *)theItem;  
 
