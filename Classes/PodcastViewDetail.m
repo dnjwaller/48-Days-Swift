@@ -8,9 +8,11 @@
 
 #import "PodcastViewDetail.h"
 #import <MediaPlayer/MediaPlayer.h>
-
+#import <MediaPlayer/MPNowPlayingInfoCenter.h>
+#import <MediaPlayer/MPMediaItem.h>
 #import "GAI.h"
 #import "Parser.h"
+//#import "PodcastPlayerViewController.h"
 
 @implementation PodcastViewDetail
 
@@ -21,10 +23,12 @@ BOOL pageControlBeingUsed;
 NSMutableArray *podcastUrlArray;
 NSMutableArray *podcastTitleArray;
 NSMutableArray *postUrlArray;
-
-@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover,scrollView,activityIndicator,pageControl;
-
+NSURL *url;
 MPMoviePlayerController *mediaPlayer;
+
+@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover,scrollView,activityIndicator,pageControl,mpPlayerView,loadingLabel;
+//@synthesize player, playerItem;
+
 
 - (id)initWithItem:(NSDictionary *)theItem {  
 	/*if (self = [super initWithNibName:@"PodcastViewDetail" bundle:nil]) {
@@ -38,15 +42,19 @@ MPMoviePlayerController *mediaPlayer;
 
 
 - (void)viewDidLoad {  
-	[super viewDidLoad];  
+	[super viewDidLoad];
+    
 	podcastUrlArray = [[NSMutableArray alloc] init];
     podcastTitleArray = [[NSMutableArray alloc] init];
     postUrlArray = [[NSMutableArray alloc] init];
+    url = [[NSURL alloc] init];
     
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     [activityIndicator startAnimating];
+    [loadingLabel setHidden:FALSE];
+    
     
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -54,14 +62,14 @@ MPMoviePlayerController *mediaPlayer;
     
 	self.itemTitle.text = [item objectForKey:@"title"];
     self.itemUrl = [item objectForKey:@"blogLink"];
-	
-	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];    
-	[dateFormatter setDateStyle:NSDateFormatterMediumStyle];  
-	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];  
-	
-	self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+    
+    self.itemDate.text = [dateFormatter stringFromDate:[item objectForKey:@"date"]];
     self.itemDate.textColor = [UIColor redColor];
-	
+    
     pageControlBeingUsed = NO;
     scrollView.pagingEnabled = YES;
     scrollView.showsHorizontalScrollIndicator = NO;
@@ -70,32 +78,65 @@ MPMoviePlayerController *mediaPlayer;
     
     
     activityIndicator.hidesWhenStopped = YES;
-	[activityIndicator stopAnimating];
+    [activityIndicator stopAnimating];
     self.pageControl.currentPage = 0;
 
     
     if ([mediaPlayer playbackState] == MPMusicPlaybackStatePlaying) {
-        [mediaPlayer.view setFrame:self.view.bounds];
-        [self.itemSummary addSubview:mediaPlayer.view];
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+            [mediaPlayer.view setFrame:self.view.bounds];
+            [self.itemSummary addSubview:mediaPlayer.view];
+        } else {
+            [mediaPlayer.view setFrame:mpPlayerView.bounds];
+            [mpPlayerView addSubview:mediaPlayer.view];
+        }
+        
+        Class playingInfoCenter = NSClassFromString(@"MPNowPlayingInfoCenter");
+        
+        if (playingInfoCenter) {
+            NSMutableDictionary *songInfo = [[NSMutableDictionary alloc] init];
+            
+            MPMediaItemArtwork *albumArt = [[MPMediaItemArtwork alloc] initWithImage: [UIImage imageNamed:@"navtitle"]];
+            
+            [songInfo setObject:self.itemTitle.text forKey:MPMediaItemPropertyTitle];
+            [songInfo setObject:@"Dan Miller" forKey:MPMediaItemPropertyArtist];
+            [songInfo setObject:albumArt forKey:MPMediaItemPropertyArtwork];
+            [[MPNowPlayingInfoCenter defaultCenter] setNowPlayingInfo:songInfo];
+        }
         
     }
     else {
+        
+        
+        
+        [[AVAudioSession sharedInstance] setDelegate:self];
+        
         AVAudioSession *audioSession = [AVAudioSession sharedInstance];
         BOOL ok;
         NSError *setCategoryError = nil;
-        ok = [audioSession setCategory:AVAudioSessionCategoryPlayback
-                                 error:&setCategoryError];
+        ok =[audioSession setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
+        
         if (!ok) {
             NSLog(@"%s setCategoryError=%@", __PRETTY_FUNCTION__, setCategoryError);
         }
-
-        [self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+        else {
+            [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+            [self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+        
+        }
+        
+        
+        
     }
+    
+    
     
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
     }
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hideLoading) name:MPMoviePlayerLoadStateDidChangeNotification object:nil];
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Podcast Detail Screen"];
@@ -112,6 +153,12 @@ MPMoviePlayerController *mediaPlayer;
 - (void) showArticle {
     
     UIInterfaceOrientation myOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+    
+    //No data from FeedBurner
+    if (numberOfPages == 0) {
+        [itemSummary loadHTMLString:@"<html><body><h3>There is currently no data to display.  Please check again later.</h3></body></html>" baseURL:nil];
+    }
+    
     for (int i=0;i<numberOfPages; i++) {
         
         if (UIInterfaceOrientationIsPortrait(myOrientation)) {
@@ -161,7 +208,9 @@ MPMoviePlayerController *mediaPlayer;
         UIWebView *view = [[UIWebView alloc] initWithFrame:frame];
         [scrollView addSubview:view];
         [view loadHTMLString:blogString baseURL:nil];
+        
     }
+    [self loadPodcast];
 }
 
 - (void)receivedItems:(NSArray *)theItems {
@@ -182,15 +231,20 @@ MPMoviePlayerController *mediaPlayer;
     CGFloat pageWidth = self.scrollView.frame.size.width;
     int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
     self.pageControl.currentPage = page;
-    
+    [self loadPodcast];
 }
 
+/*
 - (IBAction)playPodcast:(id)sender {  
-	
+	//UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+    //AudioSessionSetProperty(kAudioSessionProperty_AudioCategory, sizeof(sessionCategory), &sessionCategory);
+    
+    url = [NSURL URLWithString:[podcastUrlArray objectAtIndex:pageControl.currentPage]];
+    
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
     {
-        mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:[item objectForKey:@"podcastLink"]]];
-        
+        //mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:[NSURL URLWithString:[item objectForKey:@"podcastLink"]]];
+        mediaPlayer  = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
         [mediaPlayer prepareToPlay];
         mediaPlayer.scalingMode = MPMovieScalingModeAspectFill;
         mediaPlayer.fullscreen = NO;
@@ -203,20 +257,32 @@ MPMoviePlayerController *mediaPlayer;
         mediaPlayer.view.autoresizesSubviews = YES;
         mediaPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [mediaPlayer play];
-    }
+   }
     else {
-        NSURL *url = [NSURL URLWithString:[podcastUrlArray objectAtIndex:pageControl.currentPage]];
-        NSLog(@"URL: %@",url);
-        NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url];
-        //NSURLRequest *request = [[NSURLRequest alloc] initWithURL: [NSURL URLWithString: [item objectForKey:@"podcastLink"]]];
-        [self.itemSummary loadRequest:request];
+        // NSURLRequest *request = [[NSURLRequest alloc] initWithURL: url];
+        //player = [AVPlayer playerWithURL:url];
+        //[player play];
+   
         
-        //NSError *error;
-        //AVAudioPlayer *podcastPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
-        //[podcastPlayer prepareToPlay];
-        //[podcastPlayer play];
+        mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:url];
+        [mediaPlayer setShouldAutoplay:NO];
+        [mediaPlayer prepareToPlay];
+        //mediaPlayer.scalingMode = MPMovieScalingModeAspectFill;
+        mediaPlayer.fullscreen = NO;
+        mediaPlayer.controlStyle = MPMovieControlStyleEmbedded;
+        mediaPlayer.allowsAirPlay = YES;
+        //mediaPlayer.useApplicationAudioSession = NO;
+        NSError *setCategoryError = nil;
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&setCategoryError];
+        [mediaPlayer.view setFrame:mpPlayerView.bounds];
+        
+        [mpPlayerView addSubview:mediaPlayer.view];
+        mediaPlayer.view.autoresizesSubviews = YES;
+        mediaPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+       // [mediaPlayer play];
+        
     }
-    
+   
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendEventWithCategory:@"uiAction"
@@ -224,6 +290,37 @@ MPMoviePlayerController *mediaPlayer;
                          withLabel:@"Play Podcast Button Pressed"
                          withValue:nil];
 }  
+*/
+
+- (void) loadPodcast {
+    [activityIndicator startAnimating];
+    [loadingLabel setHidden:FALSE];
+    url = [NSURL URLWithString:[podcastUrlArray objectAtIndex:pageControl.currentPage]];
+    
+    mediaPlayer  = [[MPMoviePlayerController alloc] initWithContentURL:url];
+    
+    [mediaPlayer setShouldAutoplay:NO];
+    [mediaPlayer prepareToPlay];
+    mediaPlayer.scalingMode = MPMovieScalingModeAspectFill;
+    mediaPlayer.fullscreen = NO;
+    mediaPlayer.controlStyle = MPMovieControlStyleEmbedded;
+    mediaPlayer.allowsAirPlay = YES;
+    [mediaPlayer.view setFrame:mpPlayerView.bounds];
+    mediaPlayer.backgroundView.backgroundColor = [UIColor clearColor];
+    mediaPlayer.view.backgroundColor = [UIColor clearColor];
+    mpPlayerView.backgroundColor = [UIColor clearColor];
+    
+    [mpPlayerView addSubview:mediaPlayer.view];
+    mediaPlayer.view.autoresizesSubviews = YES;
+    mediaPlayer.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    
+}
+
+- (void) hideLoading {
+    [activityIndicator stopAnimating];
+    [activityIndicator setHidden:TRUE];
+    [loadingLabel setHidden:TRUE];
+}
 
 
 - (IBAction)shareButtonTapped:(id)sender
@@ -265,8 +362,15 @@ MPMoviePlayerController *mediaPlayer;
                          withValue:nil];
 }
 
-
-
+/*
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"PlayPodcast"]) {
+        url = [NSURL URLWithString:[podcastUrlArray objectAtIndex:pageControl.currentPage]];
+        PodcastPlayerViewController *playerVC = segue.destinationViewController;
+        [playerVC setItem:url];
+    }
+}
+*/
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

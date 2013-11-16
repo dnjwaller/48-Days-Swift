@@ -85,9 +85,9 @@ int interval=0;
     [self loadEvents];
     
        
-    UIImage *img1 =[UIImage imageNamed:@"cwe_new.png"];
-    UIImage *img2 =[UIImage imageNamed:@"masterylogo.png"];
-    UIImage *img3 =[UIImage imageNamed:@"ino48.png"];
+    UIImage *img1 =[UIImage imageNamed:@"cwe_new"];
+    UIImage *img2 =[UIImage imageNamed:@"masterylogo"];
+    UIImage *img3 =[UIImage imageNamed:@"ino48"];
     
     self.event1.image = img1;
     self.event2.image = img2;

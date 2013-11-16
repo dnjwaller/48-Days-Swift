@@ -37,6 +37,7 @@
 		68A071CB13B02E5900F8BC64 /* status.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68A071CA13B02E5900F8BC64 /* status.txt */; };
 		68A0728E13B3FCD100F8BC64 /* flipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */; };
 		68A0728F13B3FCD100F8BC64 /* flipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A0728D13B3FCD100F8BC64 /* flipsideView.xib */; };
+		68E39C9E17D6BCB200F61B8B /* PodcastPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E39C9D17D6BCB200F61B8B /* PodcastPlayerViewController.m */; };
 		68EDB16316548E6100F89C5E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EDB16216548E6100F89C5E /* iAd.framework */; };
 		68F0D13C1666735F009726A7 /* ad_banner.html in Resources */ = {isa = PBXBuildFile; fileRef = 68F0D13B1666735F009726A7 /* ad_banner.html */; };
 		68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */; };
@@ -127,6 +128,8 @@
 		68A0728B13B3FCD100F8BC64 /* flipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipsideViewController.h; sourceTree = "<group>"; };
 		68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipsideViewController.m; sourceTree = "<group>"; };
 		68A0728D13B3FCD100F8BC64 /* flipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = flipsideView.xib; path = Classes/flipsideView.xib; sourceTree = "<group>"; };
+		68E39C9C17D6BCB200F61B8B /* PodcastPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodcastPlayerViewController.h; sourceTree = "<group>"; };
+		68E39C9D17D6BCB200F61B8B /* PodcastPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodcastPlayerViewController.m; sourceTree = "<group>"; };
 		68EDB16216548E6100F89C5E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		68F0D13B1666735F009726A7 /* ad_banner.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ad_banner.html; sourceTree = "<group>"; };
 		68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
@@ -221,6 +224,8 @@
 				74930971138D76DF0036A23E /* PodcastViewController.m */,
 				749309BA138D87B20036A23E /* PodcastViewDetail.h */,
 				749309BB138D87B20036A23E /* PodcastViewDetail.m */,
+				68E39C9C17D6BCB200F61B8B /* PodcastPlayerViewController.h */,
+				68E39C9D17D6BCB200F61B8B /* PodcastPlayerViewController.m */,
 				7406F02C138EF052004A7017 /* NetWebViewController.h */,
 				7406F02D138EF052004A7017 /* NetWebViewController.m */,
 				746FE17113A14D260033B2A8 /* PlanViewController.h */,
@@ -499,6 +504,7 @@
 				74749C00138703F400023F46 /* Detail.m in Sources */,
 				74930973138D76DF0036A23E /* PodcastViewController.m in Sources */,
 				680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */,
+				68E39C9E17D6BCB200F61B8B /* PodcastPlayerViewController.m in Sources */,
 				680B06C217B9939600EC94E0 /* loadFeed.m in Sources */,
 				749309BD138D87B20036A23E /* PodcastViewDetail.m in Sources */,
 				7406F02F138EF052004A7017 /* NetWebViewController.m in Sources */,
@@ -525,8 +531,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -554,8 +560,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Days_Prefix.pch;
@@ -581,16 +587,16 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
+				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -601,8 +607,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Days_Prefix.pch;
@@ -628,16 +634,16 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
+				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -648,16 +654,16 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_OBJCPP_ARC_ABI = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "263FC2E7-13E5-43C2-ABD8-7D47F1A038CE";
+				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import <MediaPlayer/MPMoviePlayerController.h>
+
 
 
 
@@ -20,6 +22,8 @@
     UIScrollView *scrollView;
     UIActivityIndicatorView *activityIndicator;
     UIPageControl *pageControl;
+    IBOutlet UIView *mpPlayerView;
+    IBOutlet UILabel *loadingLabel;
 }  
 
 @property (strong, nonatomic) NSDictionary *item;  
@@ -32,14 +36,17 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) IBOutlet UIView *mpPlayerView;
+@property (strong, nonatomic) IBOutlet UILabel *loadingLabel;
 
-@property (nonatomic) AVPlayerItem *playerItem;
-@property (nonatomic) AVPlayer *player;
+
+//@property (nonatomic) AVPlayerItem *playerItem;
+//@property (nonatomic) AVPlayer *player;
 
 
 - (id)initWithItem:(NSDictionary *)theItem;  
 
-- (IBAction)playPodcast:(id)sender;  
+//- (IBAction)playPodcast:(id)sender;
 
 
 @end
