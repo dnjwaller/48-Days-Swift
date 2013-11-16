@@ -17,7 +17,7 @@
 
 @synthesize items, parser, complete;
 NSMutableArray *statusArray;
-NSInteger *day;
+NSInteger day;
 
 - (void)flipsideViewControllerDidFinish:(flipsideViewController *)controller {
 	//[self.navigationController dismissModalViewControllerAnimated:YES];
@@ -159,9 +159,9 @@ NSInteger *day;
  
  [statusArray replaceObjectAtIndex:row withObject: @"0"];
  [statusArray writeToFile:fileName atomically:YES];
- 
+    
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
-													message:@"Day Completed"
+													message:[NSString stringWithFormat:@"Day %i Completed",day]
 												   delegate:nil
 										  cancelButtonTitle:@"OK"
 										  otherButtonTitles:nil];

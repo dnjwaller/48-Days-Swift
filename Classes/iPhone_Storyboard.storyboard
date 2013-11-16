@@ -423,7 +423,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="373"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-NT-PIg">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-NT-PIg">
                                 <rect key="frame" x="9" y="37" width="303" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -431,7 +431,7 @@
                                     <constraint firstAttribute="height" constant="224" id="ju5-o4-P3s"/>
                                 </constraints>
                             </webView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydF-5R-qBI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydF-5R-qBI">
                                 <rect key="frame" x="226" y="7" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -447,11 +447,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aNX-NT-PIg" firstAttribute="top" secondItem="ydF-5R-qBI" secondAttribute="bottom" constant="8" id="6ZW-bY-JRp"/>
+                            <constraint firstItem="aNX-NT-PIg" firstAttribute="top" secondItem="ydF-5R-qBI" secondAttribute="bottom" id="6ZW-bY-JRp"/>
                             <constraint firstItem="aNX-NT-PIg" firstAttribute="centerX" secondItem="WAy-Kj-dSn" secondAttribute="centerX" id="b5X-wo-SSP"/>
                             <constraint firstItem="aNX-NT-PIg" firstAttribute="leading" secondItem="WAy-Kj-dSn" secondAttribute="leading" constant="9" id="eUH-x1-cGD"/>
                             <constraint firstAttribute="trailing" secondItem="ydF-5R-qBI" secondAttribute="trailing" constant="20" symbolic="YES" id="msq-P6-FkF"/>
-                            <constraint firstItem="AlD-oC-mNP" firstAttribute="top" secondItem="aNX-NT-PIg" secondAttribute="bottom" constant="20" id="zZ7-Il-3cQ"/>
+                            <constraint firstItem="AlD-oC-mNP" firstAttribute="top" secondItem="aNX-NT-PIg" secondAttribute="bottom" constant="112" id="zZ7-Il-3cQ"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -652,7 +652,7 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vms-K1-HWJ">
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vms-K1-HWJ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -662,7 +662,7 @@
                         <constraints>
                             <constraint firstItem="Vms-K1-HWJ" firstAttribute="leading" secondItem="lGd-Mf-MsR" secondAttribute="leading" id="13Y-AU-miK"/>
                             <constraint firstItem="Vms-K1-HWJ" firstAttribute="top" secondItem="lGd-Mf-MsR" secondAttribute="top" id="RkS-4p-ZKi"/>
-                            <constraint firstItem="bJc-x2-JxP" firstAttribute="top" secondItem="Vms-K1-HWJ" secondAttribute="bottom" constant="11" id="YW2-Do-foK"/>
+                            <constraint firstItem="bJc-x2-JxP" firstAttribute="top" secondItem="Vms-K1-HWJ" secondAttribute="bottom" id="YW2-Do-foK"/>
                             <constraint firstAttribute="trailing" secondItem="Vms-K1-HWJ" secondAttribute="trailing" id="fGZ-dZ-6P9"/>
                         </constraints>
                     </view>
@@ -929,7 +929,7 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" id="1AJ-Pm-vEg">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="3mg-uh-3B6">
+                        <barButtonItem key="rightBarButtonItem" id="3mg-uh-3B6">
                             <button key="customView" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QTO-Ne-Ymp">
                                 <rect key="frame" x="240" y="5" width="64" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1003,7 +1003,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="123"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view autoresizesSubviews="NO" contentMode="scaleAspectFit" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgh-SO-vfh" customClass="iCarousel">
+                            <view autoresizesSubviews="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="dgh-SO-vfh" customClass="iCarousel">
                                 <rect key="frame" x="8" y="29" width="305" height="84"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1017,8 +1017,8 @@
                         <constraints>
                             <constraint firstItem="dgh-SO-vfh" firstAttribute="leading" secondItem="a5v-nE-7zE" secondAttribute="leading" constant="8" id="Fli-DL-ZsB"/>
                             <constraint firstAttribute="centerX" secondItem="dgh-SO-vfh" secondAttribute="centerX" constant="-0.5" id="cuS-IC-1eB"/>
-                            <constraint firstAttribute="centerY" secondItem="dgh-SO-vfh" secondAttribute="centerY" constant="-0.5" id="pcq-Yx-vL5"/>
-                            <constraint firstItem="dgh-SO-vfh" firstAttribute="top" secondItem="a5v-nE-7zE" secondAttribute="top" constant="20" symbolic="YES" id="rGx-Bs-XF6"/>
+                            <constraint firstAttribute="centerY" secondItem="dgh-SO-vfh" secondAttribute="centerY" constant="-9.5" id="pcq-Yx-vL5"/>
+                            <constraint firstItem="dgh-SO-vfh" firstAttribute="top" secondItem="a5v-nE-7zE" secondAttribute="top" constant="29" id="rGx-Bs-XF6"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
