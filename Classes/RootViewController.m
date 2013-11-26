@@ -51,7 +51,9 @@ NSDictionary *theItem;
     [self.tableView setContentInset:insets];
     [self.tableView setScrollIndicatorInsets:insets];
     */
-	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];  
+    
+    
+	UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
 	indicator.hidesWhenStopped = YES;  
 	[indicator stopAnimating];  
 	self.activityIndicator = indicator;  

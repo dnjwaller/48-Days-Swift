@@ -65,7 +65,9 @@
     else {
        // [[UITabBar appearance] setSelectedImageTintColor:[UIColor redColor]];
         [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
+        //[[UINavigationBar appearance] setTranslucent:YES];
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
+        
         window.tintColor = [UIColor redColor];
     }
    /*
