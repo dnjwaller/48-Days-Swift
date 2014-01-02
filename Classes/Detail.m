@@ -52,6 +52,9 @@ NSMutableArray *postUrlArray;
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         self.itemTitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline];
         self.itemDate.font = [UIFont preferredFontForTextStyle:UIFontTextStyleCaption1];
+        
+        [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
     }
     
     UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
@@ -88,14 +91,14 @@ NSMutableArray *postUrlArray;
         
         if (UIInterfaceOrientationIsPortrait(myOrientation)) {
             frame.origin.x = self.scrollView.bounds.size.width*i;
-            frame.origin.y = 0;
-            frame.size.height = self.scrollView.bounds.size.height;
+            frame.origin.y = 60;
+            frame.size.height = self.scrollView.bounds.size.height-60;
             frame.size.width = self.scrollView.bounds.size.width;
             //frame.size = self.scrollView.frame.size;
         } else if (UIInterfaceOrientationIsLandscape(myOrientation)) {
             frame.origin.x = self.scrollView.bounds.size.width*i;
-            frame.origin.y = 0;
-            frame.size.height = self.scrollView.bounds.size.width+75;
+            frame.origin.y = 60;
+            frame.size.height = self.scrollView.bounds.size.width-135;
             frame.size.width = self.scrollView.bounds.size.width;
         }
         item = [articles objectAtIndex:i];

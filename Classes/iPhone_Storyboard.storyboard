@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="txJ-AZ-c2C">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="txJ-AZ-c2C">
     <dependencies>
-        <deployment version="1536" defaultVersion="1536" identifier="iOS"/>
+        <deployment version="1536" defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
@@ -271,7 +271,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDa-Le-cgr">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="477"/>
+                                <rect key="frame" x="0.0" y="-63" width="320" height="539"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="10" translatesAutoresizingMaskIntoConstraints="NO" id="93c-x0-SsM">
@@ -284,13 +284,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="5zn-vj-Z2O" firstAttribute="centerY" secondItem="0i8-DJ-pPL" secondAttribute="centerY" id="6qx-Ou-OW1"/>
-                            <constraint firstItem="93c-x0-SsM" firstAttribute="top" secondItem="kDa-Le-cgr" secondAttribute="bottom" constant="-10" id="GXN-ir-SXr"/>
-                            <constraint firstItem="kDa-Le-cgr" firstAttribute="centerX" secondItem="93c-x0-SsM" secondAttribute="centerX" id="IfW-XE-ouv"/>
-                            <constraint firstAttribute="trailing" secondItem="kDa-Le-cgr" secondAttribute="trailing" id="R74-G4-fuY"/>
-                            <constraint firstItem="kDa-Le-cgr" firstAttribute="centerX" secondItem="5zn-vj-Z2O" secondAttribute="centerX" id="gYM-VH-6pH"/>
+                            <constraint firstItem="kDa-Le-cgr" firstAttribute="centerX" secondItem="93c-x0-SsM" secondAttribute="centerX" id="FCY-yR-x3j"/>
+                            <constraint firstItem="Bfa-te-FH5" firstAttribute="top" secondItem="kDa-Le-cgr" secondAttribute="bottom" constant="28" id="RTw-LK-U03"/>
+                            <constraint firstItem="kDa-Le-cgr" firstAttribute="centerX" secondItem="5zn-vj-Z2O" secondAttribute="centerX" id="ZTM-9Q-e81"/>
                             <constraint firstItem="Bfa-te-FH5" firstAttribute="top" secondItem="93c-x0-SsM" secondAttribute="bottom" id="kMq-Ew-CKU"/>
-                            <constraint firstItem="kDa-Le-cgr" firstAttribute="top" secondItem="0i8-DJ-pPL" secondAttribute="top" id="pgC-gr-Eyw"/>
-                            <constraint firstItem="kDa-Le-cgr" firstAttribute="leading" secondItem="0i8-DJ-pPL" secondAttribute="leading" id="rz1-Se-Ysc"/>
+                            <constraint firstItem="kDa-Le-cgr" firstAttribute="leading" secondItem="0i8-DJ-pPL" secondAttribute="leading" id="ndL-7m-RK5"/>
+                            <constraint firstItem="kDa-Le-cgr" firstAttribute="top" secondItem="0i8-DJ-pPL" secondAttribute="top" constant="-63" id="wDN-K6-yVt"/>
+                            <constraint firstAttribute="trailing" secondItem="kDa-Le-cgr" secondAttribute="trailing" id="x00-HM-R5O"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -424,11 +424,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNX-NT-PIg">
-                                <rect key="frame" x="9" y="37" width="303" height="224"/>
+                                <rect key="frame" x="9" y="37" width="303" height="323"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="224" id="ju5-o4-P3s"/>
+                                    <constraint firstAttribute="height" constant="323" id="ju5-o4-P3s"/>
                                 </constraints>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydF-5R-qBI">
@@ -451,7 +451,7 @@
                             <constraint firstItem="aNX-NT-PIg" firstAttribute="centerX" secondItem="WAy-Kj-dSn" secondAttribute="centerX" id="b5X-wo-SSP"/>
                             <constraint firstItem="aNX-NT-PIg" firstAttribute="leading" secondItem="WAy-Kj-dSn" secondAttribute="leading" constant="9" id="eUH-x1-cGD"/>
                             <constraint firstAttribute="trailing" secondItem="ydF-5R-qBI" secondAttribute="trailing" constant="20" symbolic="YES" id="msq-P6-FkF"/>
-                            <constraint firstItem="AlD-oC-mNP" firstAttribute="top" secondItem="aNX-NT-PIg" secondAttribute="bottom" constant="112" id="zZ7-Il-3cQ"/>
+                            <constraint firstItem="AlD-oC-mNP" firstAttribute="top" secondItem="aNX-NT-PIg" secondAttribute="bottom" constant="13" id="zZ7-Il-3cQ"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
@@ -869,24 +869,24 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Sa-c1-n2S">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="417"/>
+                                <rect key="frame" x="0.0" y="-63" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bVw-Fy-Mir">
-                                        <rect key="frame" x="0.0" y="9" width="320" height="408"/>
+                                        <rect key="frame" x="0.0" y="9" width="320" height="471"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="408" id="utl-dk-heO"/>
+                                            <constraint firstAttribute="height" constant="471" id="Szy-fB-l9H"/>
                                         </constraints>
                                     </webView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="top" secondItem="5Sa-c1-n2S" secondAttribute="top" constant="9" id="8eP-k2-U3k"/>
-                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="centerX" secondItem="5Sa-c1-n2S" secondAttribute="centerX" id="Gta-DJ-YRg"/>
-                                    <constraint firstAttribute="trailing" secondItem="bVw-Fy-Mir" secondAttribute="trailing" id="Jhh-Iq-EYN"/>
-                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="leading" secondItem="5Sa-c1-n2S" secondAttribute="leading" id="gaI-Fd-hGN"/>
-                                    <constraint firstAttribute="bottom" secondItem="bVw-Fy-Mir" secondAttribute="bottom" id="hrr-5h-z2T"/>
+                                    <constraint firstAttribute="bottom" secondItem="bVw-Fy-Mir" secondAttribute="bottom" id="7g0-2h-jd4"/>
+                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="top" secondItem="5Sa-c1-n2S" secondAttribute="top" constant="9" id="IkU-cA-Ad2"/>
+                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="leading" secondItem="5Sa-c1-n2S" secondAttribute="leading" id="L9d-JK-erQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="bVw-Fy-Mir" secondAttribute="trailing" id="dYI-B7-Le2"/>
+                                    <constraint firstItem="bVw-Fy-Mir" firstAttribute="centerX" secondItem="5Sa-c1-n2S" secondAttribute="centerX" id="rMK-w0-nRP"/>
                                 </constraints>
                             </scrollView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="10" translatesAutoresizingMaskIntoConstraints="NO" id="lRV-Zt-02l">
@@ -915,16 +915,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="5Sa-c1-n2S" secondAttribute="trailing" id="5It-uQ-Fnh"/>
-                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="top" secondItem="OzJ-qE-JoK" secondAttribute="top" id="8mT-GL-2mj"/>
+                            <constraint firstAttribute="bottom" secondItem="5Sa-c1-n2S" secondAttribute="bottom" constant="87" id="9dK-cY-fOJ"/>
+                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="top" secondItem="OzJ-qE-JoK" secondAttribute="top" constant="-63" id="LIz-Zy-bGb"/>
                             <constraint firstItem="qHU-Po-LFf" firstAttribute="top" secondItem="lRV-Zt-02l" secondAttribute="bottom" constant="-5" id="Til-T2-xtj"/>
+                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="leading" secondItem="OzJ-qE-JoK" secondAttribute="leading" id="UYz-hZ-J59"/>
+                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="centerX" secondItem="flv-Nu-Ziy" secondAttribute="centerX" id="VHE-n1-gRF"/>
                             <constraint firstItem="flv-Nu-Ziy" firstAttribute="centerX" secondItem="lRV-Zt-02l" secondAttribute="centerX" id="Wca-SD-3c7"/>
-                            <constraint firstAttribute="bottom" secondItem="5Sa-c1-n2S" secondAttribute="bottom" constant="87" id="YYw-G1-deh"/>
-                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="centerX" secondItem="lRV-Zt-02l" secondAttribute="centerX" id="Zjx-Lx-u0g"/>
-                            <constraint firstItem="5Sa-c1-n2S" firstAttribute="leading" secondItem="OzJ-qE-JoK" secondAttribute="leading" id="hvn-KR-OJg"/>
+                            <constraint firstAttribute="trailing" secondItem="5Sa-c1-n2S" secondAttribute="trailing" id="awn-Eo-UH9"/>
                             <constraint firstItem="flv-Nu-Ziy" firstAttribute="leading" secondItem="OzJ-qE-JoK" secondAttribute="leading" constant="18" id="j1u-uB-2jJ"/>
+                            <constraint firstItem="flv-Nu-Ziy" firstAttribute="top" secondItem="5Sa-c1-n2S" secondAttribute="bottom" constant="8" symbolic="YES" id="sEG-6Y-RFU"/>
                             <constraint firstItem="lRV-Zt-02l" firstAttribute="top" secondItem="flv-Nu-Ziy" secondAttribute="bottom" constant="20" id="wYz-cW-iRA"/>
-                            <constraint firstItem="flv-Nu-Ziy" firstAttribute="top" secondItem="5Sa-c1-n2S" secondAttribute="bottom" constant="8" symbolic="YES" id="ymo-9L-dGp"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -1034,13 +1034,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="chat" width="256" height="256"/>
-        <image name="group" width="256" height="256"/>
-        <image name="house" width="256" height="256"/>
-        <image name="microphone" width="12" height="24"/>
-        <image name="newspaper" width="256" height="256"/>
+        <image name="chat" width="32" height="32"/>
+        <image name="group" width="32" height="32"/>
+        <image name="house" width="32" height="32"/>
+        <image name="microphone" width="32" height="32"/>
+        <image name="newspaper" width="32" height="32"/>
         <image name="notepad" width="22" height="28"/>
-        <image name="shoppingcart" width="256" height="256"/>
+        <image name="shoppingcart" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

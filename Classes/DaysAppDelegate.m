@@ -54,11 +54,18 @@
     
     if (SYSTEM_VERSION_LESS_THAN(@"7.0")) {
         [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:255 green:255 blue:255 alpha:1]];
-        NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
+        /*NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                     [UIColor whiteColor],
                                     UITextAttributeTextColor,
                                     nil];
-        [[UIBarButtonItem appearance] setTintColor:[UIColor redColor]];
+        */
+        NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    [UIColor whiteColor],
+                                    NSForegroundColorAttributeName,
+                                    nil];
+
+         
+         [[UIBarButtonItem appearance] setTintColor:[UIColor redColor]];
         [[UIBarButtonItem appearance] setTitleTextAttributes: attributes
                                                     forState: UIControlStateNormal];
     }

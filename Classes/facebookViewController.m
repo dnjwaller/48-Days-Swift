@@ -40,13 +40,13 @@ UIBarButtonItem *rightButton;
    // self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     
-    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-	indicator.hidesWhenStopped = YES;
-	[indicator stopAnimating];
-	self.activityIndicator = indicator;
+    //UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+	//indicator.hidesWhenStopped = YES;
+	//[indicator stopAnimating];
+	//self.activityIndicator = indicator;
     
     backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
+	//rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
 	self.navigationItem.rightBarButtonItem = rightButton;
     webDisplay.delegate = self;
     

@@ -28,6 +28,7 @@
 		6822F9CA167662C700911C96 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6822F9C8167662C700911C96 /* ProductsViewController.xib */; };
 		683886AF17A564A3001E0C22 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683886AE17A564A3001E0C22 /* Social.framework */; };
 		683886B117A5889E001E0C22 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683886B017A5889E001E0C22 /* Accounts.framework */; };
+		68511E9C187514C6008CCBC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68511E9B187514C6008CCBC5 /* Default-568h@2x.png */; };
 		68578D3117A5DDF20052E753 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68578D3017A5DDF20052E753 /* Media.xcassets */; };
 		68578D3417A6B8CA0052E753 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */; };
 		68647E9717B08EA200E6B367 /* days_schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 68647E9617B08EA200E6B367 /* days_schedule.xml */; };
@@ -38,6 +39,11 @@
 		68A0728E13B3FCD100F8BC64 /* flipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A0728C13B3FCD100F8BC64 /* flipsideViewController.m */; };
 		68A0728F13B3FCD100F8BC64 /* flipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A0728D13B3FCD100F8BC64 /* flipsideView.xib */; };
 		68E39C9E17D6BCB200F61B8B /* PodcastPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E39C9D17D6BCB200F61B8B /* PodcastPlayerViewController.m */; };
+		68EA23541862A1ED00CBD1DE /* logo_60_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EA234F1862A1ED00CBD1DE /* logo_60_60.png */; };
+		68EA23551862A1ED00CBD1DE /* logo_76_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EA23501862A1ED00CBD1DE /* logo_76_76.png */; };
+		68EA23561862A1ED00CBD1DE /* logo_120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EA23511862A1ED00CBD1DE /* logo_120_120.png */; };
+		68EA23571862A1ED00CBD1DE /* logo_152_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EA23521862A1ED00CBD1DE /* logo_152_152.png */; };
+		68EA23581862A1ED00CBD1DE /* logo_store_hires.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EA23531862A1ED00CBD1DE /* logo_store_hires.png */; };
 		68EDB16316548E6100F89C5E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EDB16216548E6100F89C5E /* iAd.framework */; };
 		68F0D13C1666735F009726A7 /* ad_banner.html in Resources */ = {isa = PBXBuildFile; fileRef = 68F0D13B1666735F009726A7 /* ad_banner.html */; };
 		68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */; };
@@ -112,6 +118,7 @@
 		6822F9C8167662C700911C96 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductsViewController.xib; path = Classes/ProductsViewController.xib; sourceTree = "<group>"; };
 		683886AE17A564A3001E0C22 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		683886B017A5889E001E0C22 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		68511E9B187514C6008CCBC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		68578D3017A5DDF20052E753 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		68578D3217A6B8CA0052E753 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
@@ -130,6 +137,11 @@
 		68A0728D13B3FCD100F8BC64 /* flipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = flipsideView.xib; path = Classes/flipsideView.xib; sourceTree = "<group>"; };
 		68E39C9C17D6BCB200F61B8B /* PodcastPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodcastPlayerViewController.h; sourceTree = "<group>"; };
 		68E39C9D17D6BCB200F61B8B /* PodcastPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodcastPlayerViewController.m; sourceTree = "<group>"; };
+		68EA234F1862A1ED00CBD1DE /* logo_60_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_60_60.png; sourceTree = "<group>"; };
+		68EA23501862A1ED00CBD1DE /* logo_76_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_76_76.png; sourceTree = "<group>"; };
+		68EA23511862A1ED00CBD1DE /* logo_120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_120_120.png; sourceTree = "<group>"; };
+		68EA23521862A1ED00CBD1DE /* logo_152_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_152_152.png; sourceTree = "<group>"; };
+		68EA23531862A1ED00CBD1DE /* logo_store_hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_store_hires.png; sourceTree = "<group>"; };
 		68EDB16216548E6100F89C5E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		68F0D13B1666735F009726A7 /* ad_banner.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ad_banner.html; sourceTree = "<group>"; };
 		68FB2F40178799A9007A14E6 /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
@@ -266,6 +278,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				68511E9B187514C6008CCBC5 /* Default-568h@2x.png */,
 				68647EA217B32ED100E6B367 /* Settings.bundle */,
 				68647E9817B3261000E6B367 /* Google Analytics */,
 				68D17A9117B0132C00E3BACC /* iCarousel */,
@@ -283,6 +296,11 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				68EA234F1862A1ED00CBD1DE /* logo_60_60.png */,
+				68EA23501862A1ED00CBD1DE /* logo_76_76.png */,
+				68EA23511862A1ED00CBD1DE /* logo_120_120.png */,
+				68EA23521862A1ED00CBD1DE /* logo_152_152.png */,
+				68EA23531862A1ED00CBD1DE /* logo_store_hires.png */,
 				680B06D817CC526A00EC94E0 /* red_page.png */,
 				680B06D617C921A100EC94E0 /* ipod_page.png */,
 				680B06C917C130B500EC94E0 /* page.png */,
@@ -455,6 +473,9 @@
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				680B06D717C921A200EC94E0 /* ipod_page.png in Resources */,
 				74749C01138703F400023F46 /* Old_Detail.xib in Resources */,
+				68EA23561862A1ED00CBD1DE /* logo_120_120.png in Resources */,
+				68511E9C187514C6008CCBC5 /* Default-568h@2x.png in Resources */,
+				68EA23551862A1ED00CBD1DE /* logo_76_76.png in Resources */,
 				74930974138D76DF0036A23E /* PodcastViewController.xib in Resources */,
 				749309BE138D87B20036A23E /* PodcastViewDetail.xib in Resources */,
 				7406F030138EF052004A7017 /* NetWebView.xib in Resources */,
@@ -475,12 +496,15 @@
 				D9BABD1415AF9E8C00F134FB /* flipsideview~ipad.xib in Resources */,
 				D9BABD1515AF9E8C00F134FB /* infoView~ipad.xib in Resources */,
 				68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */,
+				68EA23571862A1ED00CBD1DE /* logo_152_152.png in Resources */,
 				680B06CA17C130B500EC94E0 /* page.png in Resources */,
 				D9BABD1615AF9E8C00F134FB /* NetWebView~ipad.xib in Resources */,
 				D9BABD1715AF9E8C00F134FB /* PlanDetail~ipad.xib in Resources */,
 				D9BABD1815AF9E8C00F134FB /* PlanViewController~ipad.xib in Resources */,
 				D9BABD1915AF9E8C00F134FB /* PodcastViewController~ipad.xib in Resources */,
+				68EA23581862A1ED00CBD1DE /* logo_store_hires.png in Resources */,
 				D950EFB415AF9F48002CE20F /* LiveEventsView2~ipad.xib in Resources */,
+				68EA23541862A1ED00CBD1DE /* logo_60_60.png in Resources */,
 				D986C38315BE2FB700BDFAAF /* Detail~ipad.xib in Resources */,
 				D986C3B415BF628700BDFAAF /* facebookViewController.xib in Resources */,
 				D986C43815C1FC0F00BDFAAF /* PodcastViewDetail~ipad.xib in Resources */,
@@ -541,7 +565,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
@@ -568,7 +592,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
@@ -593,10 +617,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -615,7 +639,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
@@ -640,10 +664,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -660,10 +684,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "7A0496CF-7E8A-4BB2-891E-34585179C109";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7A0496CF-7E8A-4BB2-891E-34585179C109";
+				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

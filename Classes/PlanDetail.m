@@ -105,7 +105,17 @@ NSInteger day;
     day = [[dict objectForKey:@"day"] integerValue];
     self.item = [items objectAtIndex:day];
     self.itemTitle.text = [item objectForKey:@"title"];
-	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];
+    NSMutableString *planString = [[NSMutableString alloc] init];
+    planString = [NSMutableString stringWithFormat:@"<html><head>"
+                  "<style type=\"text/css\">"
+                  "body{font:-apple-system-body;}"
+                  "</style>""</head>""<body>"];
+    
+    [planString appendString:[item objectForKey:@"summary"]];
+    [planString appendString:@"</body></html>"];
+
+    
+	[self.itemSummary loadHTMLString:planString baseURL:nil];
 }
 
 - (void)receivedItems:(NSArray *)theItems {
