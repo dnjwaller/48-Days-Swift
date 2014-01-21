@@ -27,6 +27,7 @@
 @property (strong, nonatomic) UIPopoverController *popover;
 @property (strong, nonatomic) NSURL *itemUrl;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
+@property (strong, nonatomic) IBOutlet UIButton *ipadShare;
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;

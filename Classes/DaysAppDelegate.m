@@ -77,6 +77,14 @@
         
         window.tintColor = [UIColor redColor];
     }
+    
+    
+   /* UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+    UINavigationController *leftNavController = [splitViewController.viewControllers objectAtIndex:0];
+    LeftViewController *leftViewController = (LeftViewController *)[leftNavController topViewController];
+    RightViewController *rightViewController = [splitViewController.viewControllers objectAtIndex:1];
+    */
+    
    /*
     NSError *sessionError = nil;
     [[AVAudioSession sharedInstance] setDelegate:self];

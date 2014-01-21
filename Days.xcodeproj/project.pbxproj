@@ -15,6 +15,11 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		3D138A101883920A00AEB064 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D138A0F1883920A00AEB064 /* SplitViewController.m */; };
+		3D138A13188397FA00AEB064 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D138A12188397FA00AEB064 /* DetailViewController.m */; };
+		3DB83259187CFD4600607517 /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB83258187CFD4600607517 /* iPad_Storyboard.storyboard */; };
+		3DB8325B187D029500607517 /* iPad_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8325A187D029500607517 /* iPad_intro.html */; };
+		3DB8325E187D046000607517 /* iPad_introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8325D187D046000607517 /* iPad_introViewController.m */; };
 		680B06C217B9939600EC94E0 /* loadFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C117B9939600EC94E0 /* loadFeed.m */; };
 		680B06C517C12D0200EC94E0 /* PlanCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */; };
 		680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C717C12EDC00EC94E0 /* CarouselViewController.m */; };
@@ -100,6 +105,14 @@
 		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D138A0E1883920A00AEB064 /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		3D138A0F1883920A00AEB064 /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		3D138A11188397FA00AEB064 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3D138A12188397FA00AEB064 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3DB83258187CFD4600607517 /* iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Storyboard.storyboard; sourceTree = "<group>"; };
+		3DB8325A187D029500607517 /* iPad_intro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iPad_intro.html; sourceTree = "<group>"; };
+		3DB8325C187D045F00607517 /* iPad_introViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPad_introViewController.h; sourceTree = "<group>"; };
+		3DB8325D187D046000607517 /* iPad_introViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPad_introViewController.m; sourceTree = "<group>"; };
 		680B06C017B9939600EC94E0 /* loadFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadFeed.h; sourceTree = "<group>"; };
 		680B06C117B9939600EC94E0 /* loadFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadFeed.m; sourceTree = "<group>"; };
 		680B06C317C12D0200EC94E0 /* PlanCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanCarouselViewController.h; sourceTree = "<group>"; };
@@ -263,6 +276,13 @@
 				680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */,
 				680B06C617C12EDC00EC94E0 /* CarouselViewController.h */,
 				680B06C717C12EDC00EC94E0 /* CarouselViewController.m */,
+				3DB83258187CFD4600607517 /* iPad_Storyboard.storyboard */,
+				3DB8325C187D045F00607517 /* iPad_introViewController.h */,
+				3DB8325D187D046000607517 /* iPad_introViewController.m */,
+				3D138A0E1883920A00AEB064 /* SplitViewController.h */,
+				3D138A0F1883920A00AEB064 /* SplitViewController.m */,
+				3D138A11188397FA00AEB064 /* DetailViewController.h */,
+				3D138A12188397FA00AEB064 /* DetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -313,6 +333,7 @@
 				68A071CA13B02E5900F8BC64 /* status.txt */,
 				74046D8913C156D500087CB7 /* infoWeb.html */,
 				68578D3017A5DDF20052E753 /* Media.xcassets */,
+				3DB8325A187D029500607517 /* iPad_intro.html */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -472,6 +493,7 @@
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				680B06D717C921A200EC94E0 /* ipod_page.png in Resources */,
+				3DB83259187CFD4600607517 /* iPad_Storyboard.storyboard in Resources */,
 				74749C01138703F400023F46 /* Old_Detail.xib in Resources */,
 				68EA23561862A1ED00CBD1DE /* logo_120_120.png in Resources */,
 				68511E9C187514C6008CCBC5 /* Default-568h@2x.png in Resources */,
@@ -487,6 +509,7 @@
 				74046D8A13C156D500087CB7 /* infoWeb.html in Resources */,
 				74801A76157575E60029CF86 /* LiveEventsView.xib in Resources */,
 				68647E9717B08EA200E6B367 /* days_schedule.xml in Resources */,
+				3DB8325B187D029500607517 /* iPad_intro.html in Resources */,
 				74801A7A157579390029CF86 /* 8hours.jpg in Resources */,
 				68578D3117A5DDF20052E753 /* Media.xcassets in Resources */,
 				74801A7C157579390029CF86 /* wtb.jpg in Resources */,
@@ -530,10 +553,12 @@
 				680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */,
 				68E39C9E17D6BCB200F61B8B /* PodcastPlayerViewController.m in Sources */,
 				680B06C217B9939600EC94E0 /* loadFeed.m in Sources */,
+				3D138A13188397FA00AEB064 /* DetailViewController.m in Sources */,
 				749309BD138D87B20036A23E /* PodcastViewDetail.m in Sources */,
 				7406F02F138EF052004A7017 /* NetWebViewController.m in Sources */,
 				746FE17413A14D260033B2A8 /* PlanViewController.m in Sources */,
 				68578D3417A6B8CA0052E753 /* HomeScreenViewController.m in Sources */,
+				3DB8325E187D046000607517 /* iPad_introViewController.m in Sources */,
 				746FE1A213A1625C0033B2A8 /* DayParse.m in Sources */,
 				74BDAE4513A2943300DFD501 /* PlanDetail.m in Sources */,
 				68A0728E13B3FCD100F8BC64 /* flipsideViewController.m in Sources */,
@@ -542,6 +567,7 @@
 				74653EC813C42EF3001722AA /* Reachability.m in Sources */,
 				74801A74157574A70029CF86 /* LiveEvents.m in Sources */,
 				D986C3B315BF628700BDFAAF /* facebookViewController.m in Sources */,
+				3D138A101883920A00AEB064 /* SplitViewController.m in Sources */,
 				6822F9C9167662C700911C96 /* ProductsViewController.m in Sources */,
 				680B06C517C12D0200EC94E0 /* PlanCarouselViewController.m in Sources */,
 			);
@@ -565,7 +591,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
@@ -592,7 +618,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
@@ -639,7 +665,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Days-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",

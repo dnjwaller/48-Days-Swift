@@ -20,7 +20,7 @@ NSMutableArray *postTitleArray;
 NSMutableArray *postUrlArray;
 
 
-@synthesize item, itemTitle, itemDate, itemSummary,popover, itemUrl, shareButton, scrollView,activityIndicator,pageControl;
+@synthesize item, itemTitle, itemDate, itemSummary,popover, itemUrl, shareButton, scrollView,activityIndicator,pageControl,ipadShare;
 
 - (id)initWithItem:(NSDictionary *)theItem {  
 	/*if (self = [super initWithNibName:@"Detail" bundle:nil]) {
@@ -216,7 +216,8 @@ NSMutableArray *postUrlArray;
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
     {
         // The device is an iPad running iPhone 3.2 or later
-            return YES;
+            //return YES;
+        return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
     }
     else
     {
