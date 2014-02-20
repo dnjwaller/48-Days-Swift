@@ -44,7 +44,7 @@ NSDictionary *theItem;
 	UIBarButtonItem *rightButton = [[UIBarButtonItem alloc]init];
 	self.navigationItem.rightBarButtonItem = rightButton;  
 	//self.navigationItem.title =@"48 Days Schedule";
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     

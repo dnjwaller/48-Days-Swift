@@ -17,7 +17,7 @@
 
 @implementation facebookViewController
 
-@synthesize webDisplay, activityIndicator, backButton;
+@synthesize webDisplay, activityIndicator, backButton, ipadBackButton;
 UIBarButtonItem *rightButton;
 
 
@@ -50,9 +50,17 @@ UIBarButtonItem *rightButton;
 	self.navigationItem.rightBarButtonItem = rightButton;
     webDisplay.delegate = self;
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        [ipadBackButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    } else
+    {
+        [ipadBackButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    }
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Facebook Screen"];
@@ -74,6 +82,9 @@ UIBarButtonItem *rightButton;
     
     self.navigationItem.rightBarButtonItem = backButton;
     self.navigationItem.rightBarButtonItem.enabled = (self.webDisplay.canGoBack);
+    
+    ipadBackButton.enabled = (self.webDisplay.canGoBack);
+    ipadBackButton.hidden = !(self.webDisplay.canGoBack);
 }
 
 
@@ -94,7 +105,7 @@ UIBarButtonItem *rightButton;
 	[super viewDidAppear:animated];  
 }  
 
-- (void) goBack:(id) sender {
+- (IBAction)goBack:(id) sender {
 	[webDisplay goBack];
 }
 
@@ -129,7 +140,9 @@ UIBarButtonItem *rightButton;
                                                 [alert show];
                                             }
     }];*/
-    NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132?ref=ts"];
+    //NSURL *url = [NSURL URLWithString:@"http://www.facebook.com/home.php#!/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/"];
+    //NSURL *url = [NSURL URLWithString:@"fb://profile/147834932132"];
+    NSURL *url = [NSURL URLWithString:@"http:///www.facebook.com/pages/Dan-Miller-Career-Coach-Author-of-48-Days-to-the-Work-You-Love/147834932132"];
     NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
     [webDisplay loadRequest: request ];
     

@@ -22,6 +22,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>logo_hires</string>
+				<string>logo_hires_search</string>
 				<string>logo_120_120</string>
 				<string>logo_small.png</string>
 				<string>logo_hires.png</string>
@@ -96,5 +98,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

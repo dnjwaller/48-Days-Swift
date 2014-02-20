@@ -12,7 +12,7 @@
 @protocol flipsideViewControllerDelegate;
 
 
-@interface flipsideViewController : UIViewController {
+@interface flipsideViewController : UIViewController <UITextViewDelegate> {
 	id <flipsideViewControllerDelegate> __unsafe_unretained delegate;
 	IBOutlet UITextView *textField;
 	CGFloat scrollAmount;

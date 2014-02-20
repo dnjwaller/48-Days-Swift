@@ -21,18 +21,9 @@
     
     UIWindow *window;
     UINavigationController *navigationController;
-	//UITabBarController *tabBarController;
-    //UITableViewController *myTableViewController;
-    //UITableViewController *mySecondTableViewController;
-	//UIViewController *webViewController;
-	//UITableViewController *ThirdTableViewController;
 	IBOutlet UIWebView *webDisplay;
-	//UIViewController *infoViewController;
-    //UIViewController *eventsController;
-    //UIViewController *fbController;
-    //UIViewController *productsController;
 	NSMutableArray *viewControllers;
-	IBOutlet UIButton *button;
+	//IBOutlet UIButton *button;
     
     UISplitViewController *_splitViewController;
     LeftViewController *_leftViewController;
@@ -41,16 +32,7 @@
 
 @property (nonatomic, strong) IBOutlet UIWindow *window;
 @property (nonatomic, strong) IBOutlet UINavigationController *navigationController;
-//@property (nonatomic, strong) UITabBarController *tabBarController;
-//@property (nonatomic, strong) UITableViewController *myTableViewController;
-//@property (nonatomic, strong) UITableViewController *mySecondTableViewController;
-//@property (nonatomic, strong) UIViewController *webViewController;
-//@property (nonatomic, strong) UITableViewController *ThirdTableViewController;
-//@property (nonatomic, strong) UIViewController *infoViewController;
-//@property (nonatomic, strong) UIViewController *eventsController;
-//@property (nonatomic, strong) UIViewController *fbController;
-//@property (nonatomic, strong) UIViewController *productsController;
-@property (nonatomic, strong) UIButton *button;
+//@property (nonatomic, strong) IBOutlet UIButton *button;
 
 @property (nonatomic, strong) IBOutlet UISplitViewController *splitViewController;
 @property (nonatomic, strong) IBOutlet LeftViewController *leftViewController;

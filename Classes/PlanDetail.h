@@ -26,9 +26,12 @@
 @property (strong, nonatomic) NSMutableArray *complete;
 
 
+
 @property (strong, nonatomic) IBOutlet UILabel *itemTitle;
 @property (strong, nonatomic) IBOutlet UILabel *itemDate;
 @property (strong, nonatomic) IBOutlet UIWebView *itemSummary;
+@property (strong, nonatomic) IBOutlet UILabel *completed;
+@property (strong, nonatomic) IBOutlet UIButton *button;
 
 //- (id)initWithItem:(NSDictionary *)theItem;
 - (IBAction) isComplete:(id)sender;

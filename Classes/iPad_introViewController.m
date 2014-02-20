@@ -36,7 +36,7 @@
 	self.navigationItem.rightBarButtonItem = rightButton;
 	//self.navigationItem.title =@"About Us";
 	
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
 	

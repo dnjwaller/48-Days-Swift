@@ -22,20 +22,36 @@
 
 
 @implementation HomeScreenViewController
-@synthesize webView;
+@synthesize webView,button;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
     self.detailVC = (DetailViewController *)[self.splitViewController.viewControllers lastObject];
+    
+    NSURL *url = [NSURL URLWithString:@"https://sites.google.com/site/48daystheapp/examples/files/banner.png"];
+	NSData *data = [NSData dataWithContentsOfURL:url];
+	UIImage *image = [UIImage imageWithData:data];
+
+    [button setImage:image forState:UIControlStateNormal];
+	[button addTarget:self action:@selector(getAd:) forControlEvents:UIControlEventTouchUpInside];
+	[button setEnabled:YES];
 
 }
+
+- (IBAction) getAd:(id)sender {
+	NSString *launchUrl = @"https://sites.google.com/site/48daystheapp/examples/files/48days_ad.html";
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: launchUrl]];
+	
+}
+
+
 
 /*
 -(IBAction)detailViewSelect:(UIButton*)sender {

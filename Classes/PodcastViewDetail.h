@@ -38,7 +38,7 @@
 @property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 @property (strong, nonatomic) IBOutlet UIView *mpPlayerView;
 @property (strong, nonatomic) IBOutlet UILabel *loadingLabel;
-
+@property (strong, nonatomic) IBOutlet UIButton *ipadShareButton;
 
 //@property (nonatomic) AVPlayerItem *playerItem;
 //@property (nonatomic) AVPlayer *player;

@@ -18,7 +18,7 @@
 
 UIBarButtonItem *rightButton;
 
-@synthesize webDisplay, activityIndicator, backButton;
+@synthesize webDisplay, activityIndicator, backButton, ipadBackButton;
 
 
 -(void)reachable {
@@ -36,22 +36,21 @@ UIBarButtonItem *rightButton;
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-    self.view.autoresizesSubviews = YES;
-    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    
-    UIActivityIndicatorView *indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-	indicator.hidesWhenStopped = YES;
-	[indicator stopAnimating];
-	self.activityIndicator = indicator;
-   
+    [activityIndicator setHidesWhenStopped:YES];
     backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:webDisplay action:@selector(goBack)];
-	rightButton = [[UIBarButtonItem alloc]initWithCustomView:indicator];
-	self.navigationItem.rightBarButtonItem = rightButton;
     webDisplay.delegate = self;
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
+    
+    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+        [ipadBackButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    } else
+    {
+        [ipadBackButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    }
 
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Community Screen"];
@@ -65,15 +64,19 @@ UIBarButtonItem *rightButton;
 
 
 - (void)webViewDidStartLoad:(UIWebView *)webDisplay {
-    self.navigationItem.rightBarButtonItem = rightButton;
+    //self.navigationItem.rightBarButtonItem = rightButton;
 	[activityIndicator startAnimating];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webDisplay {
 	[activityIndicator stopAnimating];
+    [activityIndicator setHidden:YES];
     
     self.navigationItem.rightBarButtonItem = backButton;
-    self.navigationItem.rightBarButtonItem.enabled = YES;
+    self.navigationItem.rightBarButtonItem.enabled = (self.webDisplay.canGoBack);
+    
+    ipadBackButton.enabled = (self.webDisplay.canGoBack);
+    ipadBackButton.hidden = !(self.webDisplay.canGoBack);
 }
 
 
@@ -94,15 +97,22 @@ UIBarButtonItem *rightButton;
 	[super viewDidAppear:animated];  
 }  
 
-- (void) goBack:(id) sender {
+- (IBAction) goBack:(id) sender {
 	[webDisplay goBack];
 }
 
 
 - (void) loadData {
-	NSURL *url = [NSURL URLWithString:@"http://www.48days.net"];
-	NSURLRequest *request = [ NSURLRequest requestWithURL: url ]; 
-	[webDisplay loadRequest: request ];	
+    dispatch_queue_t bgQueue = dispatch_queue_create( "parser", NULL );
+    
+    dispatch_async(bgQueue, ^{
+        NSURL *url = [NSURL URLWithString:@"http://www.48days.net"];
+        NSURLRequest *request = [ NSURLRequest requestWithURL: url ];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [webDisplay loadRequest: request ];
+        });
+    });
 }
 
 

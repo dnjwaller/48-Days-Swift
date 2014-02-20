@@ -15,7 +15,7 @@
 
 @implementation PlanDetail
 
-@synthesize items, parser, complete;
+@synthesize items, parser, complete,completed,button;
 NSMutableArray *statusArray;
 NSInteger day;
 
@@ -78,10 +78,8 @@ NSInteger day;
         }
         [statusArray writeToFile:fileName atomically:YES];
         self.complete = statusArray;
-    } else {
-        
     }
-    
+    self.complete = statusArray;
 }
 
 - (void)loadData {
@@ -97,7 +95,6 @@ NSInteger day;
 		[xmlParser parse:xmlPath withDelegate:self];
     }
     self.item = [items objectAtIndex:day];
-    NSLog(@"Data:  %@",[items objectAtIndex:day]);
 }
 
 - (void) loadNewDay:(NSNotification *)aDay {
@@ -113,10 +110,25 @@ NSInteger day;
     
     [planString appendString:[item objectForKey:@"summary"]];
     [planString appendString:@"</body></html>"];
-
+    
+    [self setLabels];
     
 	[self.itemSummary loadHTMLString:planString baseURL:nil];
 }
+
+- (void) setLabels {
+    
+    if (![[complete objectAtIndex:day] integerValue]) {
+        completed.hidden = NO;
+        button.enabled = NO;
+        button.hidden = YES;
+    } else {
+        completed.hidden = YES;
+        button.enabled = YES;
+        button.hidden = NO;
+    }
+}
+
 
 - (void)receivedItems:(NSArray *)theItems {
 	items = theItems;
@@ -143,7 +155,7 @@ NSInteger day;
 	[self.itemSummary loadHTMLString:[item objectForKey:@"summary"] baseURL:nil];  
 	row = [[item objectForKey:@"index"]intValue];
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
@@ -167,7 +179,7 @@ NSInteger day;
  //Load the array
  NSMutableArray *statusArray = [[NSMutableArray alloc] initWithContentsOfFile: fileName];
  
- [statusArray replaceObjectAtIndex:row withObject: @"0"];
+ [statusArray replaceObjectAtIndex:day withObject: @"0"];
  [statusArray writeToFile:fileName atomically:YES];
     
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
@@ -178,6 +190,9 @@ NSInteger day;
 	//[alert autorelease];
 	[alert show];
 	//[statusArray release];
+    
+    self.complete = statusArray;
+    [self setLabels];
 	
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendEventWithCategory:@"uiAction"

@@ -20,6 +20,7 @@
 		3DB83259187CFD4600607517 /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB83258187CFD4600607517 /* iPad_Storyboard.storyboard */; };
 		3DB8325B187D029500607517 /* iPad_intro.html in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8325A187D029500607517 /* iPad_intro.html */; };
 		3DB8325E187D046000607517 /* iPad_introViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8325D187D046000607517 /* iPad_introViewController.m */; };
+		3DEAC4A218A054EF0023F416 /* ipad_home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DEAC4A118A054EF0023F416 /* ipad_home_icon.png */; };
 		680B06C217B9939600EC94E0 /* loadFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C117B9939600EC94E0 /* loadFeed.m */; };
 		680B06C517C12D0200EC94E0 /* PlanCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C417C12D0200EC94E0 /* PlanCarouselViewController.m */; };
 		680B06C817C12EDC00EC94E0 /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680B06C717C12EDC00EC94E0 /* CarouselViewController.m */; };
@@ -113,6 +114,7 @@
 		3DB8325A187D029500607517 /* iPad_intro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = iPad_intro.html; sourceTree = "<group>"; };
 		3DB8325C187D045F00607517 /* iPad_introViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPad_introViewController.h; sourceTree = "<group>"; };
 		3DB8325D187D046000607517 /* iPad_introViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPad_introViewController.m; sourceTree = "<group>"; };
+		3DEAC4A118A054EF0023F416 /* ipad_home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad_home_icon.png; path = "../../48 Days Files/ipad_home_icon.png"; sourceTree = "<group>"; };
 		680B06C017B9939600EC94E0 /* loadFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loadFeed.h; sourceTree = "<group>"; };
 		680B06C117B9939600EC94E0 /* loadFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loadFeed.m; sourceTree = "<group>"; };
 		680B06C317C12D0200EC94E0 /* PlanCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanCarouselViewController.h; sourceTree = "<group>"; };
@@ -131,6 +133,8 @@
 		6822F9C8167662C700911C96 /* ProductsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductsViewController.xib; path = Classes/ProductsViewController.xib; sourceTree = "<group>"; };
 		683886AE17A564A3001E0C22 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		683886B017A5889E001E0C22 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		683AC87318B1BA58002E1C87 /* logo_hires_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hires_search.png; sourceTree = "<group>"; };
+		683AC87418B1BA7D002E1C87 /* logo_hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hires.png; sourceTree = "<group>"; };
 		68511E9B187514C6008CCBC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		68578D3017A5DDF20052E753 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		68578D3217A6B8CA0052E753 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
@@ -298,6 +302,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				683AC87418B1BA7D002E1C87 /* logo_hires.png */,
+				683AC87318B1BA58002E1C87 /* logo_hires_search.png */,
 				68511E9B187514C6008CCBC5 /* Default-568h@2x.png */,
 				68647EA217B32ED100E6B367 /* Settings.bundle */,
 				68647E9817B3261000E6B367 /* Google Analytics */,
@@ -316,6 +322,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				3DEAC4A118A054EF0023F416 /* ipad_home_icon.png */,
 				68EA234F1862A1ED00CBD1DE /* logo_60_60.png */,
 				68EA23501862A1ED00CBD1DE /* logo_76_76.png */,
 				68EA23511862A1ED00CBD1DE /* logo_120_120.png */,
@@ -458,7 +465,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = GN4W6QZH8W;
@@ -516,6 +523,7 @@
 				680B06D917CC526A00EC94E0 /* red_page.png in Resources */,
 				B8E4B37F159260EC00923F5A /* LiveEventsView2.xib in Resources */,
 				D9BABD0A15AF9BF300F134FB /* MainWindow-iPad.xib in Resources */,
+				3DEAC4A218A054EF0023F416 /* ipad_home_icon.png in Resources */,
 				D9BABD1415AF9E8C00F134FB /* flipsideview~ipad.xib in Resources */,
 				D9BABD1515AF9E8C00F134FB /* infoView~ipad.xib in Resources */,
 				68FB2F41178799A9007A14E6 /* iPhone_Storyboard.storyboard in Resources */,
@@ -595,7 +603,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
@@ -622,6 +632,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
 				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -643,12 +654,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Distribution;
 		};
@@ -669,6 +681,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
+					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
 				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -690,12 +703,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -710,12 +724,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9B9C955A-9D03-4B02-87F0-6A69B0A33B81";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

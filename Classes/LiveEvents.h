@@ -28,7 +28,10 @@
 @property (nonatomic, strong) IBOutlet UIImageView *event2;
 @property (nonatomic, strong) IBOutlet UIImageView *event3;
 @property (nonatomic, strong) IBOutlet UIImageView *event4;
-@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator; 
+@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property (strong, nonatomic) IBOutlet UIButton *calEvent1;
+@property (strong, nonatomic) IBOutlet UIButton *calEvent2;
+@property (strong, nonatomic) IBOutlet UIButton *calEvent3;
 
 
 - (IBAction) registerEvent1:(id) sender;

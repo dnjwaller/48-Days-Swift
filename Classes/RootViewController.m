@@ -41,8 +41,7 @@ NSDictionary *theItem;
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged:)
-     name:UIDeviceOrientationDidChangeNotification object:nil];
+    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged:) name:UIDeviceOrientationDidChangeNotification object:nil];
    /* self.edgesForExtendedLayout = UIExtendedEdgeAll;
 	
     self.view.autoresizesSubviews = YES;
@@ -63,7 +62,7 @@ NSDictionary *theItem;
 	self.navigationItem.rightBarButtonItem = rightButton;  
 	//self.navigationItem.title =@"48 Days Blogs";
 	
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
@@ -81,7 +80,7 @@ NSDictionary *theItem;
     [self loadData]; 
 }
 
-
+/*
 - (void) orientationChanged:(NSNotification *)notification {
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
 
@@ -93,6 +92,7 @@ NSDictionary *theItem;
         [[NSNotificationCenter defaultCenter] postNotificationName:@"landscapeAd" object:nil];
     }
 }
+*/
 
 - (void)loadData {  
     [activityIndicator startAnimating];  
@@ -158,17 +158,7 @@ NSDictionary *theItem;
 		cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
-   /* if (indexPath.row % 2 == 0) {
-        cell.textLabel.textColor = [UIColor redColor];
-    }
-    else {
-       // cell.textLabel.textColor = [UIColor lightGrayColor];
-    }
-    */
-	// Configure the cell.  
-	
-    
-	
+   	// Configure the cell.
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         //Dynamic Type
         cell.textLabel.font = [UIFont preferredFontForTextStyle:UIFontTextStyleFootnote];
@@ -181,8 +171,7 @@ NSDictionary *theItem;
     }
     
 	
-	// Format date  
-    //NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init] autorelease];
+	// Format date
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];  
     [dateFormatter setTimeStyle:NSDateFormatterNoStyle];  

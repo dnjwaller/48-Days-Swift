@@ -18,8 +18,10 @@
 }
 
 @property (strong, nonatomic) UIWebView *webDisplay;
-@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (strong, nonatomic) UIBarButtonItem *backButton;
+@property (strong, nonatomic) IBOutlet UIButton *ipadBackButton;
 
 -(void)reachable;
+-(IBAction)goBack:(id)sender;
 @end

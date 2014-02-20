@@ -20,6 +20,7 @@
     self.view.autoresizesSubviews = YES;
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	
+    textField.delegate = self;
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
 	//2) Create the full file path by appending the desired file name
@@ -34,7 +35,7 @@
 											 selector:@selector(applicationWillTerminate:)
 												 name:UIApplicationWillTerminateNotification
 											   object:myApp];
-	UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+	UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
@@ -53,7 +54,13 @@
     
   	
     [self writeFile];
-    [self.navigationController popViewControllerAnimated:YES];
+    
+    if (IDIOM == IPAD) {
+        NSLog(@"ipad");
+        [self dismissViewControllerAnimated:YES completion:nil];
+    } else {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 - (void) writeFile {
@@ -82,6 +89,23 @@
 }
 
 
+- (void)textViewDidChange:(UITextView *)textView {
+    CGRect line = [textView caretRectForPosition:
+                   textView.selectedTextRange.start];
+    CGFloat overflow = line.origin.y + line.size.height
+    - ( textView.contentOffset.y + textView.bounds.size.height
+       - textView.contentInset.bottom - textView.contentInset.top );
+    if ( overflow > 0 ) {
+        // We are at the bottom of the visible text and introduced a line feed, scroll down (iOS 7 does not do it)
+        // Scroll caret to visible area
+        CGPoint offset = textView.contentOffset;
+        offset.y += overflow + 7; // leave 7 pixels margin
+        // Cannot animate with setContentOffset:animated: or caret will not appear
+        [UIView animateWithDuration:.2 animations:^{
+            [textView setContentOffset:offset];
+        }];
+    }
+}
 
 // Called when the UIKeyboardDidShowNotification is sent.
 
@@ -90,7 +114,14 @@
 {
     NSDictionary* info = [aNotification userInfo];
 	
+    //UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
     CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    
+   // CGFloat keyboardHeight = UIInterfaceOrientationIsLandscape(orientation) ? kbSize.width : kbSize.height;
+    
+    //textField.frame = CGRectMake(0, 45,self.view.frame.size.width, self.view.frame.size.height - keyboardHeight-100);
+    
+    
 
 	float bottomPoint = (textField.frame.origin.y + textField.frame.size.height + 10);
 	scrollAmount = kbSize.height - (self.view.frame.size.height - bottomPoint);
@@ -106,7 +137,7 @@
     // Your application might not need or want this behavior.
 	
     CGRect aRect = self.view.frame;
-	
+
     
 	
   /*  
@@ -114,7 +145,7 @@
         CGPoint scrollPoint = CGPointMake(0.0, textField.frame.origin.y - (kbSize.height-15));
         [scrollView setContentOffset:scrollPoint animated:YES];
     }
-    */
+   */
     
     UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
 	if (UIInterfaceOrientationIsPortrait(orientation)) {
@@ -135,7 +166,7 @@
             
         }
     }
-    
+  
   
 }
 

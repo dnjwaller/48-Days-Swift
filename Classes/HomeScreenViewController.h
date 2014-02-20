@@ -15,5 +15,6 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 @property (strong, nonatomic) DetailViewController *detailVC;
+@property (strong, nonatomic) IBOutlet UIButton *button;
 
 @end

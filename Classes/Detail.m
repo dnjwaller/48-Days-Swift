@@ -57,10 +57,11 @@ NSMutableArray *postUrlArray;
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:NO];
     }
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
-    navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
-    self.navigationItem.titleView = navBarImageView;
-    
+    if (IDIOM != IPAD) {
+        UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
+        navBarImageView.contentMode = UIViewContentModeScaleAspectFill;
+        self.navigationItem.titleView = navBarImageView;
+    }
     
     pageControlBeingUsed = NO;
     scrollView.pagingEnabled = YES;
@@ -72,6 +73,7 @@ NSMutableArray *postUrlArray;
     activityIndicator.hidesWhenStopped = YES;
 	[activityIndicator stopAnimating];
     self.pageControl.currentPage = 0;
+    
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     [tracker sendView:@"Blog Detail Screen"];
 }
@@ -87,6 +89,11 @@ NSMutableArray *postUrlArray;
 - (void) showArticle {
     
     UIInterfaceOrientation myOrientation = [[UIApplication sharedApplication] statusBarOrientation];
+    
+    if (numberOfPages == 0) {
+        [itemSummary loadHTMLString:@"<html><body><h3>There is currently no data to display.  Please check again later.</h3></body></html>" baseURL:nil];
+    }
+
     for (int i=0;i<numberOfPages; i++) {
         
         if (UIInterfaceOrientationIsPortrait(myOrientation)) {
@@ -97,8 +104,8 @@ NSMutableArray *postUrlArray;
             //frame.size = self.scrollView.frame.size;
         } else if (UIInterfaceOrientationIsLandscape(myOrientation)) {
             frame.origin.x = self.scrollView.bounds.size.width*i;
-            frame.origin.y = 60;
-            frame.size.height = self.scrollView.bounds.size.width-135;
+            frame.origin.y = self.scrollView.bounds.size.width*0.05;
+            frame.size.height = self.scrollView.bounds.size.width-15;
             frame.size.width = self.scrollView.bounds.size.width;
         }
         item = [articles objectAtIndex:i];
@@ -183,7 +190,8 @@ NSMutableArray *postUrlArray;
     if (IDIOM == IPAD) {
         if (popover == nil) {
             popover = [[UIPopoverController alloc] initWithContentViewController:activity];
-            [popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+            [popover presentPopoverFromRect:ipadShare.bounds inView:self.ipadShare permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+            //[popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
         } else {
             [popover dismissPopoverAnimated:YES];
             popover = nil;

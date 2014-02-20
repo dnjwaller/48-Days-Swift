@@ -15,7 +15,7 @@
 
 @implementation LiveEvents
 
-@synthesize event1, event2, event3, event4,activityIndicator,scrollView;
+@synthesize event1, event2, event3, event4,activityIndicator,scrollView,calEvent1,calEvent2,calEvent3;
 
 NSString *eventDates;
 int eventDay;
@@ -43,8 +43,8 @@ NSString *event5title;
 NSString *event6title;*/
 NSString *title;
 NSMutableDictionary *md;
-
 int interval=0;
+CGRect buttonRect;
 
 /*
 -(id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -82,7 +82,7 @@ int interval=0;
 	[indicator stopAnimating];  
 	self.activityIndicator = indicator;  
     
-    [self loadEvents];
+    //[self loadEvents];
     
        
     UIImage *img1 =[UIImage imageNamed:@"cwe_new"];
@@ -103,7 +103,7 @@ int interval=0;
     scrollView.delegate = self;
     //[self.view addSubview:scrollView];
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
@@ -129,7 +129,7 @@ int interval=0;
 		
 	}
 	else {
-	     [self loadEvents];
+	     //[self loadEvents];
     }
     
 	[super viewDidAppear:animated];
@@ -181,6 +181,7 @@ int interval=0;
 //Add Coaching With Excellence to calendar
 - (IBAction) calendarEvent1:(id) sender {
     event = @"event1";
+    buttonRect = calEvent1.frame;
     [self calendarEvent];
 }
 
@@ -194,6 +195,7 @@ int interval=0;
 //Add Coaching Mastery to calendar
 - (IBAction) calendarEvent2:(id) sender {
     event = @"event2";
+    buttonRect = calEvent2.frame;
     [self calendarEvent];
 }
 
@@ -206,6 +208,7 @@ int interval=0;
 //Add Innovate Calendar
 - (IBAction) calendarEvent3:(id) sender {
     event = @"event3";
+    buttonRect = calEvent3.frame;
     [self calendarEvent];
 
 }
@@ -225,8 +228,12 @@ int interval=0;
 
 -(void) loadEvents {
     [md removeAllObjects];
+    
+    dispatch_queue_t bgQueue = dispatch_queue_create( "parser", NULL );
+    dispatch_async(bgQueue, ^{
     NSURL *url = [NSURL URLWithString:@"https://sites.google.com/site/48daystheapp/examples/files/live.plist"];
     md = [NSDictionary dictionaryWithContentsOfURL:url];
+    });
 }
 
 -(void) showCalendarChoice {
@@ -260,10 +267,10 @@ int interval=0;
     {
          UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
         if (UIInterfaceOrientationIsPortrait(orientation)) {
-           [actionSheet showFromRect:CGRectMake(0, 0, 700, 585) inView:self.view animated:YES];
+           [actionSheet showFromRect:CGRectMake(0, 0, 700, 585) inView:[self valueForKey:event] animated:YES];
         }
         else {
-            [actionSheet showFromRect:CGRectMake(0, 0,600, 600) inView:self.view animated:YES];
+            [actionSheet showFromRect:buttonRect inView:self.view animated:YES];
         }
         
         

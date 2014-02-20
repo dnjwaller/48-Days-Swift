@@ -26,7 +26,7 @@ NSMutableArray *postUrlArray;
 NSURL *url;
 MPMoviePlayerController *mediaPlayer;
 
-@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover,scrollView,activityIndicator,pageControl,mpPlayerView,loadingLabel;
+@synthesize item, itemTitle, itemDate, itemSummary, shareButton, itemUrl, popover,scrollView,activityIndicator,pageControl,mpPlayerView,loadingLabel,ipadShareButton;
 //@synthesize player, playerItem;
 
 
@@ -56,7 +56,7 @@ MPMoviePlayerController *mediaPlayer;
     [loadingLabel setHidden:FALSE];
     
     
-    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navtitle"]];
+    UIImageView *navBarImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"navlogo"]];
     navBarImageView.contentMode = UIViewContentModeScaleAspectFit;
     self.navigationItem.titleView = navBarImageView;
     
@@ -96,7 +96,7 @@ MPMoviePlayerController *mediaPlayer;
         if (playingInfoCenter) {
             NSMutableDictionary *songInfo = [[NSMutableDictionary alloc] init];
             
-            MPMediaItemArtwork *albumArt = [[MPMediaItemArtwork alloc] initWithImage: [UIImage imageNamed:@"navtitle"]];
+            MPMediaItemArtwork *albumArt = [[MPMediaItemArtwork alloc] initWithImage: [UIImage imageNamed:@"navlogo"]];
             
             [songInfo setObject:self.itemTitle.text forKey:MPMediaItemPropertyTitle];
             [songInfo setObject:@"Dan Miller" forKey:MPMediaItemPropertyArtist];
@@ -172,8 +172,8 @@ MPMoviePlayerController *mediaPlayer;
             //frame.size = self.scrollView.frame.size;
         } else if (UIInterfaceOrientationIsLandscape(myOrientation)) {
             frame.origin.x = self.scrollView.bounds.size.width*i;
-            frame.origin.y = 60;
-            frame.size.height = self.scrollView.bounds.size.width-135;
+            frame.origin.y = self.scrollView.bounds.size.width*0.05;
+            frame.size.height = self.scrollView.bounds.size.width-15;
             frame.size.width = self.scrollView.bounds.size.width;
         }
         item = [articles objectAtIndex:i];
@@ -349,7 +349,8 @@ MPMoviePlayerController *mediaPlayer;
     if (IDIOM == IPAD) {
         if (popover == nil) {
             popover = [[UIPopoverController alloc] initWithContentViewController:activity];
-            [popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+            [popover presentPopoverFromRect:ipadShareButton.bounds inView:self.ipadShareButton permittedArrowDirections:UIPopoverArrowDirectionDown animated:YES];
+            //[popover presentPopoverFromBarButtonItem:self.navigationItem.rightBarButtonItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
         } else {
             [popover dismissPopoverAnimated:YES];
             popover = nil;

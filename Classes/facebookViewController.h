@@ -22,6 +22,8 @@
 @property (strong, nonatomic) UIBarButtonItem *backButton;
 @property (nonatomic, retain) ACAccountStore *accountStore;
 @property (nonatomic, retain) ACAccount *facebookAccount;
+@property (strong, nonatomic) IBOutlet UIButton *ipadBackButton;
 
 -(void)reachable;
+-(IBAction)goBack:(id)sender;
 @end
