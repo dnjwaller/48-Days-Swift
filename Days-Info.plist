@@ -17,45 +17,9 @@
 		<string>logo_ipad.png</string>
 	</array>
 	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>logo_hires</string>
-				<string>logo_hires_search</string>
-				<string>logo_120_120</string>
-				<string>logo_small.png</string>
-				<string>logo_hires.png</string>
-				<string>logo_hires_search.png</string>
-				<string>logo_small_search.png</string>
-				<string>logo_ipad.png</string>
-				<string>icon_ipad@2x.png</string>
-			</array>
-			<key>UIPrerenderedIcon</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 	<key>CFBundleIcons~ipad</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>logo_152_152</string>
-				<string>logo_76_76</string>
-				<string>logo_120_120</string>
-				<string>logo_small.png</string>
-				<string>logo_hires.png</string>
-				<string>logo_hires_search.png</string>
-				<string>logo_small_search.png</string>
-				<string>logo_ipad.png</string>
-				<string>icon_ipad@2x.png</string>
-			</array>
-			<key>UIPrerenderedIcon</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>waller.days</string>
 	<key>CFBundleInfoDictionaryVersion</key>

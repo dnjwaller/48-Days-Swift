@@ -8,6 +8,8 @@
 
 #import "flipsideViewController.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 
 @implementation flipsideViewController
 
@@ -40,7 +42,8 @@
     self.navigationItem.titleView = navBarImageView;
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Schedule Notes Screen"];
+    [tracker set:kGAIScreenName value:@"Schedule Notes Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 - (IBAction) edit:(id) sender {

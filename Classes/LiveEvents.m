@@ -11,6 +11,8 @@
 #import <EventKit/EventKit.h>
 #import "Reachability.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 
 
 @implementation LiveEvents
@@ -110,7 +112,8 @@ CGRect buttonRect;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateView:) name:@"updateEvents" object:nil];
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Live Events Screen"];
+    [tracker set:kGAIScreenName value:@"Live Events Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 - (void)updateView:(NSNotification *)notification {
@@ -142,11 +145,12 @@ CGRect buttonRect;
 
 - (void) logButtonPress:(NSString *)button {
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    
-    [tracker sendEventWithCategory:@"uiAction"
-                        withAction:@"buttonPress"
-                         withLabel:[NSString stringWithFormat:@"%@ Button Pressed",button]
-                         withValue:nil];
+    [tracker set:kGAIScreenName value:@"Blog Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"uiAction"
+                                                          action:@"buttonPress"
+                                                           label:[NSString stringWithFormat:@"%@ Button Pressed",button]
+                                                           value:nil] build]];
+    [tracker set:kGAIScreenName value:nil];
 }
 
 

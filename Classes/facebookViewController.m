@@ -10,6 +10,8 @@
 #import "Reachability.h"
 #import <Social/Social.h>
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 
 @interface facebookViewController (PrivateMethods)  
 - (void)loadData;  
@@ -63,7 +65,8 @@ UIBarButtonItem *rightButton;
     }
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Facebook Screen"];
+    [tracker set:kGAIScreenName value:@"Facebook Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 -(void) viewWillAppear:(BOOL)animated {

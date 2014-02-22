@@ -10,6 +10,8 @@
 #import "PlanViewController.h"
 #import "flipsideViewController.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 #import "DayParse.h"
 #import "CarouselViewController.h"
 
@@ -161,7 +163,8 @@ NSInteger day;
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
     NSString *temp = [NSString stringWithFormat:@"Schedule Detail %@",self.itemTitle.text];
-    [tracker sendView:temp];
+    [tracker set:kGAIScreenName value:temp];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loadNewDay:)
                                                  name:@"newDay" object:nil];
@@ -195,10 +198,12 @@ NSInteger day;
     [self setLabels];
 	
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendEventWithCategory:@"uiAction"
-                        withAction:@"buttonPress"
-                         withLabel:@"Complete Button Pressed"
-                         withValue:nil];
+    [tracker set:kGAIScreenName value:@"Blog Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"uiAction"
+                                                          action:@"buttonPress"
+                                                           label:@"Complete Button Pressed"
+                                                           value:nil] build]];
+    [tracker set:kGAIScreenName value:nil];
 }
 
 

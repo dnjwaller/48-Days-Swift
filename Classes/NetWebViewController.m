@@ -9,6 +9,9 @@
 #import "NetWebViewController.h"
 #import "Reachability.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+
 
 @interface NetWebViewController (PrivateMethods)  
 - (void)loadData;  
@@ -53,8 +56,8 @@ UIBarButtonItem *rightButton;
     }
 
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Community Screen"];
-
+    [tracker set:kGAIScreenName value:@"Community Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 -(void) viewWillAppear:(BOOL)animated {

@@ -9,6 +9,9 @@
 #import "ProductsViewController.h"
 #import "Reachability.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+
 
 @interface ProductsViewController ()
 - (void)loadData;
@@ -52,7 +55,8 @@ UIBarButtonItem *rightButton;
     }
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Products Screen"];
+    [tracker set:kGAIScreenName value:@"Products Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 -(void) viewWillAppear:(BOOL)animated {

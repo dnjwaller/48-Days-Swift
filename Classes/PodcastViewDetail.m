@@ -11,8 +11,11 @@
 #import <MediaPlayer/MPNowPlayingInfoCenter.h>
 #import <MediaPlayer/MPMediaItem.h>
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 #import "Parser.h"
 //#import "PodcastPlayerViewController.h"
+
 
 @implementation PodcastViewDetail
 
@@ -142,7 +145,8 @@ MPMoviePlayerController *mediaPlayer;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hideLoading) name:MPMoviePlayerLoadStateDidChangeNotification object:nil];
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Podcast Detail Screen"];
+    [tracker set:kGAIScreenName value:@"Podcast Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 
@@ -360,10 +364,12 @@ MPMoviePlayerController *mediaPlayer;
     }
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendEventWithCategory:@"uiAction"
-                        withAction:@"buttonPress"
-                         withLabel:@"Share Podcast Button Pressed"
-                         withValue:nil];
+    [tracker set:kGAIScreenName value:@"Blog Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"uiAction"
+                                                          action:@"buttonPress"
+                                                           label:@"Share Podcast Button Pressed"
+                                                           value:nil] build]];
+    [tracker set:kGAIScreenName value:nil];
 }
 
 /*

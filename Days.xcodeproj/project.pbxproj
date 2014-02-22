@@ -34,11 +34,11 @@
 		6822F9CA167662C700911C96 /* ProductsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6822F9C8167662C700911C96 /* ProductsViewController.xib */; };
 		683886AF17A564A3001E0C22 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683886AE17A564A3001E0C22 /* Social.framework */; };
 		683886B117A5889E001E0C22 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683886B017A5889E001E0C22 /* Accounts.framework */; };
+		683AC88318B90E41002E1C87 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683AC88218B90E41002E1C87 /* libGoogleAnalyticsServices.a */; };
 		68511E9C187514C6008CCBC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68511E9B187514C6008CCBC5 /* Default-568h@2x.png */; };
 		68578D3117A5DDF20052E753 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68578D3017A5DDF20052E753 /* Media.xcassets */; };
 		68578D3417A6B8CA0052E753 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */; };
 		68647E9717B08EA200E6B367 /* days_schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 68647E9617B08EA200E6B367 /* days_schedule.xml */; };
-		68647E9F17B3264600E6B367 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */; };
 		68647EA117B326A700E6B367 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68647EA017B326A700E6B367 /* CoreData.framework */; };
 		68647EA317B32ED100E6B367 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68647EA217B32ED100E6B367 /* Settings.bundle */; };
 		68A071CB13B02E5900F8BC64 /* status.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68A071CA13B02E5900F8BC64 /* status.txt */; };
@@ -135,17 +135,24 @@
 		683886B017A5889E001E0C22 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		683AC87318B1BA58002E1C87 /* logo_hires_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hires_search.png; sourceTree = "<group>"; };
 		683AC87418B1BA7D002E1C87 /* logo_hires.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hires.png; sourceTree = "<group>"; };
+		683AC87518B900E5002E1C87 /* app_icon_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_57_57.png; sourceTree = "<group>"; };
+		683AC87618B90273002E1C87 /* app_icon_72_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_72_72.png; sourceTree = "<group>"; };
+		683AC87718B90285002E1C87 /* app_icon_144_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_144_144.png; sourceTree = "<group>"; };
+		683AC87818B902C1002E1C87 /* app_ico_29_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_ico_29_29.png; sourceTree = "<group>"; };
+		683AC87918B902D5002E1C87 /* app_icon_80_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon_80_80.png; sourceTree = "<group>"; };
+		683AC87A18B90301002E1C87 /* app_ico_50_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_ico_50_50.png; sourceTree = "<group>"; };
+		683AC87C18B90E2B002E1C87 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		683AC87D18B90E2B002E1C87 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		683AC87E18B90E2B002E1C87 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		683AC87F18B90E2B002E1C87 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		683AC88018B90E2B002E1C87 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		683AC88118B90E2B002E1C87 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		683AC88218B90E41002E1C87 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		68511E9B187514C6008CCBC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		68578D3017A5DDF20052E753 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		68578D3217A6B8CA0052E753 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		68578D3317A6B8CA0052E753 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
 		68647E9617B08EA200E6B367 /* days_schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = days_schedule.xml; sourceTree = "<group>"; };
-		68647E9917B3264600E6B367 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		68647E9A17B3264600E6B367 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		68647E9B17B3264600E6B367 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		68647E9C17B3264600E6B367 /* GAITransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransaction.h; sourceTree = "<group>"; };
-		68647E9D17B3264600E6B367 /* GAITransactionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITransactionItem.h; sourceTree = "<group>"; };
-		68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 		68647EA017B326A700E6B367 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		68647EA217B32ED100E6B367 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		68A071CA13B02E5900F8BC64 /* status.txt */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = status.txt; sourceTree = "<group>"; };
@@ -224,6 +231,7 @@
 				680B06D517C168AB00EC94E0 /* QuartzCore.framework in Frameworks */,
 				68647EA117B326A700E6B367 /* CoreData.framework in Frameworks */,
 				683886B117A5889E001E0C22 /* Accounts.framework in Frameworks */,
+				683AC88318B90E41002E1C87 /* libGoogleAnalyticsServices.a in Frameworks */,
 				683886AF17A564A3001E0C22 /* Social.framework in Frameworks */,
 				6822F9C5167008A600911C96 /* AVFoundation.framework in Frameworks */,
 				68EDB16316548E6100F89C5E /* iAd.framework in Frameworks */,
@@ -232,7 +240,6 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
-				68647E9F17B3264600E6B367 /* libGoogleAnalytics.a in Frameworks */,
 				74653ECA13C42F33001722AA /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,11 +309,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				683AC87418B1BA7D002E1C87 /* logo_hires.png */,
-				683AC87318B1BA58002E1C87 /* logo_hires_search.png */,
-				68511E9B187514C6008CCBC5 /* Default-568h@2x.png */,
+				683AC87B18B90DC0002E1C87 /* Google Analytics v3 */,
 				68647EA217B32ED100E6B367 /* Settings.bundle */,
-				68647E9817B3261000E6B367 /* Google Analytics */,
 				68D17A9117B0132C00E3BACC /* iCarousel */,
 				683886AD17A41B9D001E0C22 /* Data */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -322,6 +326,15 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				683AC87A18B90301002E1C87 /* app_ico_50_50.png */,
+				683AC87918B902D5002E1C87 /* app_icon_80_80.png */,
+				683AC87818B902C1002E1C87 /* app_ico_29_29.png */,
+				683AC87718B90285002E1C87 /* app_icon_144_144.png */,
+				683AC87618B90273002E1C87 /* app_icon_72_72.png */,
+				683AC87518B900E5002E1C87 /* app_icon_57_57.png */,
+				683AC87418B1BA7D002E1C87 /* logo_hires.png */,
+				683AC87318B1BA58002E1C87 /* logo_hires_search.png */,
+				68511E9B187514C6008CCBC5 /* Default-568h@2x.png */,
 				3DEAC4A118A054EF0023F416 /* ipad_home_icon.png */,
 				68EA234F1862A1ED00CBD1DE /* logo_60_60.png */,
 				68EA23501862A1ED00CBD1DE /* logo_76_76.png */,
@@ -409,17 +422,18 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
-		68647E9817B3261000E6B367 /* Google Analytics */ = {
+		683AC87B18B90DC0002E1C87 /* Google Analytics v3 */ = {
 			isa = PBXGroup;
 			children = (
-				68647E9917B3264600E6B367 /* GAI.h */,
-				68647E9A17B3264600E6B367 /* GAITrackedViewController.h */,
-				68647E9B17B3264600E6B367 /* GAITracker.h */,
-				68647E9C17B3264600E6B367 /* GAITransaction.h */,
-				68647E9D17B3264600E6B367 /* GAITransactionItem.h */,
-				68647E9E17B3264600E6B367 /* libGoogleAnalytics.a */,
+				683AC88218B90E41002E1C87 /* libGoogleAnalyticsServices.a */,
+				683AC87C18B90E2B002E1C87 /* GAI.h */,
+				683AC87D18B90E2B002E1C87 /* GAIDictionaryBuilder.h */,
+				683AC87E18B90E2B002E1C87 /* GAIFields.h */,
+				683AC87F18B90E2B002E1C87 /* GAILogger.h */,
+				683AC88018B90E2B002E1C87 /* GAITrackedViewController.h */,
+				683AC88118B90E2B002E1C87 /* GAITracker.h */,
 			);
-			name = "Google Analytics";
+			name = "Google Analytics v3";
 			sourceTree = "<group>";
 		};
 		68D17A9117B0132C00E3BACC /* iCarousel */ = {
@@ -588,6 +602,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
@@ -602,8 +618,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
-					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
+					/Users/dnjwaller/Dropbox/Git/48,
+					Days,
+					iOS,
+					/Users/djwalle2/Dropbox/Git/48,
+					Days,
+					iOS,
+					"$(PROJECT_DIR)",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Days;
@@ -619,6 +640,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
@@ -631,8 +654,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
-					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
+					/Users/dnjwaller/Dropbox/Git/48,
+					Days,
+					iOS,
+					/Users/djwalle2/Dropbox/Git/48,
+					Days,
+					iOS,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -668,6 +696,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dan Waller (N39KQRRVCU)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dan Waller (N39KQRRVCU)";
@@ -680,8 +710,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/dnjwaller/Dropbox/Git/48\\ Days\\ iOS",
-					"/Users/djwalle2/Dropbox/Git/48\\ Days\\ iOS",
+					/Users/dnjwaller/Dropbox/Git/48,
+					Days,
+					iOS,
+					/Users/djwalle2/Dropbox/Git/48,
+					Days,
+					iOS,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = Days;
 				RUN_CLANG_STATIC_ANALYZER = NO;

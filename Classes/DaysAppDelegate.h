@@ -38,7 +38,7 @@
 @property (nonatomic, strong) IBOutlet LeftViewController *leftViewController;
 @property (nonatomic, strong) IBOutlet RightViewController *rightViewController;
 
-@property(nonatomic, retain) id<GAITracker> tracker;
+//@property(nonatomic, retain) id<GAITracker> tracker;
 
 -(IBAction) getAd:(id)sender;
 

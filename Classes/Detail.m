@@ -9,6 +9,8 @@
 #import "Detail.h"
 #import "GAI.h"
 #import "Parser.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 
 @implementation Detail
 
@@ -75,7 +77,8 @@ NSMutableArray *postUrlArray;
     self.pageControl.currentPage = 0;
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Blog Detail Screen"];
+    [tracker set:kGAIScreenName value:@"Blog Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 
@@ -201,10 +204,12 @@ NSMutableArray *postUrlArray;
     }
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendEventWithCategory:@"uiAction"
-                        withAction:@"buttonPress"
-                         withLabel:@"Share Blog Button Pressed"
-                         withValue:nil];
+    [tracker set:kGAIScreenName value:@"Blog Detail Screen"];
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"uiAction"
+                                                          action:@"buttonPress"
+                                                           label:@"Share Blog Button Pressed"
+                                                           value:nil] build]];
+    [tracker set:kGAIScreenName value:nil];
 }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {

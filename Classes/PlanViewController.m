@@ -11,6 +11,8 @@
 #import "PlanDetail.h"
 #import "DaysAppDelegate.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
 
 
 @interface PlanViewController (PrivateMethods)  
@@ -49,7 +51,8 @@ NSDictionary *theItem;
     self.navigationItem.titleView = navBarImageView;
     
     id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Personal Schedule Screen"];
+    [tracker set:kGAIScreenName value:@"Personal Schedule Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 

@@ -8,6 +8,9 @@
 
 #import "infoView.h"
 #import "GAI.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+
 
 @implementation infoView
 
@@ -41,7 +44,8 @@
 	[infoWebView loadRequest: request ];
     
 	id<GAITracker> tracker =[[GAI sharedInstance] defaultTracker];
-    [tracker sendView:@"Info Screen"];
+    [tracker set:kGAIScreenName value:@"Info Screen"];
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
 }
 
 
